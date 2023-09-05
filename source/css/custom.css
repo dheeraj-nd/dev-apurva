@@ -1,0 +1,28 @@
+/*-- Use For Custom Styling --*/
+
+/* @media screen and (max-width: 550px) {
+  #testimonialSection.flex-row-block {
+    height: 100rem !important;
+  }
+  #Network.flex-row-block {
+    height: 58rem !important;
+  }
+  .testimonial img {
+    width: 9.0625rem;
+    height: 9.0625rem;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+  #testimonialSection.flex-row-block {
+    height: 62rem !important;
+  }
+  #Network.flex-row-block {
+    height: 41rem !important;
+  }
+  .testimonial img {
+    width: 7.8125rem;
+    height: 7.8125rem;
+    object-fit: cover;
+  }
+} */

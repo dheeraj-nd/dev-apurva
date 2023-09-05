@@ -1,0 +1,162 @@
+/* Common styles for both desktop and mobile */
+.footer {
+  padding: 4%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.container-footer {
+  max-width: 1900px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.address-container {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.app-promotion {
+  text-align: right;
+  margin-right: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.links {
+  margin-inline: center;
+}
+
+.footer-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-icons a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-icons .twitter-container,
+.footer-icons .social-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-icons .twitter-icon {
+  color: #fff;
+  font-size: 20px;
+  background-color: #1DA1F2;
+}
+
+.footer-icons .linkedin-icon {
+  color: #fff;
+  font-size: 20px;
+  background-color: #0077B5;
+}
+
+.app-promotion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-promotion li {
+  margin-bottom: 5px;
+}
+
+.app-promotion a {
+  color: white;
+  text-decoration: none;
+}
+
+.copyrights {
+  color: #777;
+  font-size: 14px;
+}
+
+.footer .footer-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer .app-promotion {
+  text-align: right;
+}
+
+.with-background {
+  background-image: url(../img/footerBackground.png);
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
+
+.with-background .alt-color {
+  color: white; /* Set text color to white */
+}
+
+.with-background .white strong {
+  font-weight: bold; /* Set text in <strong> tags to bold */
+}
+
+.with-background .underline {
+  text-decoration: underline; /* Add underline to the text */
+}
+
+.alt-back {
+  color: #d4cece;
+}
+
+/* Media query for screens smaller than 769px (desktop and larger) */
+@media (max-width: 768px) {
+  /* Hide desktop footer */
+  .desktop-footer {
+    display: none;
+  }
+
+  /* Adjust font size for smaller screens */
+  .footer p,
+  .footer strong,
+  .footer li {
+    font-size: 14px; /* Adjust the font size as needed for smaller screens */
+  }
+
+}
+@media (max-width:575px) {
+  .address-container {
+    text-align: center;
+  }
+  .footer .app-promotion {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Media query for screens larger than 768px (mobile) */
+@media (min-width: 769px) {
+  /* Hide mobile footer */
+  .mobile-footer {
+    display: none;
+  }
+}
