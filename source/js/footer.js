@@ -1,6 +1,6 @@
 const section_footer =
 ` <footer class="footer with-background desktop-footer">
-  <div class="container-footer">
+  <div class="container">
     <div class="row">
       <!-- Address (Left-aligned) -->
       <div class="col-sm-4 mb-20 address-container">

@@ -1,7 +1,7 @@
 /* Common styles for both desktop and mobile */
-.footer {
+/* .footer {
   padding: 4%;
-}
+} */
 
 .footer p {
   margin: 0;
@@ -9,8 +9,8 @@
 
 .container-footer {
   max-width: 1900px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
 }
 
 .address-container {
@@ -68,13 +68,13 @@
 .footer-icons .twitter-icon {
   color: #fff;
   font-size: 20px;
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 .footer-icons .linkedin-icon {
   color: #fff;
   font-size: 20px;
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 
 .app-promotion ul {
@@ -141,9 +141,8 @@
   .footer li {
     font-size: 14px; /* Adjust the font size as needed for smaller screens */
   }
-
 }
-@media (max-width:575px) {
+@media (max-width: 575px) {
   .address-container {
     text-align: center;
   }
