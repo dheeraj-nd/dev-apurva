@@ -1604,6 +1604,12 @@ canvas {
     max-width: 12rem;
     /* Your styles for images in this media query */
   }
+  .founding {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 }
 
 @media screen and (min-width: 901px) {
