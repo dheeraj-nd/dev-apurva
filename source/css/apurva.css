@@ -1259,7 +1259,9 @@ icon start
 .responsible p {
   color: #000000;
 }
-
+#about .container-fluid {
+  margin-left: 30px;
+}
 .founding {
   background-color: white;
   margin-left: 30px;
