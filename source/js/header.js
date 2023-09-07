@@ -65,7 +65,7 @@ const section_header = `  <header class="cursor-light">
           <a href="we-are-hiring.html" class="scroll nav-link"
             >Apurva Library</a>
         </li>
-        <!-- <li class="nav-item">
+         <li class="nav-item">
           <a
             link
             type="button"
@@ -73,7 +73,7 @@ const section_header = `  <header class="cursor-light">
             href="index.html#contact">
             Apurva Experience
           </a>
-        </li> -->
+        </li> 
       </ul>
     </nav>
   </div>

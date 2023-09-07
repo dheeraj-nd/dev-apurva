@@ -13,40 +13,111 @@ section#blog {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   position: relative; /* Relative positioning for child elements */
-  text-align: center;
 }
 
 .image_1 {
   width: 1208px;
   height: 679px;
+  position: absolute;
+  top: 100px; /* Adjust the top value to move the image down */
   left: 0; /* Center the image horizontally */
   right: 0; /* Center the image horizontally */
   margin: auto; /* Center the image horizontally */
 }
-
-.text-overlay {
+.text-overlay{
   position: relative;
-  /* bottom: 220px; */
-  z-index: 999;
-  margin-top: -27rem;
-  z-index: 1; /* Place text above the image */
+  margin-top: -35rem;
 }
-
-.text-overlay p {
+.text-overlay p{
+  position: absolute;
+  top: 40px; /* Adjust the top value to position the text vertically */
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-bottom: 30px;
   color: white;
 }
 .blog-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px;
-  /* margin-top: 200px; */
-  color: #070707;
+  margin-top: 800px;
+  color:#000000;
+
 }
-@media screen and (min-width: 901px) {
-  #blog.section {
-    padding: 6rem 8%;
-    margin-top: 7rem;
+.blog-content p {
+  margin-bottom: 20px; 
+}
+p.Centered{
+  text-align: center;
+}
+.image_rectangle {
+  text-align: center;
+  width: 100%; 
+  margin-top: 20px;
+}
+
+.underline {
+  text-decoration: underline; /* Add underline to the text */
+}
+a.underline.blue {
+  color: #0E76A8;
+}
+@media screen and (min-width: 901px){
+  #blog.section{
+      padding: 6rem 8%;
+      margin-top: 7rem;
+  }
+}
+@media (max-width: 768px) {
+  #blog.section{
+      padding: 6rem 8%;
+      margin-top: 4rem;
+  }
+  section#blog {
+      height: 50vh; 
+  }
+  .text-overlay{
+      position: relative;
+      margin-top: -24rem;
+  }
+  .image_1 {
+      width: 608px;
+      height: 608px;
+      position: absolute;
+      top: 100px; /* Adjust the top value to move the image down */
+      left: 0; /* Center the image horizontally */
+      right: 0; /* Center the image horizontally */
+      margin: auto; /* Center the image horizontally */
+  } 
+  .blog-content p {
+      margin-bottom: 10px; 
+      text-align: left;
+  }
+  .blog-content {
+      max-width: 708px;
+      margin-top: 450px;
+  }
+  .image_rectangle {
+      width: 50%;
+      margin: auto; 
+      
+  }
+
+}
+@media(max-width: 425px){
+  section#blog {
+      height: 25vh;
+  }
+  .text-overlay{
+      margin-top: -15rem;
+  }
+  .image_1 {
+      width: 300px;
+      height: 400px;
+      position: absolute;
+      top: 130px;
+  } 
+  .blog-content {
+      margin-top: 300px;
   }
 }
