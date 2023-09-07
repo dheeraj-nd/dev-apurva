@@ -76,6 +76,15 @@
   font-size: 20px;
   background-color: #0077b5;
 }
+/* Increase the size and adjust the position of the LinkedIn and Twitter icons */
+.footer-icons .linkedin-icon,
+.footer-icons .twitter-icon {
+  width: 71px;
+  height: 70px;
+  top: 2170px; /* Adjust the top position as needed */
+  left: 663px; /* Adjust the left position as needed */
+  font-size: 32px; /* Increase the font size as needed */
+}
 
 .app-promotion ul {
   list-style: none;
@@ -140,6 +149,15 @@
   .footer strong,
   .footer li {
     font-size: 14px; /* Adjust the font size as needed for smaller screens */
+  }
+
+  .footer-icons .linkedin-icon,
+  .footer-icons .twitter-icon {
+    width: 29px;
+    height: 28px;
+    top: 2885px; /* Adjust the top position as needed */
+    left: 187px; /* Adjust the left position as needed */
+    font-size: 16px; /* Adjust the font size as needed */
   }
 }
 @media (max-width: 575px) {

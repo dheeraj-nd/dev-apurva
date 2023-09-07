@@ -1265,7 +1265,9 @@ icon start
 .responsible p {
   color: #000000;
 }
-
+#about .container-fluid {
+  margin-left: 30px;
+}
 .founding {
   background-color: white;
   margin-left: 30px;
@@ -1608,6 +1610,12 @@ canvas {
     max-width: 12rem;
     /* Your styles for images in this media query */
   }
+  .founding {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 }
 
 @media screen and (min-width: 901px) {

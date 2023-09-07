@@ -108,30 +108,21 @@ const section_footer =
 
       </div>
     </div>
-   <br>
-   <br>
     <div class="row">
       <div class="col-lg-12 col-md-12 text-center">
-        <p class="green">Follow us on</p>
         <ul class="footer-icons">
-          <li>
-            <a href="https://www.linkedin.com/company/apurva-ai/" target="_blank"
-              class="social-icon-container linkedin-icon">
-              <i class="fab fa-linkedin-in"></i>
+            <strong class="green">Follow us on</strong> <a href="https://www.linkedin.com/company/apurva-ai/" target="_blank"
+                class="social-icon-container linkedin-icon">
+                <i class="fab fa-linkedin-in"></i>
             </a>
-          </li>
-          <li>
             <a href="https://twitter.com/apurva_ai" target="_blank" class="social-icon-container twitter-icon">
-              <i class="fab fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
             </a>
-          </li>
         </ul>
       </div>
       <!-- Copyright -->
       <div class="col-lg-12 col-md-12 text-center">
         <!-- Copyrights -->
-        <br>
-        <br>
         <p class="green">&copy; 2023 apurva.ai</p>
 
         <!-- Copyrights -->
