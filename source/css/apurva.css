@@ -108,7 +108,7 @@ section#home {
 
 .green {
   color: #9fffac;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Montserrat;
   font-weight: 700;
   line-height: 75px;
@@ -532,7 +532,7 @@ section.stay-tuned {
   font-weight: 600;
 }
 
-.founding h2 {
+#founding h2 {
   font-family: "Montserrat", sans-serif;
   color: #000000;
   letter-spacing: -0.03em !important;
@@ -540,7 +540,6 @@ section.stay-tuned {
   max-width: 100%;
   font-size: 1.8rem;
   line-height: 2.5rem;
-  letter-spacing: -0.01em !important;
   font-weight: 600;
 }
 
@@ -1268,11 +1267,6 @@ icon start
 #about .container-fluid {
   margin-left: 30px;
 }
-.founding {
-  background-color: white;
-  margin-left: 30px;
-  margin-right: 94px;
-}
 
 .profileItem {
   margin-bottom: 4rem;
@@ -1609,11 +1603,6 @@ canvas {
     max-width: 12rem;
     /* Your styles for images in this media query */
   }
-  .founding {
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media screen and (min-width: 901px) {
@@ -1805,7 +1794,10 @@ canvas {
     padding: 6rem 8%;
     margin-top: 7rem;
   }
-
+  #white.section {
+    padding: 6rem 8%;
+    margin-top: auto;
+  }
   #contact {
     padding: 0 10%;
   }

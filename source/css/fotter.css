@@ -8,9 +8,11 @@
 }
 
 .container-footer {
-  max-width: 1900px;
-  padding-left: 96px;
-  padding-right: 96px;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .address-container {
@@ -76,7 +78,6 @@
   font-size: 20px;
   background-color: #0077b5;
 }
-/* Increase the size and adjust the position of the LinkedIn and Twitter icons */
 .footer-icons .linkedin-icon,
 .footer-icons .twitter-icon {
   width: 71px;
@@ -115,6 +116,8 @@
 }
 
 .with-background {
+  padding: 6rem 8%;
+  margin-top: auto;
   background-image: url(../img/footerBackground.png);
   background-size: cover;
   color: white;
@@ -122,42 +125,40 @@
 }
 
 .with-background .alt-color {
-  color: white; /* Set text color to white */
+  color: white; 
 }
 
 .with-background .white strong {
-  font-weight: bold; /* Set text in <strong> tags to bold */
+  font-weight: bold; 
 }
 
 .with-background .underline {
-  text-decoration: underline; /* Add underline to the text */
+  text-decoration: underline; 
 }
 
 .alt-back {
   color: #d4cece;
 }
 
-/* Media query for screens smaller than 769px (desktop and larger) */
 @media (max-width: 768px) {
   /* Hide desktop footer */
   .desktop-footer {
     display: none;
   }
 
-  /* Adjust font size for smaller screens */
   .footer p,
   .footer strong,
   .footer li {
-    font-size: 14px; /* Adjust the font size as needed for smaller screens */
+    font-size: 14px; 
   }
 
   .footer-icons .linkedin-icon,
   .footer-icons .twitter-icon {
     width: 29px;
     height: 28px;
-    top: 2885px; /* Adjust the top position as needed */
-    left: 187px; /* Adjust the left position as needed */
-    font-size: 16px; /* Adjust the font size as needed */
+    top: 2885px; 
+    left: 187px; 
+    font-size: 16px; 
   }
 }
 @media (max-width: 575px) {
@@ -177,3 +178,4 @@
     display: none;
   }
 }
+
