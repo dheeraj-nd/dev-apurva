@@ -114,6 +114,16 @@ section#home {
   line-height: 75px;
 }
 
+.apurva-library-title {
+  color: #9fffac;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+}
+
 .blue {
   color: #93cbff;
 }
@@ -1350,7 +1360,6 @@ icon start
 .card-body p {
   color: #fff;
   font-size: 1.2rem;
-  line-height: 2rem;
 }
 
 .card-body p:last-child {
@@ -1794,6 +1803,10 @@ canvas {
     padding: 6rem 8%;
     margin-top: 7rem;
   }
+  #white-background-section {
+    padding: 6rem 8%;
+  }
+
   #white.section {
     padding: 6rem 8%;
     margin-top: auto;
@@ -2208,16 +2221,23 @@ ul.social_icon li a {
 }
 
 .btn-primary {
-  border: 3px solid black;
+  border: 2px solid #767676;
   width: 200px;
   height: 60px;
   border-radius: 50px;
   background: #fff;
-  color: black;
+  color: #767676;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: 600;
   margin-right: 95px;
+}
+
+#all-btn.active {
+  background-color: #9fffac;
+  border: 3px solid black;
+  box-shadow: none;
+  color: #000;
 }
 
 .btn-primary:hover {
@@ -2239,6 +2259,13 @@ ul.social_icon li a {
   margin-right: 80px;
 }
 
+#blogs-btn.active {
+  background-color: #9fffac;
+  border: 3px solid black;
+  box-shadow: none;
+  color: #000;
+}
+
 .btn-secondary:hover {
   background-color: #9fffac;
   color: #000;
@@ -2257,6 +2284,13 @@ ul.social_icon li a {
   color: #767676;
 }
 
+#impact-stories-btn.active {
+  background-color: #9fffac;
+  border: 3px solid black;
+  box-shadow: none;
+  color: #000;
+}
+
 .btn-success:hover {
   background-color: #9fffac;
   color: #000;
@@ -2265,11 +2299,12 @@ ul.social_icon li a {
 
 .stories-btn {
   margin: 10px;
+  margin-top: 70px;
 }
 
 .card-deck {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 75px;
+  margin-bottom: 150px;
 }
 
 .card-deck .card {
@@ -2301,10 +2336,6 @@ ul.social_icon li a {
   border-top-right-radius: 20px;
 }
 
-.founding {
-  margin-top: 100px;
-}
-
 .nav-item #pills-home-tab {
   border: none;
   background-color: transparent;
@@ -2334,4 +2365,41 @@ ul.social_icon li a {
 
 .navbar-top-default {
   position: fixed;
+}
+
+.library-content p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+
+.card-header {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  z-index: 1;
+  border: 1px solid #000;
+  background: #9fffac;
+  color: #000;
+  padding: 5px 12px;
+  /* width: auto;
+  height: auto; */
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 }

@@ -28,60 +28,11 @@
     <link rel="stylesheet" href="source/css/style.css" />
     <link rel="stylesheet" href="source/css/apurva.css" />
     <link rel="stylesheet" href="source/css/fotter.css" />
-    <style>
-      .library {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-        /* Set the section height to full viewport height */
-      }
-
-      .library h2 {
-        color: #0f9d58;
-        /* Adjust the text color as needed */
-        font-size: 36px;
-        /* Adjust the font size as needed */
-        margin: 0;
-        /* Remove default margin */
-      }
-
-      .row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1%;
-        /* text-align: center; */
-
-        /* Set the section height to full viewport height */
-      }
-
-      .library-content p {
-        color: white;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-weight: 300;
-        line-height: 50px;
-        /* Set the text color to white */
-      }
-    </style>
 
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-MPJ848CKT6"
     ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-MPJ848CKT6");
-    </script>
   </head>
   <body data-spy="scroll" data-target=".navbar-nav" data-offset="90">
     <div class="loader" id="loader-fade">
@@ -101,11 +52,11 @@
     </div>
     <div id="headers"></div>
 
-    <section id="libraryabout" class="">
+    <section id="libraryabout">
       <div class="container-fluid">
         <div class="row">
           <div>
-            <h2><span class="green"> Apurva Library</span></h2>
+            <h2><span class="apurva-library-title"> Apurva Library</span></h2>
           </div>
         </div>
 
@@ -125,7 +76,7 @@
     </section>
 
     <section id="white-background-section" class="founding">
-      <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
         <li class="nav-item mr-5">
           <a
             class="nav-link active"
@@ -159,53 +110,22 @@
           aria-labelledby="pills-home-tab"
         >
           <div class="stories-btn">
-            <button type="button" class="btn btn-primary">ALL</button>
-            <button type="button" class="btn btn-secondary">BLOGS</button>
-            <button type="button" class="btn btn-success">
+            <button type="button" id="all-btn" class="btn btn-primary active">
+              ALL
+            </button>
+            <button type="button" id="blogs-btn" class="btn btn-secondary">
+              BLOGS
+            </button>
+            <button
+              type="button"
+              id="impact-stories-btn"
+              class="btn btn-success"
+            >
               IMPACT STORIES
             </button>
           </div>
-          <div class="card-deck">
-            <div class="card">
-              <img
-                src="./source/img/Blog-1-Cover.png"
-                class="card-img-top"
-                alt="img"
-              />
-              <div class="card-body">
-                <h5 class="card-title">ANAND RAJAN | 2 MIN READ</h5>
-                <p class="card-text">
-                  Harnessing Collective Wisdom: Role of Generative AI in
-                  Societal Transformation
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="./source/img/Blog 2 Cover.png"
-                class="card-img-top"
-                alt="img"
-              />
-              <div class="card-body">
-                <h5 class="card-title">ANAND RAJAN | 3 MIN READ</h5>
-                <p class="card-text">
-                  The Exponential Gap: Balancing the Pros and Cons of AI
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src="./source/img/Blog 3 Cover .png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">ANAND RAJAN | 4 MIN READ</h5>
-                <p class="card-text">
-                  Beyond Interactions: Sustaining and Sharing Collective Wisdom
-                </p>
-              </div>
-            </div>
+          <div class="card-deck" id="card-deck-container">
+            <div class="row"></div>
           </div>
         </div>
         <div
@@ -275,18 +195,8 @@
     <script src="source/js/header.js"></script>
     <script src="source/js/footer.js"></script>
     <script src="source/js/bundle.min.js"></script>
+    <script src="./source/js/apurvaLibrary.js"></script>
 
     <!-- <script src="source/js/script.js"></script> -->
-
-    <script>
-      jQuery(window).on("load", function () {
-        "use strict";
-
-        /*  ===================================
-       Loading Timeout
-       ====================================== */
-        $("#loader-fade").fadeOut(800);
-      });
-    </script>
   </body>
 </html>
