@@ -70,13 +70,13 @@
 .footer-icons .twitter-icon {
   color: #fff;
   font-size: 20px;
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 .footer-icons .linkedin-icon {
   color: #fff;
   font-size: 20px;
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 .footer-icons .linkedin-icon,
 .footer-icons .twitter-icon {
@@ -86,7 +86,6 @@
   left: 663px; /* Adjust the left position as needed */
   font-size: 32px; /* Increase the font size as needed */
 }
-
 
 .app-promotion ul {
   list-style: none;
@@ -161,10 +160,8 @@
     left: 187px; 
     font-size: 16px; 
   }
-
-
 }
-@media (max-width:575px) {
+@media (max-width: 575px) {
   .address-container {
     text-align: center;
   }

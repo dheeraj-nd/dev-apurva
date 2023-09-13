@@ -46,11 +46,17 @@ body {
   bottom: 0;
 }
 
-section#about,
-section#libraryabout {
+section#about {
   background: url(../img/bgImg.jpg);
   padding: 0 5%;
   position: relative;
+}
+
+section#libraryabout {
+  background: url(../img/bgImg.jpg);
+  padding: 3% 5% 3%;
+  margin-top: 110px;
+  /* position: relative; */
 }
 
 section {
@@ -104,6 +110,16 @@ section#home {
   color: #9fffac;
   font-size: 30px;
   font-family: Montserrat;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.apurva-library-title {
+  color: #9fffac;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
   font-weight: 700;
   line-height: 75px;
 }
@@ -1338,14 +1354,12 @@ icon start
 }
 
 .card-body {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.85rem 0;
+  border: none;
 }
 
 .card-body p {
   color: #fff;
   font-size: 1.2rem;
-  line-height: 2rem;
 }
 
 .card-body p:last-child {
@@ -1789,9 +1803,13 @@ canvas {
     padding: 6rem 8%;
     margin-top: 7rem;
   }
-  #white.section{
+  #white-background-section {
     padding: 6rem 8%;
-    margin-top:auto;
+  }
+
+  #white.section {
+    padding: 6rem 8%;
+    margin-top: auto;
   }
   #contact {
     padding: 0 10%;
@@ -2196,4 +2214,192 @@ ul.social_icon li a {
   margin: 0 auto;
   padding: 20px;
   margin-bottom: 30px;
+}
+
+.btn-group {
+  margin: 10px;
+}
+
+.btn-primary {
+  border: 2px solid #767676;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  background: #fff;
+  color: #767676;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 95px;
+}
+
+#all-btn.active {
+  background-color: #9fffac;
+  border: 3px solid black;
+  box-shadow: none;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #9fffac;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.btn-secondary {
+  width: 286px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  border: 2px solid #767676;
+  background: #fff;
+  color: #767676;
+  margin-right: 80px;
+}
+
+#blogs-btn.active {
+  background-color: #9fffac;
+  border: 3px solid black;
+  box-shadow: none;
+  color: #000;
+}
+
+.btn-secondary:hover {
+  background-color: #9fffac;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.btn-success {
+  width: 382px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  border: 2px solid #767676;
+  background: #fff;
+  color: #767676;
+}
+
+#impact-stories-btn.active {
+  background-color: #9fffac;
+  border: 3px solid black;
+  box-shadow: none;
+  color: #000;
+}
+
+.btn-success:hover {
+  background-color: #9fffac;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.stories-btn {
+  margin: 10px;
+  margin-top: 70px;
+}
+
+.card-deck {
+  margin-top: 75px;
+  margin-bottom: 150px;
+}
+
+.card-deck .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+}
+
+.card-deck .card .card-text {
+  color: black;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-title {
+  color: #767676;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+.card-img-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.nav-item #pills-home-tab {
+  border: none;
+  background-color: transparent;
+  color: #767676;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav-item #pills-home-tab.active {
+  color: #000;
+}
+.nav-item #pills-profile-tab {
+  border: none;
+  background-color: transparent;
+  color: #767676;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav-item #pills-profile-tab.active {
+  color: #000;
+}
+
+.navbar-top-default {
+  position: fixed;
+}
+
+.library-content p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+
+.card-header {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  z-index: 1;
+  border: 1px solid #000;
+  background: #9fffac;
+  color: #000;
+  padding: 5px 12px;
+  /* width: auto;
+  height: auto; */
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 }
