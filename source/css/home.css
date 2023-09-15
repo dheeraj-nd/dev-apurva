@@ -1,0 +1,121 @@
+.small-box {
+    width: 61px;
+    height: 61px;
+    background-color: #9FFFAC;
+}
+
+.why {
+    margin-top: 10px;
+    width:349px;
+    height: 44px;
+}
+.why p{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card-what {
+    width: 398px;
+    height: 210px;
+    background: linear-gradient(0deg, #49785E, #49785E);
+    text-align: center;
+    border-radius: 1.25rem;
+}
+
+.cardtitle {
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add space between rows */
+.row {
+    margin-bottom: 20px;
+}
+
+section#testimonialSection {
+    background: url(../img/bgImg.jpg);
+}
+
+section#responsibleAI {
+    background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
+
+}
+
+.list-group-horizontal {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.list-group-horizontal .list-group-item {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    flex: 0 0 calc(10% - 10px);
+    /* Adjust the box size here */
+    border: none;
+    /* Remove the border */
+    background: none;
+    color: black;
+}
+
+.list-group-item.special {
+    color: #49785E;
+    ;
+    /* Text color */
+}
+
+.card {
+    width: 100%;
+    max-width: 393px;
+    height: 420px;
+    border-radius: 1.25rem;
+    margin: 10px;
+}
+
+.card-head {
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    height: 226px;
+    background-color: #D9D9D9;
+    border-radius: 0 0 1.25rem 1.25rem;
+    text-align: center;
+    padding: 45px;
+}
+
+.card-text {
+    width: 279px;
+    height: 65px;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.card-text a {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000;
+
+
+
+}
