@@ -112,8 +112,13 @@
 }
 
 .footer .app-promotion {
-  text-align: right;
+  text-align: -webkit-auto;
 }
+.footer .app-promotion ul{
+  display: flex;
+  justify-content: right;
+}
+
 
 .with-background {
   padding: 6rem 8%;
@@ -168,6 +173,10 @@
   .footer .app-promotion {
     text-align: center;
     margin-top: 10px;
+  }
+  .footer .app-promotion ul{
+    display: flex;
+    justify-content: center;
   }
 }
 
