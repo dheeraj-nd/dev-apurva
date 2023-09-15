@@ -4,12 +4,41 @@
     background-color: #9FFFAC;
 }
 
+.intro-Title h2 {
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 73.14px;
+    text-align: left;
+}
+
+.greenintro {
+    color: #9fffac;
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 73.14px;
+}
+
+.intro-Text {
+    width: 1000px;
+    height: 130px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 .why {
     margin-top: 10px;
-    width:349px;
+    width: 349px;
     height: 44px;
 }
-.why p{
+
+.why p {
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 300;
@@ -17,6 +46,7 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
 .card-what {
     width: 398px;
     height: 210px;
@@ -115,7 +145,36 @@ section#responsibleAI {
     line-height: 24px;
     letter-spacing: 0em;
     color: #000000;
+}
 
+@media screen and (max-width: 1024px) {
+    .intro-Title h2 ,.greenintro {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 30px;
+        letter-spacing: 0em;  
+    }
+    .intro-Text{
+        width: 650px;
+        height: 120px;
+    }
+}
 
+@media screen and (max-width: 425px) {
 
+    .intro-Title h2,
+    .greenintro {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+
+    .intro-Text {
+        width: 299px;
+       height: 40px;
+
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
