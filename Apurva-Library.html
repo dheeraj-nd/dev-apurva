@@ -54,13 +54,13 @@
 
     <section id="libraryabout">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
           <div>
             <h2><span class="apurva-library-title"> Apurva Library</span></h2>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
           <div class="library-content">
             <p>
               Read about the latest at the intersection of Technology x Society,
@@ -129,64 +129,29 @@
           </div>
         </div>
         <div
-          class="tab-pane fade"
+          class="tab-pane fade mt-5"
           id="pills-profile"
           role="tabpanel"
           aria-labelledby="pills-profile-tab"
         >
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-
-          <!-- Button trigger modal -->
-          <button
-            type="button"
-            class="btn"
-            data-toggle="modal"
-            data-target="#exampleModal"
-          >
-            Launch demo modal
-          </button>
-
-          <!-- Modal -->
-          <div
-            class="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">
-                    Modal title
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+          <div class="row">
+            <div class="col">
+              <form class="form-inline my-2 my-lg-0">
+                <div class="input-group w-100">
+                  <input
+                    class="form-control mr-sm-2 custom-search"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
                 </div>
-                <div class="modal-body">...</div>
-                <div class="modal-footer">
-                  <button type="button" class="btn" data-dismiss="modal">
-                    Close
-                  </button>
-                  <button type="button" class="btn">Save changes</button>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
+
+          <!-- Button trigger modal -->
+          <div class="row mt-5" id="modal-btn-div"></div>
+          <!-- Modal -->
         </div>
       </div>
     </section>

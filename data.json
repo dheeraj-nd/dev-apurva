@@ -1,5 +1,5 @@
 {
-  "blogCards": [
+  "apurvaStories": [
     {
       "category": "BLOGS",
       "imagePath": "./source/img/Blog-1-Cover.png",
@@ -23,6 +23,28 @@
       "readTime": "4 MIN READ",
       "title": "Beyond Interactions: Sustaining and Sharing Collective Wisdom",
       "URL": "Blog3.html"
+    }
+  ],
+  "apurvaExplains": [
+    {
+      "btnTitle": "Collective Wisdom",
+      "imagePath": "./source/img/library/Collective Wisdom.png"
+    },
+    {
+      "btnTitle": "Centralized Networks",
+      "imagePath": "./source/img/library/Centralized Networks.png"
+    },
+    {
+      "btnTitle": "Localized  Networks",
+      "imagePath": "./source/img/library/Localized Networks.png"
+    },
+    {
+      "btnTitle": "Distributed Networks",
+      "imagePath": "./source/img/library/Distributed Networks.png"
+    },
+    {
+      "btnTitle": "Social Innovation",
+      "imagePath": "./source/img/library/Social Innovation.png"
     }
   ]
 }
