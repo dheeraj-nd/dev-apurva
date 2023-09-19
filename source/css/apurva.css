@@ -148,7 +148,7 @@ section#home {
   height: 4.375rem;
   overflow: hidden;
   margin-top: 1.625rem;
-  max-width: 37.5rem;
+  width: 67.5rem;
 }
 
 .subscribe .register-button {
@@ -215,6 +215,13 @@ section#home {
   background: linear-gradient(to top, #9fffac 50%, #9fffac 100%);
 }
 
+.bottomline {
+  /* flex-grow: 0; */
+  height: 5rem;
+  width: 2px;
+  background: linear-gradient(to top, #9fffac 50%, #9fffac 100%);
+}
+
 .icons .bottomline {
   height: 100%;
   margin-top: 8%;
@@ -250,27 +257,11 @@ section.conversation {
   background-repeat: no-repeat, repeat;
 }
 
-.conversation .topline {
-  background: linear-gradient(to bottom, #9fffac 50%, #93cbff 100%);
-}
-
-.conversation .bottomline {
-  background: linear-gradient(to bottom, #93cbff 50%, #d794ff 100%);
-}
-
 /* section.testimonial {
   background-image: url(../img/Conversations-Bg.svg), url(../img/bgImg.jpg);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 } */
-
-.testimonial .topline {
-  background: linear-gradient(to bottom, #9fffac 50%, #93cbff 100%);
-}
-
-.testimonial .bottomline {
-  background: linear-gradient(to bottom, #93cbff 50%, #d794ff 100%);
-}
 
 .connections .register-button {
   border-color: #93cbff;
@@ -282,31 +273,11 @@ section.connections {
   background-repeat: no-repeat, repeat;
 }
 
-.connections .topline {
-  background: linear-gradient(to bottom, #d794ff 50%, #d794ff 100%);
-}
-
-.connections .bottomline {
-  background: linear-gradient(to bottom, #d794ff 50%, #ff8a00 100%);
-}
-
-.connections .register-button {
-  border-color: #d794ff;
-}
-
 /* section.growing {
   background-image: url(../img/Insights-Bg.png), url(../img/bgImg.jpg);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 } */
-
-.growing .topline {
-  background: linear-gradient(to bottom, #fff96d 50%, #fff96d 100%);
-}
-
-.growing .bottomline {
-  background: linear-gradient(to bottom, #fff96d 50%, #9fffac 100%);
-}
 
 section.insights {
   background-image: url(../img/Insights-Bg.png), url(../img/bgImg.jpg);
@@ -334,24 +305,8 @@ section.communities {
   width: 25%;
 }
 
-.insights .topline {
-  background: linear-gradient(to bottom, #fff96d 50%, #fff96d 100%);
-}
-
-.insights .bottomline {
-  background: linear-gradient(to bottom, #fff96d 50%, #9fffac 100%);
-}
-
 .insights .register-button {
   border-color: #fff96d;
-}
-
-.communities .topline {
-  background: linear-gradient(to bottom, #ff8a00 50%, #ff8a00 100%);
-}
-
-.communities .bottomline {
-  background: linear-gradient(to bottom, #ff8a00 50%, #fff96d 100%);
 }
 
 .communities .register-button {
@@ -364,17 +319,9 @@ section.stay-tuned {
   background-repeat: no-repeat, repeat;
 }
 
-.stay-tuned .topline {
-  background: linear-gradient(to bottom, #9fffac 50%, #9fffac 100%);
-}
-
-.stay-tuned .bottomline {
-  background: linear-gradient(to bottom, #9fffac 50%, #9fffac 100%);
-}
-
 .stay-tuned .register-button {
   border-color: #9fffac;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -428,7 +375,7 @@ section.stay-tuned {
 }
 
 .homePage .flex-row-block {
-  height: 50rem;
+  height: 200rem;
 }
 
 #knowledgeone.flex-row-block {
@@ -1273,6 +1220,7 @@ icon start
 .responsible p {
   color: #000000;
 }
+
 #about .container-fluid {
   margin-left: 30px;
 }
@@ -1558,8 +1506,6 @@ canvas {
   max-width: calc(50% - 5%);
   display: flex;
   align-items: center;
-  background: #01051c;
-  border: 1px solid #9fffac;
   padding: 8px;
 }
 
@@ -1596,7 +1542,7 @@ canvas {
 
 @media screen and (min-width: 1900px) {
   .homePage .flex-row-block {
-    height: 62rem !important;
+    height: 129rem !important;
   }
 }
 
@@ -1605,11 +1551,16 @@ canvas {
     max-width: 15rem;
   }
 }
+
 @media screen and (max-width: 768px) {
   /* Your CSS rules for screens with a width of 768 pixels or less go here */
   .profileItem .img img {
     max-width: 12rem;
     /* Your styles for images in this media query */
+  }
+
+  .responsible h2 {
+    margin-top: 5rem;
   }
 }
 
@@ -1656,7 +1607,7 @@ canvas {
   }
 
   .logos .logoItem {
-    max-width: 175px;
+    max-width: 245px;
   }
 
   .secParagraph {
@@ -1790,7 +1741,7 @@ canvas {
 
   .homePage .flex-row-block {
     padding: 0 10%;
-    height: 58rem;
+    height: 128rem;
   }
 
   #knowledgeone.flex-row-block {
@@ -1802,6 +1753,7 @@ canvas {
     padding: 6rem 8%;
     margin-top: 7rem;
   }
+
   #white-background-section {
     padding: 6rem 8%;
   }
@@ -1810,6 +1762,7 @@ canvas {
     padding: 6rem 8%;
     margin-top: auto;
   }
+
   #contact {
     padding: 0 10%;
   }
@@ -2208,11 +2161,14 @@ ul.social_icon li a {
   transition: all 0.5s ease;
 }
 
-.responsible {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  margin-bottom: 30px;
+.black {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .btn-group {
@@ -2348,6 +2304,7 @@ ul.social_icon li a {
 .nav-item #pills-home-tab.active {
   color: #000;
 }
+
 .nav-item #pills-profile-tab {
   border: none;
   background-color: transparent;
