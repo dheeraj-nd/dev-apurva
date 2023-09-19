@@ -148,7 +148,7 @@ section#home {
   height: 4.375rem;
   overflow: hidden;
   margin-top: 1.625rem;
-  max-width: 37.5rem;
+  width: 67.5rem;
 }
 
 .subscribe .register-button {
@@ -214,12 +214,14 @@ section#home {
   width: 2px;
   background: linear-gradient(to top, #9fffac 50%, #9fffac 100%);
 }
+
 .bottomline {
   /* flex-grow: 0; */
   height: 5rem;
   width: 2px;
   background: linear-gradient(to top, #9fffac 50%, #9fffac 100%);
 }
+
 .icons .bottomline {
   height: 100%;
   margin-top: 8%;
@@ -326,7 +328,7 @@ section.stay-tuned {
 
 .stay-tuned .register-button {
   border-color: #9fffac;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -1226,6 +1228,7 @@ icon start
 .responsible p {
   color: #000000;
 }
+
 #about .container-fluid {
   margin-left: 30px;
 }
@@ -1547,7 +1550,7 @@ canvas {
 
 @media screen and (min-width: 1900px) {
   .homePage .flex-row-block {
-    height: 119rem !important;
+    height: 129rem !important;
   }
 }
 
@@ -1556,11 +1559,17 @@ canvas {
     max-width: 15rem;
   }
 }
+
 @media screen and (max-width: 768px) {
+
   /* Your CSS rules for screens with a width of 768 pixels or less go here */
   .profileItem .img img {
     max-width: 12rem;
     /* Your styles for images in this media query */
+  }
+
+  .responsible h2 {
+    margin-top: 5rem;
   }
 }
 
@@ -1574,7 +1583,7 @@ canvas {
   #testimonialSection.flex-row-block {
     height: 48rem !important;
   }
- 
+
   .found.introTitle h2 {
     margin-top: 0;
     margin-left: -2rem;
@@ -1607,7 +1616,7 @@ canvas {
   }
 
   .logos .logoItem {
-    max-width: 175px;
+    max-width: 245px;
   }
 
   .secParagraph {
@@ -1741,9 +1750,9 @@ canvas {
 
   .homePage .flex-row-block {
     padding: 0 10%;
-    height: 118rem;
+    height: 128rem;
   }
-  
+
   #knowledgeone.flex-row-block {
     height: 65rem !important;
   }
@@ -1753,6 +1762,7 @@ canvas {
     padding: 6rem 8%;
     margin-top: 7rem;
   }
+
   #white-background-section {
     padding: 6rem 8%;
   }
@@ -1761,6 +1771,7 @@ canvas {
     padding: 6rem 8%;
     margin-top: auto;
   }
+
   #contact {
     padding: 0 10%;
   }
@@ -1902,6 +1913,7 @@ canvas {
 }
 
 @media screen and (max-width: 896px) {
+
   #about .innnerPageTitle h2 br,
   #weAreHiring .innnerPageTitle h2 br {
     display: none;
@@ -2113,6 +2125,7 @@ canvas {
   .introText {
     font-size: 1rem;
   }
+ 
 }
 
 /* ===================================
@@ -2168,18 +2181,8 @@ ul.social_icon li a {
   letter-spacing: 0em;
   text-align: left;
 }
-.responsible h2{
-  width: 1343px;
-height: 75px;
-font-family: Montserrat;
-font-size: 50px;
-font-weight: 700;
-line-height: 75px;
-letter-spacing: 0em;
-text-align: left;
-color: #000;
-margin-bottom: 10px;
-}
+
+
 
 .btn-group {
   margin: 10px;
@@ -2314,6 +2317,7 @@ margin-bottom: 10px;
 .nav-item #pills-home-tab.active {
   color: #000;
 }
+
 .nav-item #pills-profile-tab {
   border: none;
   background-color: transparent;
