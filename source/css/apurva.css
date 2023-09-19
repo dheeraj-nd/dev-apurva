@@ -263,8 +263,6 @@ section.conversation {
   background-repeat: no-repeat, repeat;
 } */
 
-
-
 .connections .register-button {
   border-color: #93cbff;
 }
@@ -275,13 +273,11 @@ section.connections {
   background-repeat: no-repeat, repeat;
 }
 
-
 /* section.growing {
   background-image: url(../img/Insights-Bg.png), url(../img/bgImg.jpg);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 } */
-
 
 section.insights {
   background-image: url(../img/Insights-Bg.png), url(../img/bgImg.jpg);
@@ -309,7 +305,6 @@ section.communities {
   width: 25%;
 }
 
-
 .insights .register-button {
   border-color: #fff96d;
 }
@@ -323,8 +318,6 @@ section.stay-tuned {
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 }
-
-
 
 .stay-tuned .register-button {
   border-color: #9fffac;
@@ -894,7 +887,6 @@ a.underline {
   font-size: 28px;
   font-weight: bold;
   position: absolute;
-  right: 30px;
 }
 
 .close:hover,
@@ -1561,7 +1553,6 @@ canvas {
 }
 
 @media screen and (max-width: 768px) {
-
   /* Your CSS rules for screens with a width of 768 pixels or less go here */
   .profileItem .img img {
     max-width: 12rem;
@@ -1913,7 +1904,6 @@ canvas {
 }
 
 @media screen and (max-width: 896px) {
-
   #about .innnerPageTitle h2 br,
   #weAreHiring .innnerPageTitle h2 br {
     display: none;
@@ -2125,7 +2115,6 @@ canvas {
   .introText {
     font-size: 1rem;
   }
- 
 }
 
 /* ===================================
@@ -2181,8 +2170,6 @@ ul.social_icon li a {
   letter-spacing: 0em;
   text-align: left;
 }
-
-
 
 .btn-group {
   margin: 10px;
@@ -2394,8 +2381,8 @@ ul.social_icon li a {
 }
 
 .modal-btn {
-  width: 100%;
-  height: 73.147px;
+  width: auto;
+  height: auto;
   color: #000;
   font-size: 30px;
   font-weight: 500;
@@ -2407,4 +2394,31 @@ ul.social_icon li a {
 
 .modal-btn:focus {
   color: #000;
+}
+
+.modal-backdrop {
+  z-index: auto;
+}
+
+.library-modal-content {
+  position: relative;
+  margin: 50% auto;
+  width: 100%;
+  padding: 0px;
+  background: none;
+  border: none;
+  padding: 0rem;
+}
+
+.library-modal-close {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 35px;
+  color: #fff;
+  position: absolute;
+}
+
+.library-modal-close:hover {
+  color: #fff;
 }

@@ -116,7 +116,7 @@ function renderButtons(data) {
 
   data.forEach((apurvaExplains, index) => {
     const buttonHTML = `
-      <div class="col-md-5 mt-4">
+      <div class="col-md-6 mt-4">
         <button
           type="button"
           class="btn modal-btn"
@@ -126,28 +126,14 @@ function renderButtons(data) {
           ${apurvaExplains.btnTitle}
         </button>
       </div>
-      <div
-        class="modal fade"
-        id="exampleModal-${index}" <!-- Unique modal ID based on the index -->
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-body">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
+      <div  class="modal fade" id="exampleModal-${index}" tabindex="${index}" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+        <div class="modal-dialog"  role="document">
+          <div class="modal-content library-modal-content">
+              <button type="button"  class="close library-modal-close"  data-dismiss="modal" aria-label="Close">    
+                <img src="./source/img/library/x.png" alt="img" />
               </button>
               <img src="${apurvaExplains.imagePath}" alt="img" />
             </div>
-          </div>
         </div>
       </div>
     `;
@@ -164,3 +150,40 @@ fetch("data.json")
   .catch((error) => {
     console.error("Error:", error);
   });
+
+// Search Functionality
+
+const searchInput = document.getElementById("searchInput");
+const searchResults = document.getElementById("modal-btn-div");
+
+function search() {
+  const searchText = searchInput.value.toLowerCase();
+
+  // Clear previous search results
+  searchResults.innerHTML = "";
+
+  fetch("data.json")
+    .then((response) => response.json())
+    .then((jsonData) => {
+      if (Array.isArray(jsonData.apurvaExplains)) {
+        const filteredData = jsonData.apurvaExplains.filter((item) =>
+          item.btnTitle.toLowerCase().includes(searchText)
+        );
+        if (filteredData.length > 0) {
+          // Display the filtered results
+          renderButtons(filteredData);
+        } else {
+          // Show an alert message when no results are found
+          searchResults.innerHTML = `
+          <p class="ml-5">No search results found.</p>
+          `;
+        }
+      }
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+}
+
+// Add an event listener to the search input
+searchInput.addEventListener("input", search);
