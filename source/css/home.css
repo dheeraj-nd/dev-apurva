@@ -4,11 +4,59 @@
     background-color: #9FFFAC;
 }
 
+.found {
+    margin-bottom: 20px;
+}
+
+.what-Apurva {
+    margin-top: 10rem;
+}
+
 .intro-Title h2 {
     font-size: 60px;
     font-family: Montserrat;
     font-weight: 800;
     line-height: 73.14px;
+    text-align: left;
+}
+
+.blackAi {
+    width: 43px;
+    height: 189px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.readmore {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.readmore a {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #000000;
+}
+
+.blackwhy {
+    width: 268px;
+    height: 99px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
     text-align: left;
 }
 
@@ -47,12 +95,26 @@
     text-align: left;
 }
 
+.what h2 {
+    width: 268px;
+    height: 99px;
+    margin-top: 35px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .card-what {
     width: 398px;
     height: 210px;
     background: linear-gradient(0deg, #49785E, #49785E);
     text-align: center;
     border-radius: 1.25rem;
+    margin-top: 35px;
 }
 
 .cardtitle {
@@ -69,7 +131,6 @@
     justify-content: center;
 }
 
-/* Add space between rows */
 .row {
     margin-bottom: 20px;
 }
@@ -80,9 +141,14 @@ section#testimonialSection {
 
 section#responsibleAI {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
-
+    height: 30rem !important;
 }
-
+section#Network{
+    height: 50rem !important;
+}
+section#contact{
+    height: 30rem !important;
+}
 .list-group-horizontal {
     display: flex;
     flex-direction: row;
@@ -93,17 +159,13 @@ section#responsibleAI {
     margin-right: 5px;
     margin-bottom: 5px;
     flex: 0 0 calc(10% - 10px);
-    /* Adjust the box size here */
     border: none;
-    /* Remove the border */
     background: none;
     color: black;
 }
 
 .list-group-item.special {
     color: #49785E;
-    ;
-    /* Text color */
 }
 
 .card {
@@ -147,17 +209,64 @@ section#responsibleAI {
     color: #000000;
 }
 
+.Our-Values {
+    margin-top: 30px;
+}
+
+.ourcolor {
+    width: 290px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.ourcolor h2 {
+    color: #49785E;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.value p {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 @media screen and (max-width: 1024px) {
-    .intro-Title h2 ,.greenintro {
+
+    .intro-Title h2,
+    .greenintro {
         font-size: 40px;
         font-weight: 800;
         line-height: 30px;
-        letter-spacing: 0em;  
+        letter-spacing: 0em;
     }
-    .intro-Text{
+
+    .intro-Text {
         width: 650px;
         height: 120px;
     }
+
+    /* .card-what {
+        width: 259px;
+        height: 200px;
+    }
+    
+    .cardtitle {
+       
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        
+    }  */
+
 }
 
 @media screen and (max-width: 425px) {
@@ -172,7 +281,7 @@ section#responsibleAI {
 
     .intro-Text {
         width: 299px;
-       height: 40px;
+        height: 40px;
 
         font-size: 12px;
         line-height: 20px;
