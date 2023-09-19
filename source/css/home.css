@@ -208,7 +208,10 @@ section#contact{
     letter-spacing: 0em;
     color: #000000;
 }
-
+.card-featured{
+    color: #000000;
+    margin-bottom: 30px;
+}
 .Our-Values {
     margin-top: 30px;
 }
