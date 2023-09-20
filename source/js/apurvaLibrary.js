@@ -15,32 +15,104 @@ gtag("js", new Date());
 
 gtag("config", "G-MPJ848CKT6");
 
+jQuery(function ($) {
+  "use strict";
+
+  let $window = $(window);
+  let windowsize = $(window).width();
+
+  /* ====================================
+           Nav Fixed On Scroll
+           ======================================= */
+
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() >= 80) {
+      // Set position from top to add class
+
+      $("header").addClass("header-appear");
+    } else {
+      $("header").removeClass("header-appear");
+    }
+  });
+
+  if ($("nav.navbar").hasClass("bottom-nav")) {
+    let navHeight = $(".bottom-nav").offset().top;
+    $(window).on("scroll", function () {
+      if ($window.scrollTop() > navHeight) {
+        $("header").addClass("header-appear");
+      } else {
+        $("header").removeClass("header-appear");
+      }
+    });
+  }
+
+  /* ===================================
+         Side Menu
+         ====================================== */
+
+  if ($(".sidemenu_toggle").length) {
+    $(".sidemenu_toggle").on("click", function () {
+      $(".pushwrap").toggleClass("active");
+      $(".side-menu").addClass("side-menu-active"),
+        $("#close_side_menu").fadeIn(700);
+    }),
+      $("#close_side_menu").on("click", function () {
+        $(".side-menu").removeClass("side-menu-active"),
+          $(this).fadeOut(200),
+          $(".pushwrap").removeClass("active");
+      }),
+      $(".side-nav .navbar-nav .nav-link").on("click", function () {
+        $(".side-menu").removeClass("side-menu-active"),
+          $("#close_side_menu").fadeOut(200),
+          $(".pushwrap").removeClass("active");
+      }),
+      $("#btn_sideNavClose").on("click", function () {
+        $(".side-menu").removeClass("side-menu-active"),
+          $("#close_side_menu").fadeOut(200),
+          $(".pushwrap").removeClass("active");
+      });
+  }
+});
+
+// render all the cards to be shown by default
+
 function renderCards(data) {
   const cardDeckContainer = document.getElementById("card-deck-container");
   cardDeckContainer.innerHTML = "";
+  const cardHTMLArray = [];
+  let hasCardsToShow = false;
 
   data.forEach((apurvaStories) => {
     const { category, imagePath, author, readTime, title, URL } = apurvaStories;
 
-    const cardHTML = `
-    <div class="col-md-4 mt-5">
-     <a href="${URL}" target="#">
-        <div class="card">
-        <div class="card-header">
-          <span class="badge badge-pill badge-info">${category}</span>
-          <img src="${imagePath}" class="card-img-top" alt="img">
-        </div>
-          <div class="card-body">
-            <h5 class="card-title">${author} | ${readTime}</h5>
-            <p class="card-text">${title}</p>
+    if (category == "BLOGS" || "IMPACT STORIES") {
+      cardHTMLArray.push(`
+          <div class="col-md-4 mt-5">
+            <a href="${URL}" target="#">
+              <div class="card">
+                <div class="card-header">
+                  <span class="badge badge-pill badge-info">${category}</span>
+                  <img src="${imagePath}" class="card-img-top" alt="img">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">${author} | ${readTime}</h5>
+                  <p class="card-text">${title}</p>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </a>
-    </div>
-      `;
-
-    cardDeckContainer.insertAdjacentHTML("beforeend", cardHTML);
+        `);
+      hasCardsToShow = true;
+    }
   });
+
+  if (!hasCardsToShow) {
+    cardHTMLArray.push(
+      `<p class="impact-coming-soon mt-5 ml-5">COMING SOON...</p>`
+    );
+  }
+
+  cardDeckContainer.innerHTML = cardHTMLArray.join("");
 }
 
 fetch("data.json")
@@ -52,7 +124,8 @@ fetch("data.json")
     console.error("Error:", error);
   });
 
-// Add click event listeners for the "All" and "Blogs" buttons
+// Add click event listeners for the buttons
+
 const showAllButton = document.getElementById("all-btn");
 const showBlogsButton = document.getElementById("blogs-btn");
 const showImpactStoriesButton = document.getElementById("impact-stories-btn");
@@ -63,52 +136,58 @@ function removeActiveClass() {
   showImpactStoriesButton.classList.remove("active");
 }
 
+// all button functionality
+
 showAllButton.addEventListener("click", () => {
   fetch("data.json")
     .then((response) => response.json())
     .then((jsonData) => {
       renderCards(jsonData.apurvaStories);
-      removeActiveClass(); // Remove "active" class from both buttons
-      showAllButton.classList.add("active"); // Add "active" class to the clicked button
+      removeActiveClass();
+      showAllButton.classList.add("active");
     })
     .catch((error) => {
       console.error("Error:", error);
     });
 });
+
+// blogs button functionality
 
 showBlogsButton.addEventListener("click", () => {
   fetch("data.json")
     .then((response) => response.json())
     .then((jsonData) => {
-      // Filter the data to get only blog category items
       const blogCategoryData = jsonData.apurvaStories.filter(
         (apurvaStories) => apurvaStories.category === "BLOGS"
       );
       renderCards(blogCategoryData);
-      removeActiveClass(); // Remove "active" class from both buttons
-      showBlogsButton.classList.add("active"); // Add "active" class to the clicked button
+      removeActiveClass();
+      showBlogsButton.classList.add("active");
     })
     .catch((error) => {
       console.error("Error:", error);
     });
 });
 
+// impact button functionality
+
 showImpactStoriesButton.addEventListener("click", () => {
   fetch("data.json")
     .then((response) => response.json())
     .then((jsonData) => {
-      // Filter the data to get only blog category items
       const blogCategoryData = jsonData.apurvaStories.filter(
         (apurvaStories) => apurvaStories.category === "IMPACT STORIES"
       );
       renderCards(blogCategoryData);
-      removeActiveClass(); // Remove "active" class from both buttons
-      showImpactStoriesButton.classList.add("active"); // Add "active" class to the clicked button
+      removeActiveClass();
+      showImpactStoriesButton.classList.add("active");
     })
     .catch((error) => {
       console.error("Error:", error);
     });
 });
+
+// apurva explains button render functionality
 
 function renderButtons(data) {
   const modelPopupBtn = document.getElementById("modal-btn-div");
@@ -116,7 +195,7 @@ function renderButtons(data) {
 
   data.forEach((apurvaExplains, index) => {
     const buttonHTML = `
-      <div class="col-md-6 mt-4">
+      <div class="${apurvaExplains.btnclass} mt-4">
         <button
           type="button"
           class="btn modal-btn"
@@ -126,7 +205,7 @@ function renderButtons(data) {
           ${apurvaExplains.btnTitle}
         </button>
       </div>
-      <div  class="modal fade" id="exampleModal-${index}" tabindex="${index}" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+      <div  class="modal fade" id="exampleModal-${index}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
         <div class="modal-dialog"  role="document">
           <div class="modal-content library-modal-content">
               <button type="button"  class="close library-modal-close"  data-dismiss="modal" aria-label="Close">    
@@ -159,7 +238,6 @@ const searchResults = document.getElementById("modal-btn-div");
 function search() {
   const searchText = searchInput.value.toLowerCase();
 
-  // Clear previous search results
   searchResults.innerHTML = "";
 
   fetch("data.json")
@@ -170,12 +248,10 @@ function search() {
           item.btnTitle.toLowerCase().includes(searchText)
         );
         if (filteredData.length > 0) {
-          // Display the filtered results
           renderButtons(filteredData);
         } else {
-          // Show an alert message when no results are found
           searchResults.innerHTML = `
-          <p class="ml-5">No search results found.</p>
+          <p class="search-not-found ml-5">No search results found.</p>
           `;
         }
       }
@@ -185,5 +261,4 @@ function search() {
     });
 }
 
-// Add an event listener to the search input
 searchInput.addEventListener("input", search);
