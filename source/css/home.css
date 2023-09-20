@@ -1,4 +1,29 @@
+.blackheading{
+    width: 277px;
+    height: 99px;
+
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.blackAi {
+    width: 43px;
+    height: 189px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .small-box {
+    margin-top: 5rem;
     width: 61px;
     height: 61px;
     background-color: #9FFFAC;
@@ -12,6 +37,7 @@
     margin-top: 15rem;
 }
 
+
 .intro-Title h2 {
     font-size: 60px;
     font-family: Montserrat;
@@ -20,17 +46,6 @@
     text-align: left;
 }
 
-.blackAi {
-    width: 43px;
-    height: 189px;
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 65px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 
 .readmore {
     text-decoration: underline;
@@ -48,17 +63,6 @@
     color: #000000;
 }
 
-.blackwhy {
-    width: 268px;
-    height: 99px;
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 
 .greenintro {
     color: #9fffac;
@@ -96,16 +100,9 @@
 }
 
 .what h2 {
-    width: 268px;
-    height: 99px;
+   
     margin-top: 35px;
-    color: #000000;
-    font-family: Montserrat;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: left;
+  
 }
 
 .card-what {
@@ -134,18 +131,21 @@
 .row {
     margin-bottom: 20px;
 }
-.responsibleDesc{
+
+.responsibleDesc {
     margin-bottom: 5rem;
 }
-.responsibleDesc p{
+
+.responsibleDesc p {
     font-family: Montserrat;
-font-size: 25px;
-font-weight: 300;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
+
 .responsible h2 {
     width: 1343px;
     height: 75px;
@@ -157,26 +157,28 @@ text-align: left;
     text-align: left;
     color: #000;
     margin-bottom: 10px;
-  }
-  
-  .responsible p {
+}
+
+.responsible p {
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
-  }
+}
+
 .greencontact {
     color: #9fffac;
     font-family: Montserrat;
-font-size: 75px;
-font-weight: 700;
-line-height: 91px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
+
 section#testimonialSection {
     background: url(../img/bgImg.jpg);
 }
@@ -185,12 +187,15 @@ section#responsibleAI {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
     height: 35rem !important;
 }
-section#Network{
+
+section#Network {
     height: 50rem !important;
 }
-section#contact{
+
+section#contact {
     height: 30rem !important;
 }
+
 .list-group-horizontal {
     display: flex;
     flex-direction: row;
@@ -209,7 +214,17 @@ section#contact{
 .list-group-item.special {
     color: #49785E;
 }
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 1300px;
+    /* Set your desired width */
+}
 
+.carouselfeatured{
+    display: flex;
+    /* transition: transform 0.5s ease-in-out; */
+}
 .card {
     width: 100%;
     max-width: 393px;
@@ -250,18 +265,18 @@ section#contact{
     letter-spacing: 0em;
     color: #000000;
 }
-.card-featured{
+
+.card-featured {
     color: #000000;
     margin-bottom: 30px;
 }
-.Our-Values {
-    margin-top: 9rem;
-}
+
+
 
 .ourcolor {
     width: 290px;
     height: 45px;
-    margin-top: 20px;
+  
 }
 
 .ourcolor h2 {
@@ -286,57 +301,74 @@ section#contact{
     text-align: left;
 
 }
-@media screen and (max-width:1510px){
+
+.Our-Values{
+    margin-top: 11rem;
+}
+.trust{
+    display: flex;
+    justify-content: flex-start;
+}
+@media screen and (max-width:1510px) {
     .card-what {
         width: 368px;
         height: 210px;
     }
-    .ourcolor {
-        width: 250px;
-        height: 45px;
-        margin-top: 20px;
-    }
-    .ourcolor h2 {
-        font-size: 35px;
-    }
-    .value p {
-        font-size: 25px;
-    }
+  
 }
-    
+
 
 @media screen and (max-width: 1024px) {
+
+    section#responsibleAI {
+       
+        height: 45rem !important;
+    }
+    .blackheading{
+        width: 227px;
+        height: 99px; 
+        font-size: 45px;
+    }
+    .blackAi {
+        width: 33px;
+        height: 189px;
+        font-size: 45px;
+    }
+    
+    .ourcolor {
+        width: 230px;
+        height: 45px;
+    }
+    
+    .ourcolor h2 {
+        font-size: 30px;
+    }
+    .value p {
+        width: 210px;
+        height: 45px;
+        font-size: 20px;
+    
+    }
     .why {
         width: auto;
     }
+
     .card-what {
         width: 258px;
         height: 200px;
     }
+
     .what h2 {
         width: 190px;
         height: 99px;
         margin-top: 35px;
         font-size: 35px;
     }
+
     .cardtitle {
         font-size: 20px;
     }
-    .Our-Values {
-        margin-top: 4rem;
-    }
-    .ourcolor {
-        width: 230px;
-        height: 45px;
-        margin-top: 20px;
-    }
-    .ourcolor h2 {
-        font-size: 25px;
-    }
-    .value p {
-        width: 210px;
-        height: 55px;
-    }
+  
     .intro-Title h2,
     .greenintro {
         font-size: 40px;
@@ -349,13 +381,6 @@ section#contact{
         width: 650px;
         height: 120px;
     }
-    .blackAi {
-        width: 547px;
-        height: 19px;
-        font-size: 55px;
-        font-weight: 700;
-        line-height: 65px;
-    }
 }
 
 @media screen and (max-width: 425px) {
@@ -367,12 +392,12 @@ section#contact{
         line-height: 75px;
         margin-bottom: 2px;
     }
-      
-      .responsible p {
+
+    .responsible p {
         font-size: 20px;
-      }
-     
- 
+    }
+
+
     .intro-Title h2,
     .greenintro {
         font-size: 25px;

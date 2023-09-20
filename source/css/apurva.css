@@ -1542,7 +1542,7 @@ canvas {
 
 @media screen and (min-width: 1900px) {
   .homePage .flex-row-block {
-    height: 129rem !important;
+    height: 150rem !important;
   }
 }
 
@@ -1741,7 +1741,7 @@ canvas {
 
   .homePage .flex-row-block {
     padding: 0 10%;
-    height: 128rem;
+    height: 145rem;
   }
 
   #knowledgeone.flex-row-block {
