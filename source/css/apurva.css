@@ -2422,3 +2422,18 @@ ul.social_icon li a {
 .library-modal-close:hover {
   color: #fff;
 }
+
+.search-not-found {
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.impact-coming-soon {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.min-height-div {
+  min-height: 50vh;
+}

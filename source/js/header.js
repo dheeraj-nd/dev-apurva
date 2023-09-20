@@ -62,7 +62,7 @@ const section_header = `  <header class="cursor-light">
           <a href="about-us.html" class="scroll nav-link">About</a>
         </li>
         <li class="nav-item">
-          <a href="we-are-hiring.html" class="scroll nav-link"
+          <a href="Apurva-Library.html" class="scroll nav-link"
             >Apurva Library</a>
         </li>
          <li class="nav-item">
@@ -80,6 +80,6 @@ const section_header = `  <header class="cursor-light">
 </div>
 <a id="close_side_menu" href="javascript:void(0);"></a>
 <!--Side Menu-->
-</header>`
+</header>`;
 
 document.getElementById("headers").innerHTML = section_header;
