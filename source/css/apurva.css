@@ -1145,7 +1145,10 @@ icon start
 
 .black.navbar-top-default .navbar-nav .nav-link {
   color: #fff;
+  font-size: 30px;
+  margin-right: 3rem;
 }
+
 
 .navbar-top-default .navbar-nav .nav-link {
   font-size: 17px;
@@ -1183,6 +1186,11 @@ icon start
   .img_padding {
     padding-top: 8rem;
     margin-left: -6rem;
+  }
+  .black.navbar-top-default .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1rem;
   }
 }
 

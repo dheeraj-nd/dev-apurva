@@ -1,6 +1,4 @@
 .blackheading {
-    width: 277px;
-    height: 99px;
 
     color: #000000;
     font-family: Montserrat;
@@ -12,8 +10,7 @@
 }
 
 .blackAi {
-    width: 43px;
-    height: 189px;
+    word-wrap: break-word;
     color: #000000;
     font-family: Montserrat;
     font-size: 55px;
@@ -195,7 +192,7 @@ section#testimonialSection,section#Featured
 
 section#responsibleAI {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
-    height: 35rem !important;
+    height: 25rem !important;
 }
 section#Featured {
     height: 48rem !important;
@@ -322,7 +319,7 @@ section#contact {
 }
 
 .ai {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .Our-Values {
@@ -367,7 +364,7 @@ section#contact {
 
     section#responsibleAI {
 
-        height: 45rem !important;
+        height: 30rem !important;
     }
     .greencontact {
 
@@ -401,7 +398,7 @@ section#contact {
       }
     section#responsibleAI {
 
-        height: 45rem !important;
+        height: 35rem !important;
     }
 
     section#Network {
@@ -409,16 +406,14 @@ section#contact {
     }
 
     .blackheading {
-        width: 227px;
-        height: 99px;
+       
         font-size: 45px;
     }
     .greenhome{
         font-size: 45px;
     }
     .blackAi {
-        width: 33px;
-        height: 109px;
+        
         font-size: 45px;
     }
 
@@ -480,8 +475,7 @@ section#contact {
 
 @media screen and (max-width:768px) {
     .blackheading {
-        width: 227px;
-        height: 99px;
+       
         font-size: 40px;
     }
     .greenhome{
@@ -522,11 +516,13 @@ section#contact {
         font-size: 17px;
     }
     .small-box {
-        margin-top: -9rem;
+        margin-top: -7rem;
         width: 31px;
         height: 31px;
     }
-
+.whatcard{
+    margin-top: -4rem;
+}
     .what-Apurva {
         margin-top: -5rem;
     }
@@ -565,14 +561,12 @@ section#contact {
         height: 30rem !important;
     }
     .blackheading {
-        width: 227px;
-        height: 99px;
+        
         font-size: 19px;
     }
 
     .blackAi {
-        width: 190px;
-        height: 69px;
+       
         font-size: 19px;
     }
     .greenhome{
@@ -642,8 +636,14 @@ section#contact {
         height: auto;
     }
     .subscribe input {
-        border-radius: 0;
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
         margin-bottom: 1.2rem;
+    }
+    .stay-tuned .register-button {
+        font-size: 13px;
+    }
+    .subscribe .register-button {
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     }
 
     .card {
