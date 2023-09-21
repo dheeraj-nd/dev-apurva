@@ -87,7 +87,7 @@ function renderCards(data) {
 
     if (category == "BLOGS" || "IMPACT STORIES") {
       cardHTMLArray.push(`
-          <div class="col-md-4 mt-5">
+          <div class="col-lg-4 col-sm-6 mt-5">
             <a href="${URL}" target="#">
               <div class="card">
                 <div class="card-header">
@@ -237,16 +237,20 @@ const searchResults = document.getElementById("modal-btn-div");
 
 function search() {
   const searchText = searchInput.value.toLowerCase();
-
+  const searchWords = searchText
+    .split(" ")
+    .filter((word) => word.trim() !== "");
   searchResults.innerHTML = "";
 
   fetch("data.json")
     .then((response) => response.json())
     .then((jsonData) => {
       if (Array.isArray(jsonData.apurvaExplains)) {
-        const filteredData = jsonData.apurvaExplains.filter((item) =>
-          item.btnTitle.toLowerCase().includes(searchText)
-        );
+        const filteredData = jsonData.apurvaExplains.filter((item) => {
+          return searchWords.every((word) =>
+            item.btnTitle.toLowerCase().includes(word)
+          );
+        });
         if (filteredData.length > 0) {
           renderButtons(filteredData);
         } else {
