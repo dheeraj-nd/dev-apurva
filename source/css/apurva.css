@@ -140,16 +140,7 @@ section#home {
   color: #ff8a00;
 }
 
-.subscribe {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 15px;
-  height: 4.375rem;
-  overflow: hidden;
-  margin-top: 1.625rem;
-  width: 67.5rem;
-}
+
 
 .subscribe .register-button {
   margin-top: 0;
@@ -160,17 +151,7 @@ section#home {
   height: 100%;
 }
 
-.subscribe input {
-  margin: 0;
-  flex-grow: 1;
-  height: 100%;
-  background-color: transparent;
-  font-size: 1rem;
-  color: #fff;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
-  border: 2px solid #9fffac;
-}
+
 
 .subscribe input::placeholder {
   font-size: 16px;
@@ -319,11 +300,7 @@ section.stay-tuned {
   background-repeat: no-repeat, repeat;
 }
 
-.stay-tuned .register-button {
-  border-color: #9fffac;
-  font-size: 2rem;
-  font-weight: 600;
-}
+
 
 /* .forcefullwidth_wrapper_tp_banner {
   background-image: linear-gradient(#27223c, transparent);
@@ -1168,7 +1145,10 @@ icon start
 
 .black.navbar-top-default .navbar-nav .nav-link {
   color: #fff;
+  font-size: 30px;
+  margin-right: 3rem;
 }
+
 
 .navbar-top-default .navbar-nav .nav-link {
   font-size: 17px;
@@ -1206,6 +1186,11 @@ icon start
   .img_padding {
     padding-top: 8rem;
     margin-left: -6rem;
+  }
+  .black.navbar-top-default .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 1rem;
   }
 }
 
@@ -1542,7 +1527,7 @@ canvas {
 
 @media screen and (min-width: 1900px) {
   .homePage .flex-row-block {
-    height: 129rem !important;
+    height: 150rem !important;
   }
 }
 
@@ -1741,7 +1726,7 @@ canvas {
 
   .homePage .flex-row-block {
     padding: 0 10%;
-    height: 128rem;
+    height: 145rem;
   }
 
   #knowledgeone.flex-row-block {
@@ -2081,20 +2066,7 @@ canvas {
     font-size: 1.3rem;
   }
 
-  .subscribe {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .subscribe input {
-    border-radius: 0;
-    margin-bottom: 1.2rem;
-  }
-
-  .register-button {
-    font-size: 1rem;
-    padding: 4px 37px;
-  }
+ 
 
   .introLogo {
     text-align: left;

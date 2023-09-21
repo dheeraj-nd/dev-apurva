@@ -364,6 +364,14 @@ $(".subscribe-button").on("click", () => {
   // https://apurva-subscription-nmn5wq3nzq-em.a.run.app
   subScribe();
 });
+
+const carousel = document.querySelector(".carouselfeatured");
+let cardIndex = 0;
+
+setInterval(() => {
+  cardIndex = (cardIndex + 1) % 5;
+  carousel.style.transform = `translateX(-${cardIndex * 320}px)`; // Adjust the value to match your card width + margin
+}, 2000); // Adjust the duration for auto-sliding
 // Get the modal
 const modal = document.getElementById("myModal");
 
