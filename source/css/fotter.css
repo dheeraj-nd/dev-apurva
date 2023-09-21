@@ -121,7 +121,7 @@
 
 
 .with-background {
-  padding: 6rem 8%;
+  padding: 6rem 8% 0rem;
   margin-top: auto;
   background-image: url(../img/footerBackground.png);
   background-size: cover;
