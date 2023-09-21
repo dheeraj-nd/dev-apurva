@@ -60,7 +60,7 @@ const section_footer =
         <!-- Copyrights -->
         <br>
         <br>
-        <p class="green">&copy; 2023 apurva.ai</p>
+        <p class="green">&copy; 2023 Apurva.ai</p>
 
         <!-- Copyrights -->
       </div>
@@ -123,7 +123,7 @@ const section_footer =
       <!-- Copyright -->
       <div class="col-lg-12 col-md-12 text-center">
         <!-- Copyrights -->
-        <p class="green">&copy; 2023 apurva.ai</p>
+        <p class="green">&copy; 2023 Apurva.ai</p>
 
         <!-- Copyrights -->
       </div>

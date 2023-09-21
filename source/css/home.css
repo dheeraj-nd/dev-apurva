@@ -1,4 +1,4 @@
-.blackheading{
+.blackheading {
     width: 277px;
     height: 99px;
 
@@ -10,6 +10,7 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
 .blackAi {
     width: 43px;
     height: 189px;
@@ -21,9 +22,17 @@
     letter-spacing: 0em;
     text-align: left;
 }
-
+.greenhome{
+    color: #9fffac;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .small-box {
-    margin-top: 5rem;
+
     width: 61px;
     height: 61px;
     background-color: #9FFFAC;
@@ -34,7 +43,7 @@
 }
 
 .what-Apurva {
-    margin-top: 15rem;
+    margin-top: 8rem;
 }
 
 
@@ -86,8 +95,9 @@
 
 .why {
     margin-top: 10px;
-    width: 349px;
-    height: 44px;
+    margin-bottom: 5rem;
+    width: 299px;
+    max-height: 294px;
 }
 
 .why p {
@@ -100,9 +110,9 @@
 }
 
 .what h2 {
-   
+
     margin-top: 35px;
-  
+
 }
 
 .card-what {
@@ -143,7 +153,6 @@
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .responsible h2 {
@@ -179,13 +188,21 @@
 
 }
 
-section#testimonialSection {
+section#testimonialSection,section#Featured
+ {
     background: url(../img/bgImg.jpg);
 }
 
 section#responsibleAI {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
     height: 35rem !important;
+}
+section#Featured {
+    height: 48rem !important;
+}
+
+section#why-Apurva {
+    height: 150rem !important;
 }
 
 section#Network {
@@ -214,17 +231,19 @@ section#contact {
 .list-group-item.special {
     color: #49785E;
 }
+
 .carousel-container {
     display: flex;
     overflow: hidden;
-    width: 1300px;
+    width: 1600px;
     /* Set your desired width */
 }
 
-.carouselfeatured{
+.carouselfeatured {
     display: flex;
     /* transition: transform 0.5s ease-in-out; */
 }
+
 .card {
     width: 100%;
     max-width: 393px;
@@ -276,7 +295,7 @@ section#contact {
 .ourcolor {
     width: 290px;
     height: 45px;
-  
+
 }
 
 .ourcolor h2 {
@@ -302,53 +321,123 @@ section#contact {
 
 }
 
-.Our-Values{
+.ai {
+    margin-top: 10rem;
+}
+
+.Our-Values {
     margin-top: 11rem;
 }
-.trust{
+
+.trust {
     display: flex;
     justify-content: flex-start;
 }
+.subscribe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+    height: 4.375rem;
+    overflow: hidden;
+    margin-top: 1.625rem;
+    width: 67.5rem;
+  }
+  .stay-tuned .register-button {
+    border-color: #9fffac;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .subscribe input {
+    margin: 0;
+    flex-grow: 1;
+    height: 100%;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid #9fffac;
+  }
 @media screen and (max-width:1510px) {
     .card-what {
         width: 368px;
         height: 210px;
     }
-  
+
+    section#responsibleAI {
+
+        height: 45rem !important;
+    }
+    .greencontact {
+
+        font-size: 55px;    
+    }
+    .subscribe {
+       
+        width: 47.5rem;
+      }
+      .stay-tuned .register-button {
+        border-color: #9fffac;
+        font-size: 29px;
+        font-weight: 600;
+      }
 }
 
 
 @media screen and (max-width: 1024px) {
+    .greencontact {
 
-    section#responsibleAI {
+        font-size: 35px;    
+    }
+    .subscribe {
        
+        width: 37.5rem;
+      }
+      .stay-tuned .register-button {
+       
+        font-size: 19px;
+       
+      }
+    section#responsibleAI {
+
         height: 45rem !important;
     }
-    .blackheading{
+
+    section#Network {
+        height: 90rem !important;
+    }
+
+    .blackheading {
         width: 227px;
-        height: 99px; 
+        height: 99px;
+        font-size: 45px;
+    }
+    .greenhome{
         font-size: 45px;
     }
     .blackAi {
         width: 33px;
-        height: 189px;
+        height: 109px;
         font-size: 45px;
     }
-    
+
     .ourcolor {
         width: 230px;
         height: 45px;
     }
-    
+
     .ourcolor h2 {
         font-size: 30px;
     }
+
     .value p {
         width: 210px;
         height: 45px;
         font-size: 20px;
-    
+
     }
+
     .why {
         width: auto;
     }
@@ -368,7 +457,7 @@ section#contact {
     .cardtitle {
         font-size: 20px;
     }
-  
+
     .intro-Title h2,
     .greenintro {
         font-size: 40px;
@@ -381,9 +470,134 @@ section#contact {
         width: 650px;
         height: 120px;
     }
+
+    .ai {
+        margin-top: 6rem;
+    }
+
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width:768px) {
+    .blackheading {
+        width: 227px;
+        height: 99px;
+        font-size: 40px;
+    }
+    .greenhome{
+        font-size: 40px;
+    }
+    .card-what {
+        width: 190px;
+        height: 150px;
+    }
+
+    .cardtitle {
+        font-size: 15px;
+    }
+
+    .responsibleDesc {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cardtitle {
+        font-size: 19px;
+    }
+    .Our-Values {
+        margin-top: 2rem;
+    }
+    .ourcolor {
+        width: 100%;
+        height: auto;
+    }
+    .ourcolor h2 {
+        font-size: 20px;
+    }
+    .value p {
+        width: 100%;
+        height: auto;
+        font-size: 17px;
+    }
+    .small-box {
+        margin-top: -9rem;
+        width: 31px;
+        height: 31px;
+    }
+
+    .what-Apurva {
+        margin-top: -5rem;
+    }
+
+    .why {
+        margin-bottom: 5rem;
+        width: 199px;
+        max-height: 294px;
+    }
+
+    .why p {
+
+        font-size: 19px;
+
+    }
+    .card-what {
+        width: auto;
+        height: 150px;
+    }
+    .responsibleDesc {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+    section#why-Apurva {
+        height: 200rem !important;
+    }
+    section#Network {
+        height: 50rem !important;
+    }
+
+    section#responsibleAI {
+
+        height: 33rem !important;
+    }
+    section#Featured {
+        height: 30rem !important;
+    }
+    .blackheading {
+        width: 227px;
+        height: 99px;
+        font-size: 19px;
+    }
+
+    .blackAi {
+        width: 190px;
+        height: 69px;
+        font-size: 19px;
+    }
+    .greenhome{
+        font-size: 19px;
+    }
+    .ai {
+        margin-top: 2rem;
+    }
+
+    .responsibleDesc p {
+        font-family: Montserrat;
+        font-size: 15px;
+
+    }
+
+    .responsibleDesc {
+        margin-bottom: 1rem;
+    }
+
+    .readmore a {
+        display: flex;
+        justify-self: start;
+        font-size: 15px;
+    }
+
     .responsible h2 {
         width: 323px;
         height: 65px;
@@ -410,7 +624,67 @@ section#contact {
         width: 299px;
         height: 40px;
 
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .greencontact {
+        font-size: 22px;
+    }
+    
+    .subscribe {
+        align-items: normal;
+        overflow: visible;
+        width: 16.5rem;
+    }
+    .subscribe {
+        flex-direction: column;
+        height: auto;
+    }
+    .subscribe input {
+        border-radius: 0;
+        margin-bottom: 1.2rem;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 198px;
+        height: 250px;
+        border-radius: 1.25rem;
+        margin: 10px;
+    }
+    .card-head {
+        height: 94px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-head img{
+        width: 100px;
+        height: 70px;
+    }
+    .card-body {
+        height: 100px;
+        background-color: #D9D9D9;
+        border-radius: 0 0 1.25rem 1.25rem;
+        text-align: center;
+        padding: 15px;
+    }
+    .card-text {
+        width: auto;
+        height: 65px;
+    }
+   
+    .card-text a {
         font-size: 12px;
         line-height: 20px;
+    }
+    .card-featured {
+        margin-bottom: 10px;
+    }
+    .card-featured h5{
+        margin-top: -0.5rem;
+        font-size: 10px;
     }
 }
