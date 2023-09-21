@@ -94,18 +94,11 @@ const section_footer =
       <!-- Address -->
       <!-- Copyright (Right-aligned) -->
       <div class="col-sm-6 mb-19 app-promotion">
-        <ul>
           <strong class="white underline">
-            <li><a href="">Copyrights</a></li>
-            <br>
-            <br>
-            <li><a href="">Privacy Policy</a></li>
-            <br>
-            <br>
-            <li><a href="">Disclaimer</a></li>
+            <a href="">Copyrights</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Disclaimer</a>
           </strong>
-        </ul>
-
       </div>
     </div>
     <div class="row">
@@ -121,7 +114,7 @@ const section_footer =
         </ul>
       </div>
       <!-- Copyright -->
-      <div class="col-lg-12 col-md-12 text-center">
+      <div class="col-lg-12 col-md-12 text-center copy">
         <!-- Copyrights -->
         <p class="green">&copy; 2023 Apurva.ai</p>
 
