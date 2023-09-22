@@ -23,6 +23,13 @@ section#blog {
   position: relative;
 }
 
+.footer-icons strong {
+  font-size: 30px; /* Increase the font size of "Share on" */
+  margin-right: 10px; /* Add space between "Share on" and icons */
+}
+.social-icon-container {
+  margin: 0 10px; /* Add space between the icons */
+}
 .image_1 {
   position: absolute;
   top: 150px;
@@ -171,7 +178,7 @@ a.underline.blue {
 
   
   .blog-content {
-    margin-top: 300px;
+    margin-top: 280px;
     
   }
 
@@ -195,6 +202,17 @@ a.underline.blue {
     letter-spacing: 0em;
     text-align: center;
   }
+  .image_1 {
+  
+    margin-top: -3rem;
+    }
+    .footer-icons strong {
+      font-size: 15px; /* Increase the font size of "Share on" */
+      margin-right: 5px; /* Add space between "Share on" and icons */
+    }
+    .social-icon-container {
+      margin: 0 5px; /* Add space between the icons */
+    }
 }
 
 @media(max-width: 375px) {
@@ -202,4 +220,5 @@ a.underline.blue {
     margin-top: 250px;
     
   }
+
 }

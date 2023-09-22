@@ -26,7 +26,7 @@ const section_header = `  <header class="cursor-light">
             link
             type="button"
             class="btn btn-medium btn-rounded btn-yellow hide contact-btn small"
-            href="index.html#contact">
+            href="Apurva-Experience.html">
             Apurva Experience
           </a>
         </li>
@@ -70,7 +70,7 @@ const section_header = `  <header class="cursor-light">
             link
             type="button"
             class="btn btn-medium btn-rounded btn-yellow hide contact-btn small"
-            href="index.html#contact">
+            href="Apurva-Experience.html">
             Apurva Experience
           </a>
         </li> 
