@@ -87,7 +87,7 @@ function renderCards(data) {
 
     if (category == "BLOGS" || "IMPACT STORIES") {
       cardHTMLArray.push(`
-          <div class="col-lg-4 col-sm-6 mt-5">
+          <div class="col-lg-4 col-sm-6 mt-5 d-none d-sm-block">
             <a href="${URL}" target="#">
               <div class="card">
                 <div class="card-header">
@@ -100,7 +100,20 @@ function renderCards(data) {
                 </div>
               </div>
             </a>
-          </div>
+          </div> 
+          <a href="${URL}" target="#"> 
+        <div class="d-flex justify-content-between bd-highlight p-3 align-items-center d-none d-sm-block d-md-none border-bottom">              
+           <div class="text-dark">
+                <h5 class="card-title text-left">${author}</h5>
+                   <p class="card-text text-left">${title}</p>
+                   <p class="text-muted text-left"><small class="text-muted text-left">${readTime}</small></p>
+            </div>
+            <div class="text-dark image-style flex-grow-1">
+              <img src="${imagePath}" alt="img" class="img-fluid img-thumbnail rounded float-right"/>
+            </div>      
+        </div>
+        </a>
+        
         `);
       hasCardsToShow = true;
     }
