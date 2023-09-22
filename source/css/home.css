@@ -30,8 +30,8 @@
 .coming{
     height: 150px;
     width: 400px;
-    background-color: #9fffac;; /* For browsers that do not support gradients */
-    background-image: radial-gradient(#9fffac, #9fffac, #9fffac);
+    /* background-color: #9fffac;; 
+    background-image: radial-gradient(#9fffac, #9fffac, #9fffac); */
 }
 .greenhome {
     color: #9fffac;
