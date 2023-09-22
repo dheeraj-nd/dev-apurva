@@ -147,6 +147,8 @@ section#home {
   color: #ff8a00;
 }
 
+
+
 .subscribe .register-button {
   margin-top: 0;
   border: 0;
@@ -155,6 +157,8 @@ section#home {
   color: #000;
   height: 100%;
 }
+
+
 
 .subscribe input::placeholder {
   font-size: 16px;
@@ -302,6 +306,8 @@ section.stay-tuned {
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 }
+
+
 
 /* .forcefullwidth_wrapper_tp_banner {
   background-image: linear-gradient(#27223c, transparent);
@@ -1162,6 +1168,7 @@ icon start
   font-size: 30px;
   margin-right: 3rem;
 }
+
 
 .navbar-top-default .navbar-nav .nav-link {
   font-size: 17px;
@@ -2079,6 +2086,8 @@ canvas {
     font-size: 1.3rem;
   }
 
+ 
+
   .introLogo {
     text-align: left;
     margin: 6% 2% 3%;
@@ -2456,14 +2465,6 @@ ul.social_icon li a {
 
   .modal-btn {
     font-size: 23px;
-  }
-  .image-style img {
-    width: 250px;
-    height: 150px;
-    object-fit: cover;
-  }
-  .card-title {
-    line-height: 20px;
   }
 }
 @media (max-width: 320px) {
