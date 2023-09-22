@@ -38,7 +38,7 @@ body {
 }
 
 .bottom {
-  background-image: linear-gradient(transparent, #02061c);
+  /* background-image: linear-gradient(transparent, #02061c); */
   height: 15%;
   position: absolute;
   width: 100%;
