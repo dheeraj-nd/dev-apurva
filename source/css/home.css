@@ -168,7 +168,7 @@
 
 .responsibleDesc p {
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 40px;
     letter-spacing: 0em;
@@ -213,7 +213,7 @@ section#Featured {
     background: url(../img/bgImg.jpg);
 }
 
-section#responsibleAI {
+section#responsibleAI,section#responsibleAImedium {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
     height: 25rem !important;
 }
@@ -388,7 +388,9 @@ section#contact {
         width: 368px;
         height: 210px;
     }
-
+.blackAi{
+    font-size: 53px;
+}
     section#responsibleAI {
 
         height: 30rem !important;
@@ -441,6 +443,7 @@ section#contact {
     .blackheading {
 
         font-size: 45px;
+        line-height: 50px;
     }
 
     .greenhome {
@@ -449,7 +452,8 @@ section#contact {
 
     .blackAi {
 
-        font-size: 45px;
+        font-size: 35px;
+        line-height: 50px;
     }
 
     .ourcolor {
@@ -769,5 +773,6 @@ section#contact {
     margin: 0;
     top: auto;
 }
+
 
 
