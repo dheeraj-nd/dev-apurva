@@ -1368,7 +1368,15 @@ canvas {
   opacity: 1;
   transform: none;
 }
+.ourmission h1{
+  font-family: Montserrat;
+font-size: 70px;
+font-weight: 500;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
 
+}
 .found {
   margin-bottom: 2rem;
 }
@@ -2101,12 +2109,15 @@ canvas {
     align-items: normal;
     overflow: visible;
   }
+
+ 
 }
 
 @media screen and (max-width: 375px) {
   .introText {
     font-size: 1rem;
   }
+ 
 }
 
 /* ===================================
@@ -2572,4 +2583,61 @@ ul.social_icon li a {
   .modal-btn {
     font-size: 24px;
   }
+}
+@media screen and (max-width:768px){
+  .ourmission h1 {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.greenmission {
+  color: #9fffac;
+  font-size: 60px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 72px;
+}
+section#about {
+  background: url(../img/bgImg.jpg);
+  padding: 0 5%;
+  position: relative;
+  height: 30rem;
+}
+.contentour {
+ 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  /* color: #d9d9d9; */
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 2rem !important;
+  margin-top: 1rem;
+  /* max-width: 47.25rem; */
+  text-align: left;
+}
+}
+@media screen and (max-width: 425px) {
+  section#about {
+    background: url(../img/bgImg.jpg);
+    padding: 0 5%;
+    position: relative;
+    height: 37rem;
+  } 
+  #about .container-fluid {
+     margin-left: auto; 
+}
+#founding h2 {
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  letter-spacing: -0.03em !important;
+  text-align: left;
+  max-width: 100%;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 750;
+}
 }
