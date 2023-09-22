@@ -19,7 +19,21 @@
     letter-spacing: 0em;
     text-align: left;
 }
-.greenhome{
+
+.greenexp {
+    color: #9fffac;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 72px;
+}
+.coming{
+    height: 150px;
+    width: 400px;
+    background-color: #9fffac;; /* For browsers that do not support gradients */
+    background-image: radial-gradient(#9fffac, #9fffac, #9fffac);
+}
+.greenhome {
     color: #9fffac;
     font-family: Montserrat;
     font-size: 55px;
@@ -28,6 +42,17 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
+.experience {
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
 .small-box {
 
     width: 61px;
@@ -92,9 +117,7 @@
 
 .why {
     margin-top: 10px;
-    margin-bottom: 5rem;
-    width: 299px;
-    max-height: 294px;
+    margin-bottom: 9rem;
 }
 
 .why p {
@@ -185,8 +208,8 @@
 
 }
 
-section#testimonialSection,section#Featured
- {
+section#testimonialSection,
+section#Featured {
     background: url(../img/bgImg.jpg);
 }
 
@@ -194,6 +217,7 @@ section#responsibleAI {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
     height: 25rem !important;
 }
+
 section#Featured {
     height: 48rem !important;
 }
@@ -306,9 +330,8 @@ section#contact {
 }
 
 .value p {
-    width: 290px;
-    height: 45px;
-    padding-right: 3rem;
+
+    /* padding-right: 3rem; */
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 300;
@@ -330,6 +353,7 @@ section#contact {
     display: flex;
     justify-content: flex-start;
 }
+
 .subscribe {
     display: flex;
     justify-content: flex-start;
@@ -339,13 +363,15 @@ section#contact {
     overflow: hidden;
     margin-top: 1.625rem;
     width: 67.5rem;
-  }
-  .stay-tuned .register-button {
+}
+
+.stay-tuned .register-button {
     border-color: #9fffac;
     font-size: 2rem;
     font-weight: 600;
-  }
-  .subscribe input {
+}
+
+.subscribe input {
     margin: 0;
     flex-grow: 1;
     height: 100%;
@@ -355,7 +381,8 @@ section#contact {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     border: 2px solid #9fffac;
-  }
+}
+
 @media screen and (max-width:1510px) {
     .card-what {
         width: 368px;
@@ -366,36 +393,42 @@ section#contact {
 
         height: 30rem !important;
     }
+
     .greencontact {
 
-        font-size: 55px;    
+        font-size: 55px;
     }
+
     .subscribe {
-       
+
         width: 47.5rem;
-      }
-      .stay-tuned .register-button {
+    }
+
+    .stay-tuned .register-button {
         border-color: #9fffac;
         font-size: 29px;
         font-weight: 600;
-      }
+    }
 }
 
 
 @media screen and (max-width: 1024px) {
     .greencontact {
 
-        font-size: 35px;    
+        font-size: 35px;
     }
+
     .subscribe {
-       
+
         width: 37.5rem;
-      }
-      .stay-tuned .register-button {
-       
+    }
+
+    .stay-tuned .register-button {
+
         font-size: 19px;
-       
-      }
+
+    }
+
     section#responsibleAI {
 
         height: 35rem !important;
@@ -406,14 +439,16 @@ section#contact {
     }
 
     .blackheading {
-       
+
         font-size: 45px;
     }
-    .greenhome{
+
+    .greenhome {
         font-size: 45px;
     }
+
     .blackAi {
-        
+
         font-size: 45px;
     }
 
@@ -427,15 +462,12 @@ section#contact {
     }
 
     .value p {
-        width: 210px;
-        height: 45px;
-        font-size: 20px;
+
+        font-size: 16px;
 
     }
 
-    .why {
-        width: auto;
-    }
+
 
     .card-what {
         width: 258px;
@@ -475,12 +507,14 @@ section#contact {
 
 @media screen and (max-width:768px) {
     .blackheading {
-       
+
         font-size: 40px;
     }
-    .greenhome{
+
+    .greenhome {
         font-size: 40px;
     }
+
     .card-what {
         width: 190px;
         height: 150px;
@@ -488,6 +522,7 @@ section#contact {
 
     .cardtitle {
         font-size: 15px;
+        line-height: 25px;
     }
 
     .responsibleDesc {
@@ -497,58 +532,69 @@ section#contact {
 }
 
 @media screen and (max-width: 414px) {
+    .col-xs-6 {
+        width: 49%;
+    }
+
     .cardtitle {
         font-size: 19px;
+        line-height: 25px;
     }
+
     .Our-Values {
         margin-top: 2rem;
     }
+
     .ourcolor {
         width: 100%;
         height: auto;
     }
+
     .ourcolor h2 {
         font-size: 20px;
     }
+
     .value p {
-        width: 100%;
-        height: auto;
+
         font-size: 17px;
     }
+
     .small-box {
-        margin-top: -7rem;
+        margin-top: -1rem;
         width: 31px;
         height: 31px;
     }
-.whatcard{
-    margin-top: -4rem;
-}
+
+    .whatcard {
+        margin-top: -4rem;
+    }
+
     .what-Apurva {
         margin-top: -5rem;
     }
 
     .why {
         margin-bottom: 5rem;
-        width: 199px;
-        max-height: 294px;
     }
 
     .why p {
-
-        font-size: 19px;
-
+        font-size: 14px;
     }
+
     .card-what {
         width: auto;
         height: 150px;
     }
+
     .responsibleDesc {
         margin-top: -1rem;
         margin-bottom: 1rem;
     }
+
     section#why-Apurva {
-        height: 200rem !important;
+        height: 160rem !important;
     }
+
     section#Network {
         height: 50rem !important;
     }
@@ -557,21 +603,25 @@ section#contact {
 
         height: 33rem !important;
     }
+
     section#Featured {
         height: 30rem !important;
     }
+
     .blackheading {
-        
+
         font-size: 19px;
     }
 
     .blackAi {
-       
+
         font-size: 19px;
     }
-    .greenhome{
+
+    .greenhome {
         font-size: 19px;
     }
+
     .ai {
         margin-top: 2rem;
     }
@@ -625,45 +675,52 @@ section#contact {
     .greencontact {
         font-size: 22px;
     }
-    
+
     .subscribe {
         align-items: normal;
         overflow: visible;
         width: 16.5rem;
     }
+
     .subscribe {
         flex-direction: column;
         height: auto;
     }
+
     .subscribe input {
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
         margin-bottom: 1.2rem;
     }
+
     .stay-tuned .register-button {
         font-size: 13px;
     }
+
     .subscribe .register-button {
         border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     }
 
     .card {
         width: 100%;
-        max-width: 198px;
-        height: 250px;
+        max-width: 268px;
+        height: 260px;
         border-radius: 1.25rem;
         margin: 10px;
     }
+
     .card-head {
-        height: 94px;
+        height: 110px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .card-head img{
-        width: 100px;
-        height: 70px;
+
+    .card-head img {
+        width: 104px;
+        height: 88px;
     }
+
     .card-body {
         height: 100px;
         background-color: #D9D9D9;
@@ -671,20 +728,40 @@ section#contact {
         text-align: center;
         padding: 15px;
     }
+
     .card-text {
         width: auto;
         height: 65px;
     }
-   
+
     .card-text a {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 20px;
     }
+
     .card-featured {
         margin-bottom: 10px;
     }
-    .card-featured h5{
+
+    .card-featured h5 {
         margin-top: -0.5rem;
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: 700px;
     }
 }
+
+
+@media (max-width: 415px) {
+    /* Hide desktop footer */
+    .carouselfeatured {
+      display: none;
+    }
+}
+
+@media (min-width: 415px) {
+    /* Hide mobile footer */
+    .carouselslide {
+      display: none;
+    }
+    
+  }
