@@ -73,7 +73,12 @@ jQuery(function ($) {
       });
   }
 });
-
+function limitText(text, limit) {
+  if (text.length > limit) {
+      return text.slice(0, limit) + "...";
+  }
+  return text;
+}
 // render all the cards to be shown by default
 
 function renderCards(data) {
@@ -86,6 +91,7 @@ function renderCards(data) {
     const { category, imagePath, author, readTime, title, URL } = apurvaStories;
 
     if (category == "BLOGS" || "IMPACT STORIES") {
+      const limitedTitle = limitText(title, 55);
       cardHTMLArray.push(`
           <div class="col-lg-4 col-sm-6 mt-5 d-none d-sm-block">
             <a href="${URL}" target="#">
@@ -102,16 +108,26 @@ function renderCards(data) {
             </a>
           </div> 
           <a href="${URL}" target="#"> 
-        <div class="d-flex justify-content-between bd-highlight p-3 align-items-center d-none d-sm-block d-md-none border-bottom">              
-           <div class="text-dark">
-                <h5 class="card-title text-left">${author}</h5>
-                   <p class="card-text text-left">${title}</p>
-                   <p class="text-muted text-left"><small class="text-muted text-left">${readTime}</small></p>
-            </div>
-            <div class="text-dark image-style flex-grow-1">
-              <img src="${imagePath}" alt="img" class="img-fluid img-thumbnail rounded float-right"/>
-            </div>      
-        </div>
+        <div class="blog d-sm-block d-md-none border-bottom">  
+        
+              <h6 class="card-title text-left">${author}</h6>
+              <div class="blogcontent">
+                 <div class="row "> 
+                    <div class="col-6">
+                     <p class="crad-blogtext">${limitedTitle}</p>
+                   </div>
+                    <div class="col-6">
+                      <img src="${imagePath}" class="card-blogimg" >
+                    </div>
+                  </div>
+               </div>
+               <div class ="category">
+                 <h6> ${category} </h6>
+                 <h5>${readTime}</h5>
+                </div>
+                
+               
+          </div>           
         </a>
         
         `);

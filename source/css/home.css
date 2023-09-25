@@ -19,19 +19,40 @@
     letter-spacing: 0em;
     text-align: left;
 }
-
+.experience h2{
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .greenexp {
     color: #9fffac;
-    font-size: 72px;
     font-family: Montserrat;
-    font-weight: 500;
-    line-height: 72px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-.coming{
-    height: 150px;
-    width: 400px;
-    /* background-color: #9fffac;; 
-    background-image: radial-gradient(#9fffac, #9fffac, #9fffac); */
+.coming h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.circle {
+    margin-top: -34rem;
+    height: 550px;
+    width: 550px;
+    /* background-image: linear-gradient(to bottom, white black); */
+
+    background-image: radial-gradient(#9fffac 50%, #9fffac 40%);
+    filter: blur(160px)
 }
 .greenhome {
     color: #9fffac;
@@ -42,17 +63,6 @@
     letter-spacing: 0em;
     text-align: left;
 }
-
-.experience {
-    font-family: Montserrat;
-    font-size: 80px;
-    font-weight: 700;
-    line-height: 80px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-
 .small-box {
 
     width: 61px;
@@ -213,7 +223,8 @@ section#Featured {
     background: url(../img/bgImg.jpg);
 }
 
-section#responsibleAI,section#responsibleAImedium {
+section#responsibleAI,
+section#responsibleAImedium {
     background: linear-gradient(0deg, rgba(159, 255, 172, 0.25), rgba(159, 255, 172, 0.25));
     height: 25rem !important;
 }
@@ -388,9 +399,11 @@ section#contact {
         width: 368px;
         height: 210px;
     }
-.blackAi{
-    font-size: 53px;
-}
+
+    .blackAi {
+        font-size: 53px;
+    }
+
     section#responsibleAI {
 
         height: 30rem !important;
@@ -420,6 +433,7 @@ section#contact {
         height: 8rem;
         border: 0.3125rem solid #fff;
     }
+
     .greencontact {
 
         font-size: 35px;
@@ -515,6 +529,37 @@ section#contact {
 
 
 @media screen and (max-width:768px) {
+
+    .experience h2{
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 7rem;
+      
+    }
+    .greenexp {
+        color: #9fffac;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    .coming h2 {
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: -10rem;
+    } 
     .blackheading {
 
         font-size: 40px;
@@ -761,20 +806,18 @@ section#contact {
 
 
 @media (max-width: 415px) {
+
     /* Hide desktop footer */
     .carouselfeatured {
-      display: none;
+        display: none;
     }
 }
 
 @media (min-width: 415px) {
+
     /* Hide mobile footer */
     .carouselslide {
-      display: none;
+        display: none;
     }
-    
-  }
 
-
-
-
+}
