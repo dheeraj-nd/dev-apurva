@@ -47,13 +47,13 @@ body {
 }
 
 section#about {
-  background: url(../img/bgImg.jpg);
+  background: url(../img/Apurva-Websit-Design.png);
   padding: 0 5%;
   position: relative;
 }
 
 section#libraryabout {
-  background: url(../img/bgImg.jpg);
+  background: url(../img/Apurva-Websit-Design.png);
   padding: 3% 5% 3%;
   margin-top: 110px;
   /* position: relative; */
@@ -303,7 +303,7 @@ section.communities {
 }
 
 section.stay-tuned {
-  background-image: url(../img/stay-tuned-bg.svg), url(../img/bgImg.jpg);
+  background-image: url(../img/stay-tuned-bg.svg), url(../img/Apurva-Websit-Design.png);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 }
