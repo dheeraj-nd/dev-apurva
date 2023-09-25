@@ -5,12 +5,12 @@ html {
 body {
   color: #fff;
   background: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   height: 100%;
 }
 
 .intro-block {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   padding: 8% 0%;
   justify-content: space-between;
 }
@@ -109,7 +109,7 @@ section#home {
 .green {
   color: #9fffac;
   font-size: 30px;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-weight: 700;
   line-height: 75px;
 }
@@ -117,7 +117,7 @@ section#home {
 .greenmission {
   color: #9fffac;
   font-size: 70px;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-weight: 500;
   line-height: 72px;
 }
@@ -125,7 +125,7 @@ section#home {
 .apurva-library-title {
   color: #9fffac;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -463,7 +463,7 @@ section.stay-tuned {
 }
 
 .introTitle {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   color: #ffffff;
   letter-spacing: -0.03em !important;
   text-align: left;
@@ -475,7 +475,7 @@ section.stay-tuned {
 }
 
 #founding h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   color: #000000;
   letter-spacing: -0.03em !important;
   text-align: left;
@@ -543,7 +543,7 @@ img.logo-img {
 }
 
 .introText {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   font-weight: 400;
   color: #fff;
   font-size: 1.1rem;
@@ -554,7 +554,7 @@ img.logo-img {
 }
 
 .contents {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   font-weight: 600 !important;
   font-style: italic;
   color: #fff !important;
@@ -567,7 +567,7 @@ img.logo-img {
 }
 
 .content {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   font-weight: 300;
   /* color: #d9d9d9; */
   color: #fff;
@@ -579,7 +579,7 @@ img.logo-img {
 }
 
 .contentour {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   font-weight: 300;
   /* color: #d9d9d9; */
   color: #fff;
@@ -1130,7 +1130,7 @@ icon start
 .iconTxt {
   color: #fff;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   margin-top: 3px;
   display: inline-block;
 }
@@ -1405,7 +1405,7 @@ canvas {
 }
 
 .ourmission h1 {
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 70px;
   font-weight: 500;
   line-height: 72px;
@@ -1497,7 +1497,7 @@ canvas {
 }
 
 .testimonial-body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins";
   font-weight: 300;
   color: #fff;
   font-size: 1.2rem;
@@ -2205,7 +2205,7 @@ ul.social_icon li a {
 
 .black {
   color: #000000;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 55px;
   font-weight: 700;
   line-height: 45px;
@@ -2224,7 +2224,7 @@ ul.social_icon li a {
   border-radius: 50px;
   background: #fff;
   color: #767676;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 30px;
   font-weight: 600;
   margin-right: 95px;
@@ -2314,14 +2314,14 @@ ul.social_icon li a {
 
 .card-deck .card .card-text {
   color: black;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
 }
 
 .card-title {
   color: #767676;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -2337,7 +2337,7 @@ ul.social_icon li a {
   border: none;
   background-color: transparent;
   color: #767676;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -2351,7 +2351,7 @@ ul.social_icon li a {
   border: none;
   background-color: transparent;
   color: #767676;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
@@ -2368,7 +2368,7 @@ ul.social_icon li a {
 .library-content p {
   color: #fff;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -2417,7 +2417,7 @@ ul.social_icon li a {
 
 .custom-search::placeholder {
   color: #acacac;
-  font-family: Montserrat;
+  font-family:Poppins;
   font-size: 25px;
   font-weight: 500;
 }
@@ -2467,7 +2467,7 @@ ul.social_icon li a {
 
 .search-not-found {
   font-size: 25px;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-weight: 400;
 }
 
@@ -2630,7 +2630,7 @@ ul.social_icon li a {
 
 @media screen and (max-width:768px) {
   .ourmission h1 {
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 60px;
     font-weight: 500;
     line-height: 72px;
@@ -2641,7 +2641,7 @@ ul.social_icon li a {
   .greenmission {
     color: #9fffac;
     font-size: 60px;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-weight: 500;
     line-height: 72px;
   }
@@ -2655,7 +2655,7 @@ ul.social_icon li a {
 
   .contentour {
 
-    font-family: "Montserrat", sans-serif;
+    font-family: Poppins;
     font-weight: 300;
     /* color: #d9d9d9; */
     color: #fff;
@@ -2682,7 +2682,7 @@ ul.social_icon li a {
 
   #founding h2 {
     margin-bottom: 1rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: Poppins;
     color: #000000;
     letter-spacing: -0.03em !important;
     text-align: left;

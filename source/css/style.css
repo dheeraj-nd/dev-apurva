@@ -3,7 +3,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900"); */
 
 .font-primary {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .font-secondary {
   font-family: "Source Sans Pro", sans-serif;
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h1,
 h2,
@@ -953,7 +953,7 @@ nav .btn-setting {
 }
 
 .navbar-top-default .navbar-nav .nav-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 700;
   color: #ffffff;

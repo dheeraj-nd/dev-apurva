@@ -1,7 +1,7 @@
 .blackheading {
 
     color: #000000;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
@@ -12,7 +12,7 @@
 .blackAi {
     word-wrap: break-word;
     color: #000000;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
@@ -20,7 +20,7 @@
     text-align: left;
 }
 .experience h2{
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 80px;
     font-weight: 700;
     line-height: 80px;
@@ -29,7 +29,7 @@
 }
 .greenexp {
     color: #9fffac;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 80px;
     font-weight: 700;
     line-height: 80px;
@@ -38,7 +38,7 @@
 }
 .coming h2 {
     color: #FFFFFF;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 70px;
     font-weight: 600;
     line-height: 80px;
@@ -56,7 +56,7 @@
 }
 .greenhome {
     color: #9fffac;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
@@ -81,7 +81,7 @@
 
 .intro-Title h2 {
     font-size: 60px;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-weight: 800;
     line-height: 73.14px;
     text-align: left;
@@ -94,7 +94,7 @@
 }
 
 .readmore a {
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
@@ -108,7 +108,7 @@
 .greenintro {
     color: #9fffac;
     font-size: 60px;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-weight: 800;
     line-height: 73.14px;
 }
@@ -116,7 +116,7 @@
 .intro-Text {
     width: 1000px;
     height: 130px;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
     line-height: 65px;
@@ -131,7 +131,7 @@
 }
 
 .why p {
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 30px;
     font-weight: 300;
     line-height: 37px;
@@ -156,7 +156,7 @@
 
 .cardtitle {
     color: white;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 30px;
     font-weight: 600;
     line-height: 40px;
@@ -177,7 +177,7 @@
 }
 
 .responsibleDesc p {
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 20px;
     font-weight: 300;
     line-height: 40px;
@@ -188,7 +188,7 @@
 .responsible h2 {
     width: 1343px;
     height: 75px;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 50px;
     font-weight: 700;
     line-height: 75px;
@@ -199,7 +199,7 @@
 }
 
 .responsible p {
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 30px;
     font-weight: 400;
     line-height: 50px;
@@ -209,7 +209,7 @@
 
 .greencontact {
     color: #9fffac;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 75px;
     font-weight: 700;
     line-height: 91px;
@@ -309,7 +309,7 @@ section#contact {
 
 .card-text a {
     text-align: center;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
@@ -332,7 +332,7 @@ section#contact {
 
 .ourcolor h2 {
     color: #49785E;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 45px;
     font-weight: 700;
     line-height: 65px;
@@ -343,7 +343,7 @@ section#contact {
 .value p {
 
     /* padding-right: 3rem; */
-    font-family: Montserrat;
+    font-family: Poppins;
     font-size: 30px;
     font-weight: 300;
     line-height: 40px;
@@ -531,7 +531,7 @@ section#contact {
 @media screen and (max-width:768px) {
 
     .experience h2{
-        font-family: Montserrat;
+        font-family: Poppins;
         font-size: 30px;
         font-weight: 700;
         line-height: 80px;
@@ -542,7 +542,7 @@ section#contact {
     }
     .greenexp {
         color: #9fffac;
-        font-family: Montserrat;
+        font-family: Poppins;
         font-size: 30px;
         font-weight: 700;
         line-height: 80px;
@@ -552,7 +552,7 @@ section#contact {
     }
     .coming h2 {
         color: #FFFFFF;
-        font-family: Montserrat;
+        font-family: Poppins;
         font-size: 30px;
         font-weight: 600;
         line-height: 80px;
@@ -681,7 +681,7 @@ section#contact {
     }
 
     .responsibleDesc p {
-        font-family: Montserrat;
+        font-family: Poppins;
         font-size: 15px;
 
     }
