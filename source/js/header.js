@@ -65,15 +65,11 @@ const section_header = `  <header class="cursor-light">
           <a href="Apurva-Library.html" class="scroll nav-link"
             >Apurva Library</a>
         </li>
-         <li class="nav-item">
-          <a
-            link
-            type="button"
-            class="btn btn-medium btn-rounded btn-yellow hide contact-btn small"
-            href="Apurva-Experience.html">
-            Apurva Experience
-          </a>
-        </li> 
+        <li class="nav-item">
+          <a href="Apurva-Experience.html" class="scroll nav-link"
+            >Apurva Experience</a>
+        </li>
+        
       </ul>
     </nav>
   </div>

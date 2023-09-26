@@ -524,7 +524,7 @@ section.stay-tuned {
 
 img.logo-img {
   max-width: 15.625rem !important;
-  width: 15.625rem;
+  width: 9rem;
   height: auto;
 }
 
@@ -872,7 +872,7 @@ a.underline {
 }
 
 .side-nav .navbar-nav .nav-link {
-  font-size: 1.2rem;
+  font-size: 15px;
   text-transform: inherit;
 }
 
@@ -886,7 +886,7 @@ a.underline {
 
 .navbar .contact-btn.small {
   width: 250px;
-  font-size: 1rem;
+  font-size: 20px;
   background: #9fffac;
   color: #000;
   border-radius: 10px;
@@ -1193,7 +1193,7 @@ icon start
 
 .black.navbar-top-default .navbar-nav .nav-link {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   margin-right: 3rem;
 }
 
@@ -1523,6 +1523,7 @@ canvas {
 
 .carousel-indicators li img {
   width: 100%;
+  height: 30px;
 }
 
 .carousel-indicators li.active img {
@@ -2659,6 +2660,23 @@ ul.social_icon li a {
 }
 
 @media screen and (max-width: 425px) {
+  .ourmission h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .greenmission {
+    color: #9fffac;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 72px;
+  }
+
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
@@ -2666,11 +2684,24 @@ ul.social_icon li a {
     height: 37rem;
   }
 
+  .content {
+    font-family: "Poppins";
+    font-weight: 300;
+
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2rem !important;
+    margin-top: 1rem;
+
+    text-align: left;
+  }
+
   #about .container-fluid {
     margin-left: auto;
   }
 
   #founding h2 {
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: Poppins;
     color: #000000;
@@ -2679,15 +2710,16 @@ ul.social_icon li a {
     max-width: 100%;
     font-size: 1.6rem;
     line-height: 2.5rem;
-    font-weight: 750;
+    font-weight: 650;
   }
 }
 .blogcontent {
   margin-top: -29px;
   margin-bottom: 15px;
 }
+
 .crad-blogtext {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   width: 200px;
   text-align: left;
@@ -2696,11 +2728,14 @@ ul.social_icon li a {
   width: 270px;
   text-align: left;
 }
+
 .category {
   margin-bottom: 1rem;
 }
+
 .category h6 {
-  text-align: left;
+  font-size: 15px;
+  text-align: center;
   width: 90px;
   border: 1px solid #000;
   border-radius: 1rem;
@@ -2711,6 +2746,7 @@ ul.social_icon li a {
   justify-content: center;
   display: flex;
 }
+
 .category h5 {
   margin-top: -2rem;
   color: #767676;
