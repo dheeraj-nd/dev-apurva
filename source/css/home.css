@@ -74,10 +74,11 @@
     margin-bottom: 20px;
 }
 
-.what-Apurva {
-    margin-top: 8rem;
-}
 
+#subscribe-input::placeholder {
+    text-align: left;
+    font-size: 32px;
+}
 
 .intro-Title h2 {
     font-size: 60px;
@@ -234,11 +235,11 @@ section#Featured {
 }
 
 section#why-Apurva {
-    height: 150rem !important;
+    height: 135rem !important;
 }
 
 section#Network {
-    height: 50rem !important;
+    height: 70rem !important;
 }
 
 section#contact {
@@ -373,7 +374,7 @@ section#contact {
     height: 4.375rem;
     overflow: hidden;
     margin-top: 1.625rem;
-    width: 67.5rem;
+    width: 57.5rem;
 }
 
 .stay-tuned .register-button {
@@ -650,7 +651,7 @@ section#contact {
     }
 
     section#Network {
-        height: 50rem !important;
+        height: 45rem !important;
     }
 
     section#responsibleAI {

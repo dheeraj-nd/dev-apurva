@@ -116,7 +116,7 @@ section#home {
 
 .greenmission {
   color: #9fffac;
-  font-size: 70px;
+  font-size: 55px;
   font-family: Poppins;
   font-weight: 500;
   line-height: 72px;
@@ -480,9 +480,9 @@ section.stay-tuned {
   letter-spacing: -0.03em !important;
   text-align: left;
   max-width: 100%;
-  font-size: 1.8rem;
+  font-size: 55px;
   line-height: 2.5rem;
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .weAreHiringAccordion .card-header .card-link {
@@ -1406,7 +1406,7 @@ canvas {
 
 .ourmission h1 {
   font-family: Poppins;
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 500;
   line-height: 72px;
   letter-spacing: 0em;
