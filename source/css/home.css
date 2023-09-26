@@ -235,7 +235,7 @@
 
 section#testimonialSection,
 section#Featured {
-    background: url(../img/Apurva-Websit-Design.png );
+    background: url(../img/Starry-Bg.png );
 }
 
 section#responsibleAI,
@@ -410,6 +410,16 @@ section#contact {
 }
 
 @media screen and (max-width:1510px) {
+    .experience h2 ,.greenexp{
+       
+        font-size: 50px;
+    }
+    
+    .coming h2 {
+       
+        font-size: 50px;
+       
+    }
     .card-what {
         width: 368px;
         height: 210px;
@@ -446,6 +456,16 @@ section#contact {
 
 
 @media screen and (max-width: 1024px) {
+    .experience h2 ,.greenexp{
+       
+        font-size: 40px;
+    }
+    
+    .coming h2 {
+       
+        font-size: 40px;
+       
+    }
     .testimonial-item {
         width: 8rem;
         height: 8rem;
@@ -547,6 +567,13 @@ section#contact {
 
 
 @media screen and (max-width:768px) {
+    .circle {
+        margin-top: -24rem;
+        height: 350px;
+        width: 350px;
+        background-image: radial-gradient(#9fffac 50%, #9fffac 40%);
+        filter: blur(160px);
+    }
 
     .experience h2 {
         font-family: Poppins;
