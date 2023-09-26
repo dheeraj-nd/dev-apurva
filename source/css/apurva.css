@@ -878,7 +878,7 @@ a.underline {
 }
 
 .side-nav .navbar-nav .nav-link {
-  font-size: 1.2rem;
+  font-size: 15px;
   text-transform: inherit;
 }
 
@@ -1531,6 +1531,7 @@ canvas {
 
 .carousel-indicators li img {
   width: 100%;
+  height: 30px;
 }
 
 .carousel-indicators li.active img {
@@ -2668,19 +2669,45 @@ ul.social_icon li a {
 }
 
 @media screen and (max-width: 425px) {
+  .ourmission h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 
+  .greenmission {
+    color: #9fffac;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 72px;
+  }
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
     height: 37rem;
   }
-
+  .content {
+    font-family: "Poppins";
+    font-weight: 300;
+    
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2rem !important;
+    margin-top: 1rem;
+   
+    text-align: left;
+}
   #about .container-fluid {
     margin-left: auto;
   }
 
   #founding h2 {
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-family: Poppins;
     color: #000000;
@@ -2689,7 +2716,7 @@ ul.social_icon li a {
     max-width: 100%;
     font-size: 1.6rem;
     line-height: 2.5rem;
-    font-weight: 750;
+    font-weight: 650;
   }
 
 }
