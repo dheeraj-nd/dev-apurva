@@ -529,7 +529,7 @@ section.stay-tuned {
 
 img.logo-img {
   max-width: 15.625rem !important;
-  width: 15.625rem;
+  width: 9rem;
   height: auto;
 }
 
@@ -892,7 +892,7 @@ a.underline {
 
 .navbar .contact-btn.small {
   width: 250px;
-  font-size: 1rem;
+  font-size: 20px;
   background: #9fffac;
   color: #000;
   border-radius: 10px;
@@ -1199,7 +1199,7 @@ icon start
 
 .black.navbar-top-default .navbar-nav .nav-link {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   margin-right: 3rem;
 }
 
@@ -2418,7 +2418,7 @@ ul.social_icon li a {
 
 .custom-search::placeholder {
   color: #acacac;
-  font-family:Poppins;
+  font-family: Poppins;
   font-size: 25px;
   font-weight: 500;
 }
@@ -2685,23 +2685,26 @@ ul.social_icon li a {
     font-weight: 500;
     line-height: 72px;
   }
+
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
     height: 37rem;
   }
+
   .content {
     font-family: "Poppins";
     font-weight: 300;
-    
+
     color: #fff;
     font-size: 1rem;
     line-height: 2rem !important;
     margin-top: 1rem;
-   
+
     text-align: left;
-}
+  }
+
   #about .container-fluid {
     margin-left: auto;
   }
@@ -2720,38 +2723,44 @@ ul.social_icon li a {
   }
 
 }
-.blogcontent{
+
+.blogcontent {
   margin-top: -29px;
   margin-bottom: 15px;
 }
-.crad-blogtext
-{
-  font-size: 14px;
+
+.crad-blogtext {
+  font-size: 13px;
   font-weight: 700;
   width: 200px;
   text-align: left;
 }
-.card-blogimg{
+
+.card-blogimg {
   width: 270px;
   text-align: left;
 }
-.category{
+
+.category {
   margin-bottom: 1rem;
 }
-.category h6{
-  text-align: left;
+
+.category h6 {
+  font-size: 15px;
+  text-align: center;
   width: 90px;
-    border: 1px solid #000;
-    border-radius: 1rem;
-    background: #9fffac;
-    color: #000;
-    padding: 5px 12px;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  background: #9fffac;
+  color: #000;
+  padding: 5px 12px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 
 }
-.category h5{
+
+.category h5 {
   margin-top: -2rem;
   color: #767676;
 }
