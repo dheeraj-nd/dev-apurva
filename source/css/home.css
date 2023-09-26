@@ -48,6 +48,7 @@
 }
 
 .coming h2 {
+    margin-top: -5rem;
     color: #FFFFFF;
     font-family: Poppins;
     font-size: 70px;
@@ -58,13 +59,14 @@
 }
 
 .circle {
-    margin-top: -34rem;
-    height: 550px;
-    width: 550px;
+    margin-left: 9rem;
+    margin-top: -47rem;
+    height: 850px;
+    width: 850px;
     /* background-image: linear-gradient(to bottom, white black); */
 
     background-image: radial-gradient(#9fffac 50%, #9fffac 40%);
-    filter: blur(160px)
+    filter: blur(180px)
 }
 
 .greenhome {
@@ -567,6 +569,7 @@ section#contact {
 
 
 @media screen and (max-width:768px) {
+  
     .circle {
         margin-top: -24rem;
         height: 350px;
@@ -579,7 +582,7 @@ section#contact {
         font-family: Poppins;
         font-size: 30px;
         font-weight: 700;
-        line-height: 80px;
+        line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
         margin-top: 7rem;
@@ -587,6 +590,7 @@ section#contact {
     }
 
     .greenexp {
+        
         color: #9fffac;
         font-family: Poppins;
         font-size: 30px;
@@ -605,7 +609,7 @@ section#contact {
         line-height: 80px;
         letter-spacing: 0em;
         text-align: right;
-        margin-top: -10rem;
+        margin-top: -6rem;
     }
 
     .blackheading {
@@ -634,6 +638,39 @@ section#contact {
 }
 
 @media screen and (max-width: 414px) {
+    .experience h2 {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 7rem;
+
+    }
+
+    .greenexp {
+        
+        color: #9fffac;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .coming h2 {
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 4rem;
+    }
     .col-xs-6 {
         width: 49%;
     }
