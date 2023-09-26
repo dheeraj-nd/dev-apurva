@@ -67,7 +67,12 @@ section#blog {
   color: #000000;
 
 }
-
+.bl{
+  color: white;
+}
+.bl:hover {
+  color:#9fffac;
+}
 .blog-content p {
   margin-bottom: 20px;
   color: #000000;
