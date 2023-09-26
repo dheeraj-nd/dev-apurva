@@ -93,7 +93,22 @@ const section_footer =
       </div>
       <!-- Address -->
       <!-- Copyright (Right-aligned) -->
-      <div class="col-sm-6 mb-19 app-promotion">
+      <div id="hide" class="col-sm-6 mb-19  app-promotion ">
+
+      <ul>
+        <strong class="white underline">
+          <li><a href="">Copyrights</a></li>
+          <br>
+          <br>
+          <li><a href="">Privacy Policy</a></li>
+          <br>
+          <br>
+          <li><a href="">Disclaimer</a></li>
+        </strong>
+      </ul>
+
+    </div>
+      <div id ="dis" class="col-sm-6 mb-19  app-promotion">
           <strong class="white underline">
             <a href="">Copyrights</a>
             <a href="">Privacy Policy</a>
