@@ -148,8 +148,6 @@ section#home {
   color: #ff8a00;
 }
 
-
-
 .subscribe .register-button {
   margin-top: 0;
   border: 0;
@@ -158,8 +156,6 @@ section#home {
   color: #000;
   height: 100%;
 }
-
-
 
 .subscribe input::placeholder {
   font-size: 16px;
@@ -303,12 +299,11 @@ section.communities {
 }
 
 section.stay-tuned {
-  background-image: url(../img/stay-tuned-bg.svg), url(../img/Apurva-Websit-Design.png);
+  background-image: url(../img/stay-tuned-bg.svg),
+    url(../img/Apurva-Websit-Design.png);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
 }
-
-
 
 /* .forcefullwidth_wrapper_tp_banner {
   background-image: linear-gradient(#27223c, transparent);
@@ -589,7 +584,6 @@ img.logo-img {
   /* max-width: 47.25rem; */
   text-align: left;
 }
-
 
 a.underline {
   text-decoration: underline !important;
@@ -1203,7 +1197,6 @@ icon start
   margin-right: 3rem;
 }
 
-
 .navbar-top-default .navbar-nav .nav-link {
   font-size: 17px;
   text-transform: inherit;
@@ -1411,7 +1404,6 @@ canvas {
   line-height: 72px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .found {
@@ -1603,7 +1595,6 @@ canvas {
 }
 
 @media screen and (max-width: 768px) {
-
   /* Your CSS rules for screens with a width of 768 pixels or less go here */
   .profileItem .img img {
     max-width: 12rem;
@@ -1955,7 +1946,6 @@ canvas {
 }
 
 @media screen and (max-width: 896px) {
-
   #about .innnerPageTitle h2 br,
   #weAreHiring .innnerPageTitle h2 br {
     display: none;
@@ -2133,8 +2123,6 @@ canvas {
     font-size: 1.3rem;
   }
 
-
-
   .introLogo {
     text-align: left;
     margin: 6% 2% 3%;
@@ -2148,15 +2136,12 @@ canvas {
     align-items: normal;
     overflow: visible;
   }
-
-
 }
 
 @media screen and (max-width: 375px) {
   .introText {
     font-size: 1rem;
   }
-
 }
 
 /* ===================================
@@ -2417,7 +2402,7 @@ ul.social_icon li a {
 
 .custom-search::placeholder {
   color: #acacac;
-  font-family:Poppins;
+  font-family: Poppins;
   font-size: 25px;
   font-weight: 500;
 }
@@ -2429,6 +2414,7 @@ ul.social_icon li a {
   font-size: 30px;
   font-weight: 500;
   border-radius: 50px;
+  padding: 0 1 0px;
   border: 3px solid #000;
   background: #9fffac;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -2624,11 +2610,17 @@ ul.social_icon li a {
 
 @media (min-width: 1024px) and (max-width: 1030px) {
   .modal-btn {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
-@media screen and (max-width:768px) {
+@media (min-width: 1430px) and (max-width: 1440px) {
+  .modal-btn {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .ourmission h1 {
     font-family: Poppins;
     font-size: 60px;
@@ -2654,7 +2646,6 @@ ul.social_icon li a {
   }
 
   .contentour {
-
     font-family: Poppins;
     font-weight: 300;
     /* color: #d9d9d9; */
@@ -2668,7 +2659,6 @@ ul.social_icon li a {
 }
 
 @media screen and (max-width: 425px) {
-
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
@@ -2691,40 +2681,37 @@ ul.social_icon li a {
     line-height: 2.5rem;
     font-weight: 750;
   }
-
 }
-.blogcontent{
+.blogcontent {
   margin-top: -29px;
   margin-bottom: 15px;
 }
-.crad-blogtext
-{
+.crad-blogtext {
   font-size: 14px;
   font-weight: 700;
   width: 200px;
   text-align: left;
 }
-.card-blogimg{
+.card-blogimg {
   width: 270px;
   text-align: left;
 }
-.category{
+.category {
   margin-bottom: 1rem;
 }
-.category h6{
+.category h6 {
   text-align: left;
   width: 90px;
-    border: 1px solid #000;
-    border-radius: 1rem;
-    background: #9fffac;
-    color: #000;
-    padding: 5px 12px;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-
+  border: 1px solid #000;
+  border-radius: 1rem;
+  background: #9fffac;
+  color: #000;
+  padding: 5px 12px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
 }
-.category h5{
+.category h5 {
   margin-top: -2rem;
   color: #767676;
 }
