@@ -93,7 +93,6 @@
   font-size: 32px;
 }
 
-
 .intro-Title h2 {
   font-size: 60px;
   font-family: Poppins;
@@ -234,9 +233,11 @@ section#Featured {
 
 section#responsibleAI,
 section#responsibleAImedium {
-  background: linear-gradient(0deg,
-      rgba(159, 255, 172, 0.25),
-      rgba(159, 255, 172, 0.25));
+  background: linear-gradient(
+    0deg,
+    rgba(159, 255, 172, 0.25),
+    rgba(159, 255, 172, 0.25)
+  );
   height: 25rem !important;
 }
 
@@ -390,7 +391,6 @@ section#contact {
 }
 
 .subscribe input {
-
   margin: 0;
   flex-grow: 1;
   height: 100%;
@@ -404,7 +404,6 @@ section#contact {
 }
 
 @media screen and (max-width: 1510px) {
-
   .experience h2,
   .greenexp {
     font-size: 50px;
@@ -447,7 +446,6 @@ section#contact {
 }
 
 @media screen and (max-width: 1024px) {
-
   .experience h2,
   .greenexp {
     font-size: 40px;
@@ -823,7 +821,7 @@ section#contact {
     max-width: 268px;
     height: 260px;
     border-radius: 1.25rem;
-    margin: 10px;
+    margin-right: 40px;
   }
 
   .card-head {
