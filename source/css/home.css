@@ -802,6 +802,7 @@ section#contact {
   }
 
   .subscribe input {
+    padding-top: 10px;
     border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     margin-bottom: 1.2rem;
   }
