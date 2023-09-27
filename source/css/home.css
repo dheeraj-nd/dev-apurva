@@ -93,6 +93,7 @@
   font-size: 32px;
 }
 
+
 .intro-Title h2 {
   font-size: 60px;
   font-family: Poppins;
@@ -233,11 +234,9 @@ section#Featured {
 
 section#responsibleAI,
 section#responsibleAImedium {
-  background: linear-gradient(
-    0deg,
-    rgba(159, 255, 172, 0.25),
-    rgba(159, 255, 172, 0.25)
-  );
+  background: linear-gradient(0deg,
+      rgba(159, 255, 172, 0.25),
+      rgba(159, 255, 172, 0.25));
   height: 25rem !important;
 }
 
@@ -391,18 +390,21 @@ section#contact {
 }
 
 .subscribe input {
+
   margin: 0;
   flex-grow: 1;
   height: 100%;
   background-color: transparent;
-
+  padding-top: 17px;
   color: #fff;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
+  border-radius: 1.25rem 0 0 1.25rem;
   border: 2px solid #9fffac;
 }
 
 @media screen and (max-width: 1510px) {
+
   .experience h2,
   .greenexp {
     font-size: 50px;
@@ -411,6 +413,7 @@ section#contact {
   .coming h2 {
     font-size: 50px;
   }
+
   .card-what {
     width: 368px;
     height: 210px;
@@ -437,12 +440,14 @@ section#contact {
     font-size: 29px;
     font-weight: 600;
   }
+
   section#Network {
     height: 70rem !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
+
   .experience h2,
   .greenexp {
     font-size: 40px;
@@ -451,6 +456,7 @@ section#contact {
   .coming h2 {
     font-size: 40px;
   }
+
   .testimonial-item {
     width: 8rem;
     height: 8rem;
@@ -633,6 +639,7 @@ section#contact {
     text-align: center;
     margin-top: 4rem;
   }
+
   .col-xs-6 {
     width: 49%;
   }
@@ -795,6 +802,7 @@ section#contact {
   }
 
   .subscribe input {
+    padding-top: 10px;
     border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
     margin-bottom: 1.2rem;
   }
@@ -865,16 +873,18 @@ section#contact {
   }
 }
 
-@media (max-width: 415px) {
-  /* Hide desktop footer */
+/* @media (max-width: 415px) {
+
+  
   .carouselfeatured {
     display: none;
   }
 }
 
 @media (min-width: 415px) {
-  /* Hide mobile footer */
+
+ 
   .carouselslide {
     display: none;
   }
-}
+} */
