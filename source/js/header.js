@@ -4,12 +4,7 @@ const section_header = `  <header class="cursor-light">
 >
   <div class="container-fluid">
     <a class="logo nav-link" href="index.html">
-      <img
-        src="source/img/Apurva-logo-final.png"
-        alt="apurva.ai"
-        title="apurva.ai"
-        class="logo-img"
-      />
+      <img src="source/img/Apurva-logo-final.png" alt="apurva.ai" title="apurva.ai" class="logo-img" />
     </a>
     <div class="collapse navbar-collapse d-none d-lg-block">
       <ul class="nav navbar-nav">

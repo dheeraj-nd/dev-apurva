@@ -75,7 +75,7 @@ jQuery(function ($) {
 });
 function limitText(text, limit) {
   if (text.length > limit) {
-      return text.slice(0, limit) + "...";
+    return text.slice(0, limit) + "...";
   }
   return text;
 }
@@ -136,9 +136,7 @@ function renderCards(data) {
   });
 
   if (!hasCardsToShow) {
-    cardHTMLArray.push(
-      `<p class="impact-coming-soon mt-5 ml-5">COMING SOON...</p>`
-    );
+    cardHTMLArray.push(`<p class="impact-coming-soon mt-5">COMING SOON...</p>`);
   }
 
   cardDeckContainer.innerHTML = cardHTMLArray.join("");
@@ -284,7 +282,7 @@ function search() {
           renderButtons(filteredData);
         } else {
           searchResults.innerHTML = `
-          <p class="search-not-found ml-5">No search results found.</p>
+          <p class="search-not-found">No search results found.</p>
           `;
         }
       }
