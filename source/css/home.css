@@ -873,9 +873,9 @@ section#contact {
   }
 }
 
-@media (max-width: 415px) {
+/* @media (max-width: 415px) {
 
-  /* Hide desktop footer */
+  
   .carouselfeatured {
     display: none;
   }
@@ -883,8 +883,8 @@ section#contact {
 
 @media (min-width: 415px) {
 
-  /* Hide mobile footer */
+ 
   .carouselslide {
     display: none;
   }
-}
+} */
