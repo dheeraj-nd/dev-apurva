@@ -1430,6 +1430,8 @@ canvas {
 
 .loader {
   background: url(../img/Starry-Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .loader-box li {
@@ -1580,7 +1582,7 @@ canvas {
 }
 
 #testimonialSection.flex-row-block {
-  height: 65rem !important;
+  height: 100rem !important;
 }
 
 @media screen and (min-width: 1900px) {
@@ -1615,7 +1617,7 @@ canvas {
   }
 
   #testimonialSection.flex-row-block {
-    height: 48rem !important;
+    height: 90rem !important;
   }
 
   .found.introTitle h2 {
@@ -1980,6 +1982,7 @@ canvas {
 
   .footer-icons {
     margin-bottom: 0 !important;
+    text-align: left;
   }
 
   #home,
@@ -2716,7 +2719,7 @@ ul.social_icon li a {
 
   #founding h2 {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     font-family: Poppins;
     color: #000000;
     letter-spacing: -0.03em !important;
