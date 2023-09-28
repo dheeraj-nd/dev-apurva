@@ -47,19 +47,18 @@ body {
 }
 
 section#about {
-  background: url(../img/Starry-Bg.png);
+  background: url(../img/Starry-Bg.png) no-repeat;
   padding: 0 5%;
   position: relative;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
 section#libraryabout {
-  background: url(../img/Starry-Bg.png);
+  background: url(../img/Starry-Bg.png) no-repeat;
   padding: 3% 5% 3%;
   margin-top: 110px;
-  background-repeat: no-repeat;
   background-size: cover;
+  /* position: relative; */
 }
 
 section {
@@ -1196,7 +1195,7 @@ icon start
 
 .black.navbar-top-default .navbar-nav .nav-link {
   font-weight: 600;
-line-height: 30px;
+  line-height: 30px;
   color: #fff;
   font-size: 20px;
   margin-right: 3rem;
@@ -1257,10 +1256,6 @@ line-height: 30px;
 .text p,
 .responsible p {
   color: #000000;
-}
-
-#about .container-fluid {
-  margin-left: 30px;
 }
 
 .profileItem {
