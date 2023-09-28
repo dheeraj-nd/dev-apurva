@@ -2751,9 +2751,9 @@ ul.social_icon li a {
 }
 
 .category h6 {
-  font-size: 15px;
+  font-size: 8px;
   text-align: center;
-  width: 90px;
+  width: 57px;
   border: 1px solid #000;
   border-radius: 1rem;
   background: #9fffac;
@@ -2765,8 +2765,10 @@ ul.social_icon li a {
 }
 
 .category h5 {
-  margin-top: -2rem;
+  font-size: 13px;
+  margin-top: -1.8rem;
   color: #767676;
+  margin-right: 9rem;
 }
 
 @media (min-width: 425px) {
