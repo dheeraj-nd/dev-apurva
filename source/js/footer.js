@@ -110,6 +110,7 @@ const section_footer =
     </div>
       <div id ="dis" class="col-sm-6 mb-19  app-promotion">
           <strong class="white underline">
+          <br>
             <a href="">Copyrights</a>
             <a href="">Privacy Policy</a>
             <a href="">Disclaimer</a>

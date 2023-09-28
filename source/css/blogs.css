@@ -191,7 +191,7 @@ a.underline.blue {
     margin-bottom: 20px;
     font-size: 9px;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 15px;
   }
   p.Centered {
     font-size: 9px;
@@ -212,7 +212,7 @@ a.underline.blue {
     margin-top: -3rem;
     }
     .footer-icons strong {
-      font-size: 15px; /* Increase the font size of "Share on" */
+      font-size: 9px; /* Increase the font size of "Share on" */
       margin-right: 5px; /* Add space between "Share on" and icons */
     }
     .social-icon-container {

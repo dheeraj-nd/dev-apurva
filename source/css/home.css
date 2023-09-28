@@ -229,6 +229,8 @@
 section#testimonialSection,
 section#Featured {
   background: url(../img/Starry-Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section#responsibleAI,
@@ -607,24 +609,27 @@ section#contact {
 }
 
 @media screen and (max-width: 414px) {
+  #testimonialSection.flex-row-block {
+    height: 90rem !important;
+}
   .experience h2 {
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
     margin-top: 7rem;
   }
 
   .greenexp {
     color: #9fffac;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 80px;
     letter-spacing: 0em;
-    text-align: center;
+    text-align: left;
   }
 
   .coming h2 {
@@ -651,8 +656,8 @@ section#contact {
   }
 
   .cardtitle {
-    font-size: 19px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 23px;
   }
 
   .Our-Values {
@@ -669,7 +674,9 @@ section#contact {
   }
 
   .value p {
+    margin-top: -1rem;
     font-size: 17px;
+    line-height: 30px;
   }
 
   .small-box {
@@ -691,11 +698,12 @@ section#contact {
   }
 
   .why p {
+    line-height: 27px;
     font-size: 14px;
   }
 
   .card-what {
-    width: auto;
+    width: 150px;
     height: 150px;
   }
 
@@ -705,7 +713,7 @@ section#contact {
   }
 
   section#why-Apurva {
-    height: 150rem !important;
+    height: 115rem !important;
     margin-top: -2rem;
   }
 
@@ -714,7 +722,7 @@ section#contact {
   }
 
   section#responsibleAI {
-    height: 27rem !important;
+    height: 19rem !important;
   }
 
   section#Featured {
@@ -740,8 +748,8 @@ section#contact {
 
   .responsibleDesc p {
     font-family: Poppins;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 13px;
+    line-height: 20px;
   }
 
   .responsibleDesc {
@@ -769,8 +777,8 @@ section#contact {
 
   .intro-Title h2,
   .greenintro {
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
   }
@@ -801,7 +809,7 @@ section#contact {
 
   .subscribe input {
     padding-top: 10px;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    border-radius: 1rem ;
     margin-bottom: 1.2rem;
   }
 
@@ -813,7 +821,7 @@ section#contact {
 
   .subscribe .register-button {
     height: 41px;
-    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    border-radius: 1rem;
   }
 
   .card {
