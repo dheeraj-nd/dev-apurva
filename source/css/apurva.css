@@ -1192,8 +1192,10 @@ icon start
 }
 
 .black.navbar-top-default .navbar-nav .nav-link {
+  font-weight: 600;
+line-height: 30px;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 3rem;
 }
 
@@ -1429,7 +1431,7 @@ canvas {
 }
 
 .loader {
-  background: url(../img/bgImg.jpg);
+  background: url(../img/Starry-Bg.png);
 }
 
 .loader-box li {
