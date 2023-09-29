@@ -27,27 +27,27 @@
   ],
   "apurvaExplains": [
     {
-      "btnclass": "col-sm-5  col-lg-3 ",
+      "btnclass": "col-lg-3 col-6",
       "btnTitle": "Collective Wisdom",
       "imagePath": "./source/img/library/Collective Wisdom.png"
     },
     {
-      "btnclass": "col-lg-8 col-sm-6",
+      "btnclass": "col-lg-8 col-6",
       "btnTitle": "Centralized Networks",
       "imagePath": "./source/img/library/Centralized Networks.png"
     },
     {
-      "btnclass": "col-lg-3 col-sm-5",
+      "btnclass": "col-lg-3 col-6",
       "btnTitle": "Localized Networks",
       "imagePath": "./source/img/library/Localized Networks.png"
     },
     {
-      "btnclass": "col-lg-8 col-sm-6",
+      "btnclass": "col-lg-8 col-6",
       "btnTitle": "Distributed Networks",
       "imagePath": "./source/img/library/Distributed Networks.png"
     },
     {
-      "btnclass": "col-lg-3 col-sm-5",
+      "btnclass": "col-lg-3 col-6",
       "btnTitle": "Social Innovation",
       "imagePath": "./source/img/library/Social Innovation.png"
     }
