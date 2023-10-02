@@ -113,10 +113,10 @@ function renderCards(data) {
               <h6 class="card-title text-left">${author}</h6>
               <div class="blogcontent">
                  <div class="row "> 
-                    <div class="col-6">
+                    <div class="col-7">
                      <p class="crad-blogtext">${limitedTitle}</p>
                    </div>
-                    <div class="col-6">
+                    <div class="col-5">
                       <img src="${imagePath}" class="card-blogimg" >
                     </div>
                   </div>
