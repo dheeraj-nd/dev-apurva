@@ -1474,6 +1474,24 @@ canvas {
 #testimonialSection .dropdown-divider {
   border-top: 0.0625rem solid #9fffac;
 }
+#feature-small{
+  min-height: 0rem !important;
+  height: auto;
+  overflow-y: auto;
+  }
+  #feature-indicators {
+    bottom: -2.25rem;
+  }
+  #feature-indicators li{
+    width: 1rem;
+    height: 1rem;
+  border-radius: 100%;
+  }
+  #feature-indicators li.active{
+    border: 1px solid #fff;
+  }
+
+  
 
 .carousel-inner {
   min-height: 32rem !important;
@@ -1498,7 +1516,19 @@ canvas {
   line-height: 2rem !important;
   text-align: left;
 }
-
+#fe {
+  margin: 0;
+  top: auto;
+  bottom: -3rem;
+}
+#fe li{
+  width: 1rem;
+  height: 1rem;
+}
+#fe li.active{
+  width: 1.1rem;
+  height: 1.1rem;
+}
 .carousel-indicators {
   margin: 0;
   top: auto;
