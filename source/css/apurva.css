@@ -1477,7 +1477,7 @@ canvas {
 #feature-small{
   min-height: 0rem !important;
   height: auto;
-  margin-top: -3rem;
+  margin-top: -1rem;
   overflow-y: auto;
   }
   #feature-indicators {
