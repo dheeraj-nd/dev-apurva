@@ -713,7 +713,7 @@ section#contact {
 
   section#why-Apurva {
     height: 115rem !important;
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
   }
 
   section#Network {
