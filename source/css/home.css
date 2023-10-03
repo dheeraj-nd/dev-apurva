@@ -44,7 +44,9 @@
   letter-spacing: 0em;
   text-align: left;
 }
-
+#why-Apurva{
+  margin-top: 3rem;
+}
 .coming h2 {
   margin-top: -5rem;
   color: #ffffff;
@@ -247,7 +249,7 @@ section#Featured {
 }
 
 section#why-Apurva {
-  height: 135rem !important;
+  height: 125rem !important;
 }
 
 section#Network {
@@ -609,8 +611,9 @@ section#contact {
 
 @media screen and (max-width: 414px) {
   #testimonialSection.flex-row-block {
-    height: 90rem !important;
+    height: 93rem !important;
 }
+
   .experience h2 {
     font-family: Poppins;
     font-size: 30px;
@@ -712,8 +715,8 @@ section#contact {
   }
 
   section#why-Apurva {
-    height: 115rem !important;
-    margin-top: -2rem;
+    height: 109rem !important;
+    margin-top: 1rem;
   }
 
   section#Network {
