@@ -7,10 +7,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-#blackheading-why{
-  margin-top: 2rem;
-  margin-bottom: 6rem;
-}
+
 .blackAi {
   word-wrap: break-word;
   color: #000000;
@@ -59,7 +56,7 @@
   text-align: right;
 }
 
-.circle {
+.circle_comingsoon {
   margin-left: 9rem;
   margin-top: -47rem;
   height: 850px;
@@ -179,6 +176,9 @@
   justify-content: center;
 }
 
+.row {
+  margin-bottom: 20px;
+}
 
 .responsibleDesc {
   margin-bottom: 5rem;
@@ -544,7 +544,7 @@ section#contact {
 }
 
 @media screen and (max-width: 768px) {
-  .circle {
+  .circle_comingsoon{
     margin-top: -24rem;
     height: 350px;
     width: 350px;
@@ -713,7 +713,7 @@ section#contact {
 
   section#why-Apurva {
     height: 115rem !important;
-    /* margin-top: -2rem; */
+    margin-top: -2rem;
   }
 
   section#Network {
@@ -727,13 +727,9 @@ section#contact {
   section#Featured {
     height: 30rem !important;
   }
-  #blackheading-why{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
+
   .blackheading {
     font-size: 19px;
-    margin-top: auto;
   }
 
   .blackAi {
@@ -829,7 +825,7 @@ section#contact {
 
   .card {
     width: 100%;
-    max-width: 248px;
+    max-width: 268px;
     height: 260px;
     border-radius: 1.25rem;
     margin-right: 40px;
