@@ -7,7 +7,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
-
+#blackheading-why{
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
 .blackAi {
   word-wrap: break-word;
   color: #000000;
@@ -724,7 +727,10 @@ section#contact {
   section#Featured {
     height: 30rem !important;
   }
-
+  #blackheading-why{
+    margin-top: auto;
+    margin-bottom: 2rem;
+  }
   .blackheading {
     font-size: 19px;
     margin-top: auto;
