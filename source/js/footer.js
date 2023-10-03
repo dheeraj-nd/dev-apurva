@@ -88,7 +88,7 @@ const section_footer =
           Write to us at<br>
         </p>
         <p class="alt-color">
-          <strong class="white">Email: <span class="white underline">contact@apurva.ai</span></strong>
+          <strong class="white">Email: <a class="white">contact@apurva.ai</a></strong>
         </p>
       </div>
       <!-- Address -->
