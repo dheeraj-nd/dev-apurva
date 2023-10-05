@@ -586,7 +586,6 @@ img.logo-img {
   line-height: 2rem !important;
   margin-top: 1rem;
   /* max-width: 47.25rem; */
-  text-align: left;
 }
 
 a.underline {
@@ -2528,8 +2527,8 @@ ul.social_icon li a {
   }
 
   .stories-btn button {
-    font-size: 13px;
-    margin-right: 10px;
+    font-size: 12px;
+    margin-right: 5px;
   }
 
   .btn-primary {
@@ -2669,6 +2668,15 @@ ul.social_icon li a {
     left: 25px;
     font-size: 65%;
   }
+
+  .library-content p {
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .text-white {
+    color: #9fffac !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -2694,6 +2702,7 @@ ul.social_icon li a {
 
   .apurva-library-title {
     font-size: 47px;
+    text-align: center;
   }
 }
 
@@ -2882,4 +2891,17 @@ ul.social_icon li a {
     font-size: 20px;
     padding: 0px;
   }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 100px;
+  width: 5%;
+  height: 15%;
+  border-radius: 50%;
+  background: red;
+}
+
+.carousel-inner {
+  height: 30.75rem;
 }
