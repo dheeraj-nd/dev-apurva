@@ -151,11 +151,11 @@ section#home {
 }
 
 .subscribe .register-button {
+  width: 793px;
+  height: 97px;
   margin-top: 0;
   border: 0;
-  background-color: #9fffac;
-  border-radius: 0;
-  color: #000;
+  color: white;
   height: 100%;
 }
 
@@ -1464,7 +1464,7 @@ canvas {
 .testimonial-item {
   width: 10rem;
   height: 10rem;
-  border: 0.3125rem solid #fff;
+  border: 0.2rem solid #fff;
 }
 
 #testimonialSection.flex-row-block {
@@ -1488,10 +1488,7 @@ canvas {
     height: 12px;
   border-radius: 100%;
   }
-  #feature-indicators li.active{
-    
-    border: 1px solid #fff;
-  }
+ 
 
   
 
@@ -1538,8 +1535,8 @@ canvas {
 }
 
 .carousel-indicators li {
-  width: 1.875rem;
-  height: 1.875rem;
+  width: 1rem;
+  height: 1rem;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -1549,10 +1546,11 @@ canvas {
 }
 
 .carousel-indicators li.active {
-  width: 2rem;
-  height: 2rem;
-  border: 1px solid #fff;
+  width: 1rem;
+  height: 1rem;
+  border: 1px;
   margin-top: 0.6rem;
+  background-color:#9FFFAC;
 }
 
 .carousel-indicators li img {
@@ -1649,7 +1647,7 @@ canvas {
   }
 
   #testimonialSection.flex-row-block {
-    height: 90rem !important;
+    height: 97rem !important;
   }
 
   .found.introTitle h2 {

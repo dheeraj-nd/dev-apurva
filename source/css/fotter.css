@@ -86,7 +86,16 @@
   left: 663px; /* Adjust the left position as needed */
   font-size: 32px; /* Increase the font size as needed */
 }
+.write p{
+  margin-left: 20rem;
+  color: #d4cece;
+}
 
+.email {
+  display: flex;
+  justify-content: right;
+  
+}
 .app-promotion ul {
   list-style: none;
   padding: 0;
@@ -130,7 +139,9 @@
   color: white;
   width: 100%;
 }
-
+.white a{
+  color: white;
+}
 .with-background .alt-color {
   color: white; 
 }
@@ -149,13 +160,21 @@
 .copy{
 margin-top: -2rem;
 }
-@media (max-width: 768px) {
+
+
+@media screen and (max-width: 768px) {
+  .with-background {
+    padding: 1rem 3% 0rem;
+  }
+}
+
+@media (max-width: 735px) {
   /* Hide desktop footer */
  
   .desktop-footer {
     display: none;
   }
-
+ 
   .footer p,
   .footer strong,
   .footer li {
@@ -188,12 +207,13 @@ margin-top: -2rem;
 }
 
 /* Media query for screens larger than 768px (mobile) */
-@media (min-width: 769px) {
+@media (min-width: 736px) {
   /* Hide mobile footer */
   .mobile-footer {
     display: none;
   }
-  
+
+
 }
 @media(min-width: 768px)
 {

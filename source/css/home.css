@@ -44,12 +44,14 @@
   letter-spacing: 0em;
   text-align: left;
 }
-#why-Apurva{
+
+#why-Apurva {
   margin-top: 3rem;
 }
+
 .coming h2 {
   margin-top: -5rem;
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins;
   font-size: 70px;
   font-weight: 600;
@@ -66,7 +68,7 @@
   /* background-image: linear-gradient(to bottom, white black); */
 
   background-image: radial-gradient(#9fffac 50%, #9fffac 40%);
-  filter: blur(180px);
+  filter: blur(200px);
 }
 
 .greenhome {
@@ -236,11 +238,9 @@ section#Featured {
 
 section#responsibleAI,
 section#responsibleAImedium {
-  background: linear-gradient(
-    0deg,
-    rgba(159, 255, 172, 0.25),
-    rgba(159, 255, 172, 0.25)
-  );
+  background: linear-gradient(0deg,
+      rgba(159, 255, 172, 0.25),
+      rgba(159, 255, 172, 0.25));
   height: 25rem !important;
 }
 
@@ -249,7 +249,7 @@ section#Featured {
 }
 
 section#why-Apurva {
-  height: 125rem !important;
+  height: 150rem !important;
 }
 
 section#Network {
@@ -297,7 +297,7 @@ section#contact {
   max-width: 393px;
   height: 420px;
   border-radius: 1.25rem;
-  margin: 10px;
+  margin: 3rem;
 }
 
 .card-head {
@@ -310,7 +310,7 @@ section#contact {
 
 .card-body {
   height: 226px;
-  background-color: #d9d9d9;
+  background-color: #EFEFEF;
   border-radius: 0 0 1.25rem 1.25rem;
   text-align: center;
   padding: 45px;
@@ -335,7 +335,7 @@ section#contact {
 
 .card-featured {
   color: #000000;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .ourcolor {
@@ -387,10 +387,42 @@ section#contact {
   width: 57.5rem;
 }
 
+.sub {
+  text-align: center;
+  width: 300px;
+  height: 97px;
+  border-radius: 1rem;
+  background-color: #9fffac;
+  border: 2px solid #9fffac;
+}
+
 .stay-tuned .register-button {
-  border-color: #9fffac;
+
   font-size: 2rem;
   font-weight: 600;
+  border: 2px solid #9fffac;
+  border-radius: 1rem;
+}
+
+.modal-content {
+  width: 761px;
+  height: 874px;
+  border-radius: 20px
+}
+
+.email-textbox {
+  width: 635px;
+  height: 100px;
+  border-radius: 20px;
+  /* Add any other styles you need */
+}
+
+.des-textbox {
+  width: 635px;
+  height: 217px;
+
+  border-radius: 20px;
+  /* Add any other styles you need */
 }
 
 .subscribe input {
@@ -406,7 +438,46 @@ section#contact {
   border: 2px solid #9fffac;
 }
 
+.ourimg img {
+  width: auto;
+  height: auto;
+}
+
+.carousel-controls {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+ 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+  line-height: 40px;
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 50%;
+  height: auto;
+}
+
+.cards-wrapper {
+  display: flex;
+}
+
 @media screen and (max-width: 1510px) {
+.card{
+  margin: 1rem;
+}
   .experience h2,
   .greenexp {
     font-size: 50px;
@@ -449,6 +520,10 @@ section#contact {
 }
 
 @media screen and (max-width: 1024px) {
+  section#why-Apurva {
+    height: 130rem !important;
+  }
+
   .experience h2,
   .greenexp {
     font-size: 40px;
@@ -461,7 +536,7 @@ section#contact {
   .testimonial-item {
     width: 8rem;
     height: 8rem;
-    border: 0.3125rem solid #fff;
+
   }
 
   .greencontact {
@@ -543,10 +618,11 @@ section#contact {
   .ai {
     margin-top: 6rem;
   }
+
 }
 
 @media screen and (max-width: 768px) {
-  .circle_comingsoon{
+  .circle_comingsoon {
     margin-top: -24rem;
     height: 350px;
     width: 350px;
@@ -612,7 +688,7 @@ section#contact {
 @media screen and (max-width: 414px) {
   #testimonialSection.flex-row-block {
     height: 93rem !important;
-}
+  }
 
   .experience h2 {
     font-family: Poppins;
@@ -715,7 +791,7 @@ section#contact {
   }
 
   section#why-Apurva {
-    height: 109rem !important;
+    height: 90rem !important;
     margin-top: 1rem;
   }
 
@@ -811,7 +887,7 @@ section#contact {
 
   .subscribe input {
     padding-top: 10px;
-    border-radius: 1rem ;
+    border-radius: 1rem;
     margin-bottom: 1.2rem;
   }
 
