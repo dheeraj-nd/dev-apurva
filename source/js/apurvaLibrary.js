@@ -185,7 +185,7 @@ showBlogsButton.addEventListener("click", () => {
     .then((response) => response.json())
     .then((jsonData) => {
       const blogCategoryData = jsonData.apurvaStories.filter(
-        (apurvaStories) => apurvaStories.category === "BLOGS"
+        (apurvaStories) => apurvaStories.category === "Blogs"
       );
       renderCards(blogCategoryData);
       removeActiveClass();
@@ -222,26 +222,7 @@ function renderButtons(data) {
 
   data.forEach((apurvaExplains, index) => {
     const buttonHTML = `
-      <div class="${apurvaExplains.btnclass} mt-4">
-        <button
-          type="button"
-          class="btn modal-btn"
-          data-toggle="modal"
-          data-target="#exampleModal-${index}">
-        
-          ${apurvaExplains.btnTitle}
-        </button>
-      </div>
-      <div  class="modal fade" id="exampleModal-${index}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-        <div class="modal-dialog"  role="document">
-          <div class="modal-content library-modal-content">
-              <button type="button"  class="close library-modal-close"  data-dismiss="modal" aria-label="Close">    
-                <img src="./source/img/library/x.png" alt="img" />
-              </button>
-              <img src="${apurvaExplains.imagePath}" alt="img" />
-            </div>
-        </div>
-      </div>
+    
     `;
 
     modelPopupBtn.insertAdjacentHTML("beforeend", buttonHTML);

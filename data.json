@@ -1,7 +1,7 @@
 {
   "apurvaStories": [
     {
-      "category": "BLOGS",
+      "category": "Blogs",
       "imagePath": "./source/img/Blog-1-Cover.png",
       "author": "ANAND RAJAN",
       "readTime": "2 MIN READ",
@@ -9,7 +9,7 @@
       "URL": "Harnessing-Collective-Wisdom.html"
     },
     {
-      "category": "BLOGS",
+      "category": "Blogs",
       "imagePath": "./source/img/Blog 2 Cover.png",
       "author": "ANAND RAJAN",
       "readTime": "3 MIN READ",
@@ -17,7 +17,7 @@
       "URL": "The-Exponent-Gap.html"
     },
     {
-      "category": "BLOGS",
+      "category": "Blogs",
       "imagePath": "./source/img/Blog 3 Cover .png",
       "author": "ANAND RAJAN",
       "readTime": "4 MIN READ",
