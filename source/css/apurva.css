@@ -119,8 +119,8 @@ section#home {
   color: #9fffac;
   font-size: 55px;
   font-family: Poppins;
-  font-weight: 500;
-  line-height: 72px;
+  font-weight: 700;
+  line-height: 65px;
 }
 
 .apurva-library-title {
@@ -578,11 +578,12 @@ img.logo-img {
 }
 
 .contentour {
+  font-size: 30px;
   font-family: "Poppins";
   font-weight: 300;
   /* color: #d9d9d9; */
   color: #fff;
-  font-size: 1.4rem;
+ 
   line-height: 2rem !important;
   margin-top: 1rem;
   /* max-width: 47.25rem; */
@@ -1401,10 +1402,11 @@ canvas {
 .ourmission h1 {
   font-family: Poppins;
   font-size: 55px;
-  font-weight: 500;
-  line-height: 72px;
+  font-weight: 700;
+  line-height: 65px;
   letter-spacing: 0em;
   text-align: left;
+  
 }
 
 .found {
@@ -2790,7 +2792,7 @@ ul.social_icon li a {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
-    height: 37rem;
+    height: 30rem;
   }
 
   .content {
@@ -2810,7 +2812,7 @@ ul.social_icon li a {
   }
 
   #founding h2 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     font-family: Poppins;
     color: #000000;
@@ -2820,6 +2822,7 @@ ul.social_icon li a {
     font-size: 1.6rem;
     line-height: 2.5rem;
     font-weight: 650;
+    text-align: center;
   }
 }
 .blogcontent {

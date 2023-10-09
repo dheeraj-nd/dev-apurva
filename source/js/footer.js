@@ -39,9 +39,11 @@ const section_footer =
           <span>
            <li> Write to us at</li>
             <li><p class="alt-color">
-            <strong class="white">Email: <a class="white underline" href="mailto:contact@apurva.ai">contact@apurva.ai</a></strong>
+            <strong class="white">Email:<a class="white underline" href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a>
+        
+            </strong>
           </p></li>
-         
+         </span>
         </ul>
 
       </div>
@@ -82,7 +84,7 @@ const section_footer =
           Write to us at<br>
         </p>
         <p class="alt-color">
-          <strong class="white">Email: <a class="white underline href="mailto:contact@apurva.ai">contact@apurva.ai</a></strong>
+          <strong class="white">Email: <a class="white underline href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a></strong>
         </p>
       </div>
       <!-- Address -->
