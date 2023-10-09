@@ -695,9 +695,9 @@
             </div>
             <div class="featuretext">
               <a href="https://www.expresscomputer.in/news/national-technology-day-insights-from-leading-tech-leaders-and-visionaries/97844/#:~:text=By%20leveraging%20real%2Dtime%20engagement,human%20in%20the%20digital%20age.&text=In%20the%20current%20business%20context,that%20they%20become%20future%2Dready."
-              target="_blank">
-              National Technology Day: Insights from Leading Tech Leaders and Visionaries - Express
-              Computer</a>
+                target="_blank">
+                National Technology Day: Insights from Leading Tech Leaders and Visionaries - Express
+                Computer</a>
             </div>
           </div>
 
@@ -712,9 +712,9 @@
             </div>
             <div class="featuretext">
               <a href="https://techgraph.co/interviews/navigating-societal-challenges-ethical-aspects-ai-anand-rajan-apurva-ai/"
-              target="_blank">
-              Navigating the Societal Challenges and Ethical Aspects of AI: An Interview With Anand
-              Rajan Of Apurva AI</a>
+                target="_blank">
+                Navigating the Societal Challenges and Ethical Aspects of AI: An Interview With Anand
+                Rajan Of Apurva AI</a>
             </div>
           </div>
 
@@ -860,23 +860,43 @@
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
-        <div class="modal-body">
-          <form class="Subscribe_for_updates">
-            <div class="form-group">
-              <input type="text" class="email-textbox" id="name" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input type="email" class="email-textbox" id="email" placeholder="Email Id">
-            </div>
-            <div class="form-group">
-              <input type="text" class="email-textbox" id="Organization" placeholder="Organization Website Link">
-            </div>
-            <div class="form-group">
-              <textarea class="des-textbox" id="des"
-                placeholder="Describe the problem that 'Apurva' would address for your organization."></textarea>
-            </div>
-            <button class="sub mx-auto d-block" type="button" data-toggle="modal" data-target="#exampleModalCenter">
 
+        <h5 class="modal-title" id="exampleModalCenterTitle">Subscribe for Updates</h5>
+        <button type="button" id ="close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="modal-body">
+          <form class="Subscribe_for_updates" id="subscriptionForm">
+            <div class="sub-group">
+              <input type="text" class="email-textbox" id="name" placeholder="Name" required style="color: black; display: block;">
+              <p class="validation-message" id="name-validation" style="display: none; color: red; ;">Name is
+                required</p>
+  
+            </div>
+           
+            <div class="sub-group">
+              <input type="email" class="email-textbox" id="email" placeholder="Email Id" required
+                style="color: black;">
+              <span class="validation-message" id="email-validation" style="display: none; color: red;">Email is
+                required</span>
+            </div>
+            <div class="sub-group">
+              <input type="text" class="email-textbox" id="Organization" placeholder="Organization Website Link"
+                required style="color: black;">
+              <span class="validation-message" id="org-validation" style="display: none; color: red;">Organization is
+                required</span>
+            </div>
+            <div class="sub-group">
+              <textarea class="des-textbox" id="des"
+                placeholder="Describe the problem that 'Apurva' would address for your organization." required
+                style="color: black;"></textarea>
+              <span class="validation-message" id="des-validation" style="display: none; color: red;">Description is
+                required</span>
+            </div>
+
+
+            <button class="sub mx-auto d-block" type="button" id="subscribeButton">
               <div class="subscribe-button-text">
                 Subscribe for updates
               </div>
@@ -886,6 +906,8 @@
       </div>
     </div>
   </div>
+
+
 
   <div id="footer"></div>
   <!-- JavaScript -->
@@ -899,8 +921,8 @@
 
   <script src="source/js/particles.js"></script>
   <script src="source/js/card.js">
-
   </script>
+  <script src="source/js/contact.js"></script>
 
 </body>
 
