@@ -220,17 +220,104 @@ showImpactStoriesButton.addEventListener("click", () => {
 // apurva explains button render functionality
 
 function renderButtons(data) {
-  const modelPopupBtn = document.getElementById("modal-btn-div");
+  const modelPopupBtn = document.getElementById("carousel-inner-cards");
+  // const carouselCardContent = document.getElementById("carousel-card-content");
   modelPopupBtn.innerHTML = "";
 
   data.forEach((apurvaExplains, index) => {
     const buttonHTML = `
-    
+      <div class="carousel-item  col-md-4">
+        <div class="card apurva-explains-card" style="width: 20rem">
+          <div class="card-body apurva-explains-card-body">
+            <h5 class="card-title apurva-explains-card-title">
+              ${apurvaExplains.btnTitle}
+            </h5>
+          </div>
+        </div>
+        <div class="mt-5 card-description d-none">
+           <p>${apurvaExplains.apurvaExplainsContent}</p>
+        </div>
+      </div>
     `;
 
     modelPopupBtn.insertAdjacentHTML("beforeend", buttonHTML);
   });
+
+  $("#theCarousel").carousel({
+    interval: false, // Disable automatic sliding
+  });
+
+  $("#theCarousel").on("slid.bs.carousel", function (event) {
+    const activeIndex = $(".carousel-item.active").index();
+    const direction = event.direction;
+
+    // Check if there is any carousel item with 'opacity-reduced' class
+
+    const reducedItem = $(".carousel-item.opacity-reduced");
+
+    if (direction === "left") {
+      $(".carousel-item").eq(activeIndex).removeClass("opacity-reduced");
+      $(".carousel-item")
+        .eq(activeIndex + 1)
+        .addClass("opacity-reduced");
+
+      $(".carousel-item")
+        .eq(activeIndex + 1)
+        .find(".card-description")
+        .removeClass("d-none");
+      $(".carousel-item")
+        .eq(activeIndex)
+        .find(".card-description")
+        .addClass("d-none");
+    } else if (direction === "right") {
+      $(".carousel-item")
+        .eq(activeIndex + 2)
+        .removeClass("opacity-reduced");
+      $(".carousel-item")
+        .eq(activeIndex + 1)
+        .addClass("opacity-reduced");
+
+      $(".carousel-item")
+        .eq(activeIndex + 1)
+        .find(".card-description")
+        .removeClass("d-none");
+
+      $(".carousel-item")
+        .eq(activeIndex + 2)
+        .find(".card-description")
+        .addClass("d-none");
+    }
+  });
+
+  $(".carousel-item")
+    .eq(0)
+    .addClass("active")
+    .next()
+    .addClass("opacity-reduced");
+
+  $(".carousel-item")
+    .eq(0)
+    .next()
+    .find(".card-description")
+    .removeClass("d-none");
 }
+
+$(".multi-item-carousel").on("slide.bs.carousel", function (e) {
+  let $e = $(e.relatedTarget),
+    itemsPerSlide = 3,
+    totalItems = $(".carousel-item", this).length,
+    $itemsContainer = $(".carousel-inner", this),
+    it = itemsPerSlide - (totalItems - $e.index());
+
+  if (it > 0) {
+    for (var i = 0; i < it; i++) {
+      $(".carousel-item", this)
+        .eq(e.direction == "left" ? i : 0)
+        // append slides to the end/beginning
+        .appendTo($itemsContainer);
+    }
+  }
+});
 
 fetch("data.json")
   .then((response) => response.json())
@@ -244,7 +331,7 @@ fetch("data.json")
 // Search Functionality
 
 const searchInput = document.getElementById("searchInput");
-const searchResults = document.getElementById("modal-btn-div");
+const searchResults = document.getElementById("carousel-inner-cards");
 
 function search() {
   const searchText = searchInput.value.toLowerCase();

@@ -29,27 +29,32 @@
     {
       "btnclass": "col-lg-3 col-6",
       "btnTitle": "Collective Wisdom",
-      "imagePath": "./source/img/library/Collective Wisdom.png"
+      "apurvaExplainsContent": "Collective Wisdom is when individuals or groups from different segments of society come together to solve a complex systems problem. Each group brings a unique view towards the problem and when we combine these diverse perspectives, we gain a comprehensive understanding of the broader system that we cannot achieve alone."
+    },
+    {
+      "btnclass": "col-lg-8 col-6",
+      "btnTitle": "Collaboration",
+      "apurvaExplainsContent": "Collaboration is the process of two or more entities, or organizations working together to complete a task or achieve a goal. Collaboration is similar to cooperation. Collaboration is one of the key aspects of catalyzing societal change at scale and speed."
     },
     {
       "btnclass": "col-lg-8 col-6",
       "btnTitle": "Centralized Networks",
-      "imagePath": "./source/img/library/Centralized Networks.png"
+      "apurvaExplainsContent": "Centralized Networks typically follow a hierarchical structure where there is a central authority that controls and coordinates the overall interactions within a group. These types of networks can be found in Government, Non-Profits, and the Private Sector. Such networks are also prevalent in knowledge institutions."
     },
     {
       "btnclass": "col-lg-3 col-6",
       "btnTitle": "Localized Networks",
-      "imagePath": "./source/img/library/Localized Networks.png"
+      "apurvaExplainsContent": "These networks, often seen in community settings, thrive on a more informal and contextual basis. They don't always lean on a central authority or organization or coordination, but rather, they harness the collective strength of their members. It's a testament to the power of community and shared resources."
     },
     {
       "btnclass": "col-lg-8 col-6",
       "btnTitle": "Distributed Networks",
-      "imagePath": "./source/img/library/Distributed Networks.png"
+      "apurvaExplainsContent": "Distributed Networks usually prioritize sharing and learning with each other, rather than relying on a central authority. They are often more balanced and have a peer-to-peer relationship among participants."
     },
     {
       "btnclass": "col-lg-3 col-6",
       "btnTitle": "Social Innovation",
-      "imagePath": "./source/img/library/Social Innovation.png"
+      "apurvaExplainsContent": "Refers to the introduction of new practices in society that help meet people's needs in a better way when compared to existing social practices."
     }
   ]
 }
