@@ -18,9 +18,13 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
-}
+  
+    padding: 1rem 25px  0 25px;
 
+}
+#testimonial-carousel{
+  height: 350px;
+}
 .featuredheader {
   margin-top: -3rem;
   color: #000;
@@ -383,7 +387,7 @@ section#Featured {
 }
 
 section#why-Apurva {
-  height: 150rem !important;
+  height: 135rem !important;
 }
 
 section#Network {
@@ -514,6 +518,7 @@ section#contact {
 }
 
 .stay-tuned .register-button {
+  width: 30rem;
   height: 5rem;
   font-size: 2rem;
   font-weight: 600;
@@ -652,11 +657,9 @@ margin: 0;
 
 
   }
-
   .featurebody {
-
-    padding: 2rem;
-  }
+    padding: 1rem 25px  0 25px;
+}
 
   .card {
     margin: 1rem;
@@ -732,6 +735,8 @@ margin: 0;
   }
 
   .stay-tuned .register-button {
+    width: 19rem;
+    height: 4rem;
     font-size: 19px;
   }
 
@@ -806,6 +811,10 @@ margin: 0;
 }
 
 @media screen and (max-width: 768px) {
+
+  #testimonial-carousel {
+    height: 510px;
+}
   .featuretext a {
     font-size: 17px;
 
@@ -813,9 +822,8 @@ margin: 0;
   }
 
   .featurebody {
-
-    padding: 1rem;
-  }
+    padding: 1rem 25px  0 25px;
+}
 
   .modal-content {
     width: 461px;
@@ -917,7 +925,7 @@ margin: 0;
   }
 
   #testimonialSection.flex-row-block {
-    height: 93rem !important;
+    height: 103rem !important;
   }
 
   .experience h2 {
@@ -1162,6 +1170,7 @@ margin: 0;
   }
 
   .stay-tuned .register-button {
+    width: 12rem;
     height: 35px;
     margin-top: -2rem;
     margin-left: -6rem;
@@ -1193,6 +1202,9 @@ margin: 0;
 
     margin-top: 12px;
   }
+  #testimonial-carousel {
+    height: 662px;
+}
 }
 
 /* @media (max-width: 415px) {
