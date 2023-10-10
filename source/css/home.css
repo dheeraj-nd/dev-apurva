@@ -635,7 +635,17 @@ margin: 0;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
+@media screen and (max-width: 1679px)
+{
+  .featurebody {
+    padding: 1rem 25px  0 25px;
+}
 
+
+  section#Network {
+    height: 65rem !important;
+  } 
+}
 @media screen and (max-width: 1510px) {
   .featuretext a {
     font-size: 15px;
