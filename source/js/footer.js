@@ -12,11 +12,6 @@ const section_footer =
           4th Block Koramangala,<br>
           Bangalore-560 034<br>
           Karnataka, India<br>
-          <br>
-          Write to us at<br>
-        </p>
-        <p class="alt-color">
-          <strong class="white">Email: <span class="white underline">contact@apurva.ai</span></strong>
         </p>
       </div>
       <!-- Address -->
@@ -38,29 +33,30 @@ const section_footer =
         </ul>
       </div>
       <!-- Copyright (Right-aligned) -->
+      
       <div class="col-sm-4 mb-19 app-promotion">
-
         <ul>
-          <strong class="white underline">
-            <li><a href="">Copyrights</a></li>
-            <br>
-            <br>
-            <li><a href="">Privacy Policy</a></li>
-            <br>
-            <br>
-            <li><a href="">Disclaimer</a></li>
-          </strong>
+          <span>
+           <li> Write to us at</li>
+            <li><p class="alt-color">
+            <strong class="white">Email:<a class="white underline" href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a>
+        
+            </strong>
+          </p></li>
+         </span>
         </ul>
 
       </div>
-    </div>
+      </div>
     <div class="row">
       <!-- Copyright -->
       <div class="col-lg-12 col-md-12 text-center">
         <!-- Copyrights -->
         <br>
-        <br>
-        <p class="green">&copy; 2023 Apurva.ai</p>
+        <div class="white underline">
+          <a href="">Privacy Policy</a>
+        </div>
+        <p class="green">&copy; 2023 EkStep Foundation</p>
 
         <!-- Copyrights -->
       </div>
@@ -88,38 +84,13 @@ const section_footer =
           Write to us at<br>
         </p>
         <p class="alt-color">
-          <strong class="white">Email: <a class="white underline">contact@apurva.ai</a></strong>
+          <strong class="white">Email: <a class="white underline href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a></strong>
         </p>
       </div>
       <!-- Address -->
-      <!-- Copyright (Right-aligned) -->
-      <div id="hide" class="col-sm-6 mb-19  app-promotion ">
-
-      <ul>
-        <strong class="white underline">
-          <li><a href="">Copyrights</a></li>
-          <br>
-          <br>
-          <li><a href="">Privacy Policy</a></li>
-          <br>
-          <br>
-          <li><a href="">Disclaimer</a></li>
-        </strong>
-      </ul>
-
-    </div>
-      <div id ="dis" class="col-sm-6 mb-19  app-promotion">
-          <strong class="white underline">
-          <br>
-            <a href="">Copyrights</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Disclaimer</a>
-          </strong>
-      </div>
-    </div>
-    <div class="row">
+  
       <div class="col-lg-12 col-md-12 text-center">
-        <ul class="footer-icons">
+        <ul class="footer-icons" style="margin-top: 10px;">
             <strong class="green">Follow us on</strong> <a href="https://www.linkedin.com/company/apurva-ai/" target="_blank"
                 class="social-icon-container linkedin-icon">
                 <i class="fab fa-linkedin-in"></i>
@@ -132,12 +103,14 @@ const section_footer =
       <!-- Copyright -->
       <div class="col-lg-12 col-md-12 text-center copy">
         <!-- Copyrights -->
-        <p class="green">&copy; 2023 Apurva.ai</p>
-
-        <!-- Copyrights -->
+        <div class="white underline">
+        <br>
+        <a href="">Privacy Policy</a>
+      </div>
+        <p class="green">&copy; 2023 EkStep Foundation</p>
       </div>
       <!-- Copyright -->
-    </div>
+   
   </div>
 </footer>
 

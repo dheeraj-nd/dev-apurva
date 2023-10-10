@@ -51,7 +51,12 @@ section#about {
   position: relative;
   background-size: cover;
 }
-
+section#experience {
+  background: url(../img/Starry-Bg.png) no-repeat;
+  padding: 0 5%;
+  position: relative;
+  background-size: cover;
+}
 section#libraryabout {
   background: url(../img/Starry-Bg.png) no-repeat;
   padding: 5% 8% 5%;
@@ -119,8 +124,8 @@ section#home {
   color: #9fffac;
   font-size: 55px;
   font-family: Poppins;
-  font-weight: 500;
-  line-height: 72px;
+  font-weight: 700;
+  line-height: 65px;
 }
 
 .apurva-library-title {
@@ -153,11 +158,11 @@ section#home {
 }
 
 .subscribe .register-button {
+  width: 793px;
+  height: 97px;
   margin-top: 0;
   border: 0;
-  background-color: #9fffac;
-  border-radius: 0;
-  color: #000;
+  color: white;
   height: 100%;
 }
 
@@ -578,11 +583,12 @@ img.logo-img {
 }
 
 .contentour {
+  font-size: 30px;
   font-family: "Poppins";
   font-weight: 300;
   /* color: #d9d9d9; */
   color: #fff;
-  font-size: 1.4rem;
+ 
   line-height: 2rem !important;
   margin-top: 1rem;
   /* max-width: 47.25rem; */
@@ -1401,10 +1407,11 @@ canvas {
 .ourmission h1 {
   font-family: Poppins;
   font-size: 55px;
-  font-weight: 500;
-  line-height: 72px;
+  font-weight: 700;
+  line-height: 65px;
   letter-spacing: 0em;
   text-align: left;
+  
 }
 
 .found {
@@ -1465,7 +1472,7 @@ canvas {
 .testimonial-item {
   width: 10rem;
   height: 10rem;
-  border: 0.3125rem solid #fff;
+  border: 0.2rem solid #fff;
 }
 
 #testimonialSection.flex-row-block {
@@ -1489,10 +1496,6 @@ canvas {
   height: 12px;
   border-radius: 100%;
 }
-#feature-indicators li.active {
-  border: 1px solid #fff;
-}
-
 .carousel-inner {
   min-height: 32rem !important;
   height: 43.75rem;
@@ -1536,8 +1539,8 @@ canvas {
 }
 
 .carousel-indicators li {
-  width: 1.875rem;
-  height: 1.875rem;
+  width: 1rem;
+  height: 1rem;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -1547,10 +1550,11 @@ canvas {
 }
 
 .carousel-indicators li.active {
-  width: 2rem;
-  height: 2rem;
-  border: 1px solid #fff;
+  width: 1rem;
+  height: 1rem;
+  border: 1px;
   margin-top: 0.6rem;
+  background-color:#9FFFAC;
 }
 
 .carousel-indicators li img {
@@ -1647,7 +1651,7 @@ canvas {
   }
 
   #testimonialSection.flex-row-block {
-    height: 90rem !important;
+    height: 97rem !important;
   }
 
   .found.introTitle h2 {
@@ -1823,7 +1827,7 @@ canvas {
     height: 65rem !important;
   }
 
-  #about.section,
+  #about.section,#experience.section,
   #weAreHiring.section #libraryabout.section {
     padding: 6rem 8%;
     margin-top: 7rem;
@@ -2750,13 +2754,23 @@ ul.social_icon li a {
     font-weight: 500;
     line-height: 72px;
   }
-
+  section#experience{
+    height: 70rem !important;
+}
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
     height: 30rem;
+    margin-top: 2rem;
   }
+  section#white {
+    margin-top: 3rem;
+  }
+  #founding h2 {
+  margin-bottom: 3rem;
+}
+
 
   .contentour {
     font-family: Poppins;
@@ -2788,12 +2802,16 @@ ul.social_icon li a {
     font-weight: 500;
     line-height: 72px;
   }
+  section#white {
+    margin-top: 1rem;
+  }
 
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
-    height: 37rem;
+    height: 33rem;
+    
   }
 
   .content {
@@ -2813,7 +2831,7 @@ ul.social_icon li a {
   }
 
   #founding h2 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     font-family: Poppins;
     color: #000000;
@@ -2823,6 +2841,7 @@ ul.social_icon li a {
     font-size: 1.6rem;
     line-height: 2.5rem;
     font-weight: 650;
+    text-align: center;
   }
 }
 .blogcontent {

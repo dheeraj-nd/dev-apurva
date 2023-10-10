@@ -1,3 +1,140 @@
+.featurehead {
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sub-group {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.featurebody {
+  height: 226px;
+  background-color: #EFEFEF;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.featuredheader {
+  margin-top: -3rem;
+  color: #000;
+}
+
+.featuretext {
+  margin-top: 1rem;
+  color: #000;
+  text-decoration: underline;
+}
+
+.featuretext a {
+  font-size: 17px;
+  color: #000;
+
+}
+
+.featurecarousel {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  gap: 10px;
+}
+
+/* Style for the cards */
+.featurecards {
+  background-color: white;
+  height: 420px;
+  border-radius: 1.25rem;
+  flex: 0 0 auto;
+  width: 100%;
+  scroll-snap-align: start;
+  /* Optional: add border and padding to the cards */
+  border: 1px solid #ccc;
+  border-radius: 1.25rem;
+
+  margin: 10px;
+}
+
+/* Style for the slide featureindicators */
+.featureindicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.featureindicator {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Style for the active slide featureindicator */
+.featureindicator.active {
+  background-color: #333;
+}
+
+/* Style for the featurearrow controls */
+.featurearrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.featurearrow.left {
+  left: 10px;
+}
+
+.featurearrow.right {
+  right: 10px;
+}
+
+/* Style for the featurearrow icons */
+.featurearrow-icon {
+  height: 20px;
+  width: 20px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+  transform: rotate(-45deg);
+}
+
+/* Style for the featurearrow icon on hover */
+.featurearrow:hover .featurearrow-icon {
+  border-color: #fff;
+}
+
+/* Style for the featurearrow icon on active */
+.featurearrow.active .featurearrow-icon {
+  border-color: #fff;
+}
+
+/* Style for the featurearrow icon on disabled */
+.featurearrow.disabled .featurearrow-icon {
+  border-color: #ccc;
+}
+
+
+
+
 .blackheading {
   color: #000000;
   font-family: Poppins;
@@ -44,12 +181,14 @@
   letter-spacing: 0em;
   text-align: left;
 }
-#why-Apurva{
+
+#why-Apurva {
   margin-top: 3rem;
 }
+
 .coming h2 {
   margin-top: -5rem;
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins;
   font-size: 70px;
   font-weight: 600;
@@ -66,7 +205,7 @@
   /* background-image: linear-gradient(to bottom, white black); */
 
   background-image: radial-gradient(#9fffac 50%, #9fffac 40%);
-  filter: blur(180px);
+  filter: blur(200px);
 }
 
 .greenhome {
@@ -89,10 +228,7 @@
   margin-bottom: 20px;
 }
 
-#subscribe-input::placeholder {
-  text-align: left;
-  font-size: 32px;
-}
+
 
 .intro-Title h2 {
   font-size: 60px;
@@ -236,11 +372,9 @@ section#Featured {
 
 section#responsibleAI,
 section#responsibleAImedium {
-  background: linear-gradient(
-    0deg,
-    rgba(159, 255, 172, 0.25),
-    rgba(159, 255, 172, 0.25)
-  );
+  background: linear-gradient(0deg,
+      rgba(159, 255, 172, 0.25),
+      rgba(159, 255, 172, 0.25));
   height: 25rem !important;
 }
 
@@ -249,7 +383,7 @@ section#Featured {
 }
 
 section#why-Apurva {
-  height: 125rem !important;
+  height: 150rem !important;
 }
 
 section#Network {
@@ -293,11 +427,14 @@ section#contact {
 }
 
 .card {
+  flex: 0 0 auto;
   width: 100%;
-  max-width: 393px;
+  /* max-width: 393px; */
   height: 420px;
   border-radius: 1.25rem;
-  margin: 10px;
+  margin-left: 0px;
+  margin-right: 30px;
+  /* margin: 1rem; */
 }
 
 .card-head {
@@ -310,33 +447,13 @@ section#contact {
 
 .card-body {
   height: 226px;
-  background-color: #d9d9d9;
+  background-color: #EFEFEF;
   border-radius: 0 0 1.25rem 1.25rem;
   text-align: center;
-  padding: 45px;
+
 }
 
-.card-text {
-  width: 279px;
-  height: 65px;
-  text-decoration: underline;
-  color: #000000;
-}
 
-.card-text a {
-  text-align: center;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 24px;
-  letter-spacing: 0em;
-  color: #000000;
-}
-
-.card-featured {
-  color: #000000;
-  margin-bottom: 30px;
-}
 
 .ourcolor {
   width: 290px;
@@ -387,10 +504,55 @@ section#contact {
   width: 57.5rem;
 }
 
+.sub {
+  text-align: center;
+  width: 300px;
+  height: 97px;
+  border-radius: 1rem;
+  background-color: #9fffac;
+  border: 2px solid #9fffac;
+}
+
 .stay-tuned .register-button {
-  border-color: #9fffac;
+  height: 5rem;
   font-size: 2rem;
   font-weight: 600;
+  border: 2px solid #9fffac;
+  border-radius: 1rem;
+}
+
+.modal-content {
+  width: 661px;
+  min-height: 670px;
+  border-radius: 20px
+}
+
+.email-textbox {
+  width: 535px;
+  height: 60px;
+  background-color: #EFEFEF;
+  border-radius: 20px;
+margin:0;
+}
+
+.des-textbox {
+  width: 635px;
+  height: 217px;
+  background-color: #EFEFEF;
+
+  border-radius: 20px;
+margin: 0;
+}
+
+
+
+.email-textbox::placeholder {
+  font-size: 15px;
+}
+
+.subscribe-button-text {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .subscribe input {
@@ -406,7 +568,100 @@ section#contact {
   border: 2px solid #9fffac;
 }
 
+.ourimg img {
+  width: auto;
+  height: auto;
+}
+
+.carousel-controls {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.carousel-control {
+  margin-right: 2rem;
+  height: 40px;
+  width: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.carousel-control img {
+  width: 20px;
+  height: 20px;
+}
+
+.carddeck {
+  display: flex;
+  margin-bottom: -11px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+  line-height: 40px;
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 50%;
+  height: auto;
+}
+
+.cards-wrapper {
+  display: flex;
+}
+
+.carousel-feat {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+@media screen and (max-width: 1679px)
+{
+  .featurebody {
+    padding: 1rem 25px  0 25px;
+}
+
+
+  section#Network {
+    height: 65rem !important;
+  } 
+}
 @media screen and (max-width: 1510px) {
+  .featuretext a {
+    font-size: 15px;
+
+
+  }
+
+  .featurebody {
+
+    padding: 2rem;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+
   .experience h2,
   .greenexp {
     font-size: 50px;
@@ -449,6 +704,10 @@ section#contact {
 }
 
 @media screen and (max-width: 1024px) {
+  section#why-Apurva {
+    height: 130rem !important;
+  }
+
   .experience h2,
   .greenexp {
     font-size: 40px;
@@ -461,7 +720,7 @@ section#contact {
   .testimonial-item {
     width: 8rem;
     height: 8rem;
-    border: 0.3125rem solid #fff;
+
   }
 
   .greencontact {
@@ -543,10 +802,28 @@ section#contact {
   .ai {
     margin-top: 6rem;
   }
+
 }
 
 @media screen and (max-width: 768px) {
-  .circle_comingsoon{
+  .featuretext a {
+    font-size: 17px;
+
+
+  }
+
+  .featurebody {
+
+    padding: 1rem;
+  }
+
+  .modal-content {
+    width: 461px;
+    height: 774px;
+    border-radius: 20px
+  }
+
+  .circle_comingsoon {
     margin-top: -24rem;
     height: 350px;
     width: 350px;
@@ -610,15 +887,44 @@ section#contact {
 }
 
 @media screen and (max-width: 414px) {
+  .sub {
+    text-align: center;
+    width: 160px;
+    height: 77px;
+    border-radius: 1rem;
+    background-color: #9fffac;
+    border: 2px solid #9fffac;
+  }
+
+  .modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0%;
+  }
+
+  .modal-content {
+    width: 291px;
+    height: 574px;
+    border-radius: 20px
+  }
+
+  .email-textbox {
+    width: 335px;
+    height: 50px;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+  }
+
   #testimonialSection.flex-row-block {
     height: 93rem !important;
-}
+  }
 
   .experience h2 {
     font-family: Poppins;
     font-size: 30px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 0px;
     letter-spacing: 0em;
     text-align: left;
     margin-top: 7rem;
@@ -715,7 +1021,7 @@ section#contact {
   }
 
   section#why-Apurva {
-    height: 109rem !important;
+    height: 90rem !important;
     margin-top: 1rem;
   }
 
@@ -780,7 +1086,7 @@ section#contact {
   .intro-Title h2,
   .greenintro {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
     letter-spacing: 0em;
   }
@@ -811,14 +1117,14 @@ section#contact {
 
   .subscribe input {
     padding-top: 10px;
-    border-radius: 1rem ;
+    border-radius: 1rem;
     margin-bottom: 1.2rem;
   }
 
   .subscribe-button-text {
     margin-top: -8px;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .subscribe .register-button {
@@ -831,7 +1137,7 @@ section#contact {
     max-width: 268px;
     height: 260px;
     border-radius: 1.25rem;
-    margin-right: 40px;
+    margin: 15px;
   }
 
   .card-head {
@@ -852,32 +1158,40 @@ section#contact {
     background-color: #d9d9d9;
     border-radius: 0 0 1.25rem 1.25rem;
     text-align: center;
-    padding: 15px;
+
   }
 
-  .card-text {
-    width: auto;
-    height: 65px;
+  .stay-tuned .register-button {
+    height: 35px;
+    margin-top: -2rem;
+    margin-left: -6rem;
   }
 
-  .card-text a {
-    font-size: 14px;
-    line-height: 20px;
+  .email-textbox::placeholder {
+    font-size: 10px;
   }
 
-  .card-featured {
-    margin-bottom: 10px;
+  .des-textbox::placeholder {
+    font-size: 10px;
   }
 
-  .card-featured h5 {
-    margin-top: -0.5rem;
+  .subscribe-button {
     font-size: 12px;
-    font-weight: 700px;
   }
 
-  #subscribe-input::placeholder {
-    text-align: center;
-    font-size: 13px;
+  .featuretext a {
+    font-size: 17px;
+    color: #000;
+
+  }
+
+  .featurebody {
+
+    padding: 1rem;
+  }
+  .carousel-controls {
+
+    margin-top: 12px;
   }
 }
 
