@@ -25,7 +25,7 @@ const featurecarousel = document.querySelector('.featurecarousel');
 
       } else if (window.innerWidth <= 2200) {
         cardWidth = window.innerWidth / 3;
-        cardWidth = cardWidth + 1
+        cardWidth = cardWidth - 30
       } else {
         cardWidth = window.innerWidth / 3;
         cardWidth = cardWidth - 30
@@ -38,7 +38,7 @@ const featurecarousel = document.querySelector('.featurecarousel');
     // Set the active slide featureindicator
     function setActiveIndicator() {
       featureindicators.forEach((featureindicator, index) => {
-        if (index === currentfeaturecardsIndex) {
+        if (index === currentCardIndex) {
           featureindicator.classList.add('active');
         } else {
           featureindicator.classList.remove('active');
