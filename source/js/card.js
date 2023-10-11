@@ -19,13 +19,13 @@ function setCardWidth() {
   } else if (window.innerWidth <= 1500) {
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 180
-
   } else if (window.innerWidth <= 1779) {
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 250
   }else if (window.innerWidth <= 2200) {
+    console.log("hii")
     cardWidth = window.innerWidth / 3;
-    cardWidth = cardWidth - 30
+    cardWidth = cardWidth 
   } else {
     cardWidth = window.innerWidth / 3;
     cardWidth = cardWidth - 30
@@ -68,7 +68,7 @@ function slideToPrevCard() {
 
 // Start auto slide
 function startAutoSlide() {
-  autoSlideInterval = setInterval(slideToNextCard, 3000);
+  autoSlideInterval = setInterval(slideToNextCard, 4000);
 }
 
 // Stop auto slide
