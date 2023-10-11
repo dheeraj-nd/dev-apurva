@@ -11,19 +11,23 @@ function setCardWidth() {
     cardWidth = cardWidth + 100
 
   } else if (window.innerWidth <= 900) {
+    console.log("900");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 100
   } else if (window.innerWidth <= 1024) {
+    console.log("1024");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 42
   } else if (window.innerWidth <= 1500) {
+    console.log("1500");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 180
   } else if (window.innerWidth <= 1779) {
+    console.log("1779");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 250
   }else if (window.innerWidth <= 2200) {
-    console.log("hii")
+    console.log("2200");
     cardWidth = window.innerWidth / 3;
     cardWidth = cardWidth 
   } else {
