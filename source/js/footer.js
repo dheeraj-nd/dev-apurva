@@ -53,10 +53,11 @@ const section_footer =
       <div class="col-lg-12 col-md-12 text-center">
         <!-- Copyrights -->
         <br>
+        <br>
         <div class="white underline">
-          <a href="">Privacy Policy</a>
+          <a href="">Terms of Use</a>
         </div>
-        <p class="green">&copy; 2023 EkStep Foundation</p>
+        <p class="greencopy">&copy; 2023 EkStep Foundation</p>
 
         <!-- Copyrights -->
       </div>
@@ -105,7 +106,7 @@ const section_footer =
         <!-- Copyrights -->
         <div class="white underline">
         <br>
-        <a href="">Privacy Policy</a>
+        <a href="">Terms of Use</a>
       </div>
         <p class="green">&copy; 2023 EkStep Foundation</p>
       </div>

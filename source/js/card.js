@@ -7,27 +7,33 @@ let cardWidth;
 // Set the width of the cards based on the viewport width
 function setCardWidth() {
   if (window.innerWidth <= 760) {
+    console.log("hii hello");
     cardWidth = window.innerWidth;
     cardWidth = cardWidth + 100
 
   } else if (window.innerWidth <= 900) {
+    console.log("hii 2");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 100
   } else if (window.innerWidth <= 1024) {
+    console.log("hii 3");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 42
+  } else if (window.innerWidth <= 1500) {
+    console.log("hii");
+    cardWidth = window.innerWidth / 2;
+    cardWidth = cardWidth - 180
+
   } else if (window.innerWidth <= 1679) {
+    console.log("hii 4");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 250
-  }
-  else if (window.innerWidth <= 1500) {
-    cardWidth = window.innerWidth / 3;
-    cardWidth = cardWidth + 40
-
-  } else if (window.innerWidth <= 2200) {
+  }else if (window.innerWidth <= 2200) {
+    console.log("hii 5");
     cardWidth = window.innerWidth / 3;
     cardWidth = cardWidth - 30
   } else {
+    console.log("hii6");
     cardWidth = window.innerWidth / 3;
     cardWidth = cardWidth - 30
   }
