@@ -49,26 +49,18 @@ function setActiveIndicator() {
 // Slide to the next featurecards
 function slideToNextCard() {
   currentCardIndex = (currentCardIndex + 1) % cards.length;
-  featurecarousel.scrollTo({
-    left: cards[currentCardIndex].offsetLeft,
-    behavior: 'smooth'
-  });
-
+  featurecarousel.scrollLeft = cards[currentCardIndex].offsetLeft;
 }
 
 // Slide to the previous featurecards
 function slideToPrevCard() {
   currentCardIndex = (currentCardIndex - 1 + cards.length) % cards.length;
-  featurecarousel.scrollTo({
-    left: cards[currentCardIndex].offsetLeft,
-    behavior: 'smooth'
-  });
-
+  featurecarousel.scrollLeft = cards[currentCardIndex].offsetLeft;
 }
 
 // Start auto slide
 function startAutoSlide() {
-  autoSlideInterval = setInterval(slideToNextCard, 4000);
+  autoSlideInterval = setInterval(slideToNextCard, 3000);
 }
 
 // Stop auto slide
