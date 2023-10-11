@@ -540,6 +540,7 @@ img.logo-img {
   max-width: 15.625rem !important;
   width: 9rem;
   height: auto;
+  margin-left: 5px;
 }
 
 .logo {
@@ -2510,7 +2511,7 @@ ul.social_icon li a {
 @media (min-width: 320px) and (max-width: 770px) {
   section#libraryabout {
     margin-top: 70px;
-    height: -webkit-fill-available;
+    height: auto;
   }
 }
 
@@ -2540,17 +2541,17 @@ ul.social_icon li a {
 
   .btn-primary {
     width: 3.75rem;
-    height: 2.5rem;
+    height: 2.1rem;
   }
 
   .btn-secondary {
     width: 5rem;
-    height: 2.5rem;
+    height: 2.1rem;
   }
 
   .btn-success {
     width: 9.375rem;
-    height: 2.5rem;
+    height: 2.1rem;
   }
 
   .card-deck {
@@ -2812,7 +2813,8 @@ ul.social_icon li a {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
-    height: 33rem;
+    height: 21rem;
+    margin-top: 70px;
   }
 
   .content {
@@ -2851,7 +2853,7 @@ ul.social_icon li a {
 }
 
 .crad-blogtext {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   width: 195px;
   text-align: left;
@@ -2903,12 +2905,12 @@ ul.social_icon li a {
 
 @media (min-width: 375px) and (max-width: 425px) {
   .nav-item #pills-home-tab {
-    font-size: 20px;
-    padding: 0px 8px;
+    font-size: 18px;
+    padding: 0px 18px;
   }
 
   .nav-item #pills-profile-tab {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px;
   }
 }

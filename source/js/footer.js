@@ -92,10 +92,12 @@ const section_footer =
   
       <div class="col-lg-12 col-md-12 text-center">
         <ul class="footer-icons" style="margin-top: 10px;">
-            <strong class="green">Follow us on</strong> <a href="https://www.linkedin.com/company/apurva-ai/" target="_blank"
-                class="social-icon-container linkedin-icon">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
+            <strong class="green">Follow us on</strong>
+
+            <a  style="margin-left:1rem; ;" href="https://www.linkedin.com/company/apurva-ai/" target="_blank"
+            class="social-icon-container linkedin-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
             <a href="https://twitter.com/apurva_ai" target="_blank" class="social-icon-container twitter-icon">
                 <i class="fab fa-twitter"></i>
             </a>
@@ -104,11 +106,13 @@ const section_footer =
       <!-- Copyright -->
       <div class="col-lg-12 col-md-12 text-center copy">
         <!-- Copyrights -->
-        <div class="white underline">
+        <span class="white underline">
         <br>
-        <a href="">Terms of Use</a>
-      </div>
-        <p class="green">&copy; 2023 EkStep Foundation</p>
+      <a href="">Terms of Use</a>
+      </span>
+      <p class="green" style="line-height: 29px;">&copy; 2023 EkStep Foundation</p>
+<br>
+
       </div>
       <!-- Copyright -->
    
