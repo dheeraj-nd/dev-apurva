@@ -140,7 +140,6 @@ section#home {
   font-size: 55px;
   font-style: normal;
   font-weight: 700;
-  line-height: 75px;
 }
 
 .spanLibrary {
@@ -593,7 +592,6 @@ img.logo-img {
   font-family: "Poppins";
   font-weight: 300;
   color: #fff;
- 
   line-height: 40px;
   margin-top: 1rem;
   /* max-width: 47.25rem; */
@@ -1416,7 +1414,6 @@ canvas {
   line-height: 65px;
   letter-spacing: 0em;
   text-align: left;
-  
 }
 
 .found {
@@ -1559,7 +1556,7 @@ canvas {
   height: 1rem;
   border: 1px;
   margin-top: 0.6rem;
-  background-color:#9FFFAC;
+  background-color: #9fffac;
 }
 
 .carousel-indicators li img {
@@ -1832,7 +1829,8 @@ canvas {
     height: 65rem !important;
   }
 
-  #about.section,#experience.section,
+  #about.section,
+  #experience.section,
   #weAreHiring.section #libraryabout.section {
     padding: 6rem 8%;
     margin-top: 7rem;
@@ -2759,9 +2757,9 @@ ul.social_icon li a {
     font-weight: 500;
     line-height: 72px;
   }
-  section#experience{
+  section#experience {
     height: 70rem !important;
-}
+  }
   section#about {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
@@ -2773,9 +2771,8 @@ ul.social_icon li a {
     margin-top: 3rem;
   }
   #founding h2 {
-  margin-bottom: 3rem;
-}
-
+    margin-bottom: 3rem;
+  }
 
   .contentour {
     font-family: Poppins;
@@ -2816,7 +2813,6 @@ ul.social_icon li a {
     padding: 0 5%;
     position: relative;
     height: 33rem;
-    
   }
 
   .content {
@@ -2965,7 +2961,8 @@ ul.social_icon li a {
 
 @media (min-width: 768px) {
   .multi-item-carousel .carousel-inner .carousel-item {
-    margin-right: inherit;
+    margin-right: auto;
+    margin-left: auto;
   }
   .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item,
   .multi-item-carousel

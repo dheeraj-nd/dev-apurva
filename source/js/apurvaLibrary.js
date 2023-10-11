@@ -74,8 +74,6 @@ jQuery(function ($) {
   }
 });
 
-
-
 function limitText(text, limit) {
   if (text.length > limit) {
     return text.slice(0, limit) + "...";
@@ -219,14 +217,14 @@ showImpactStoriesButton.addEventListener("click", () => {
 
 // apurva explains button render functionality
 
-function renderButtons(data) {
+function renderButtons(data, isActive = false) {
   const modelPopupBtn = document.getElementById("carousel-inner-cards");
   // const carouselCardContent = document.getElementById("carousel-card-content");
   modelPopupBtn.innerHTML = "";
 
   data.forEach((apurvaExplains, index) => {
     const buttonHTML = `
-      <div class="carousel-item  col-md-4">
+      <div class="carousel-item ${isActive && "opacity-reduced"}  col-md-4">
         <div class="card apurva-explains-card" style="width: 20rem">
           <div class="card-body apurva-explains-card-body">
             <h5 class="card-title apurva-explains-card-title">
@@ -234,7 +232,7 @@ function renderButtons(data) {
             </h5>
           </div>
         </div>
-        <div class="mt-5 card-description d-none">
+        <div class="mt-5 card-description  ${!isActive && " d-none"}">
            <p>${apurvaExplains.apurvaExplainsContent}</p>
         </div>
       </div>
@@ -250,7 +248,6 @@ function renderButtons(data) {
   $("#theCarousel").on("slid.bs.carousel", function (event) {
     const activeIndex = $(".carousel-item.active").index();
     const direction = event.direction;
-
     // Check if there is any carousel item with 'opacity-reduced' class
 
     const reducedItem = $(".carousel-item.opacity-reduced");
@@ -319,14 +316,18 @@ $(".multi-item-carousel").on("slide.bs.carousel", function (e) {
   }
 });
 
-fetch("data.json")
-  .then((response) => response.json())
-  .then((jsonData) => {
-    renderButtons(jsonData.apurvaExplains);
-  })
-  .catch((error) => {
-    console.error("Error:", error);
-  });
+const initialFetch = () => {
+  fetch("data.json")
+    .then((response) => response.json())
+    .then((jsonData) => {
+      renderButtons(jsonData.apurvaExplains);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+};
+
+initialFetch();
 
 // Search Functionality
 
@@ -335,32 +336,37 @@ const searchResults = document.getElementById("carousel-inner-cards");
 
 function search() {
   const searchText = searchInput.value.toLowerCase();
+
   const searchWords = searchText
     .split(" ")
     .filter((word) => word.trim() !== "");
   searchResults.innerHTML = "";
 
-  fetch("data.json")
-    .then((response) => response.json())
-    .then((jsonData) => {
-      if (Array.isArray(jsonData.apurvaExplains)) {
-        const filteredData = jsonData.apurvaExplains.filter((item) => {
-          return searchWords.every((word) =>
-            item.btnTitle.toLowerCase().includes(word)
-          );
-        });
-        if (filteredData.length > 0) {
-          renderButtons(filteredData);
-        } else {
-          searchResults.innerHTML = `
+  if (!searchText.trim().length) {
+    initialFetch();
+  } else {
+    fetch("data.json")
+      .then((response) => response.json())
+      .then((jsonData) => {
+        if (Array.isArray(jsonData.apurvaExplains)) {
+          const filteredData = jsonData.apurvaExplains.filter((item) => {
+            return searchWords.every((word) =>
+              item.btnTitle.toLowerCase().includes(word)
+            );
+          });
+          if (filteredData.length > 0) {
+            renderButtons(filteredData, true);
+          } else {
+            searchResults.innerHTML = `
           <p class="search-not-found">No search results found.</p>
           `;
+          }
         }
-      }
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  }
 }
 
 searchInput.addEventListener("input", search);
