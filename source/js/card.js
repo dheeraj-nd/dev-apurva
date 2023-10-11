@@ -52,7 +52,11 @@ function setActiveIndicator() {
 
 // Slide to the next featurecards
 function slideToNextCard() {
-  currentCardIndex = (currentCardIndex + 1) % cards.length;
+  currentCardIndex++;
+  if (currentCardIndex === cards.length - 1) {
+    currentCardIndex = 0;
+  }
+
   featurecarousel.scrollLeft = cards[currentCardIndex].offsetLeft;
 }
 
