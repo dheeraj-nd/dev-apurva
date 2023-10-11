@@ -2254,7 +2254,7 @@ ul.social_icon li a {
   font-family: Poppins;
   font-size: 30px;
   font-weight: 400;
-  margin-right: 95px;
+  margin-right: 40px;
 }
 
 #all-btn.active {
@@ -2279,7 +2279,7 @@ ul.social_icon li a {
   border: 2px solid #767676;
   background: #fff;
   color: #767676;
-  margin-right: 80px;
+  margin-right: 35px;
 }
 
 #blogs-btn.active {
@@ -2579,6 +2579,31 @@ ul.social_icon li a {
 
   .card-title {
     line-height: 80px;
+  }
+
+  .apurva-explains-card {
+    width: 15rem !important;
+    height: 200px !important;
+  }
+
+  .apurva-explains-card-title {
+    font-size: 25px !important;
+    line-height: 21px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 70px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .carousel-inner {
+    height: 44.75rem;
+  }
+
+  .apurva-explains-card-body {
+    text-align: center;
   }
 }
 
@@ -2924,6 +2949,7 @@ ul.social_icon li a {
   );
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   height: 331px;
+  width: 20rem;
   text-align: center;
 }
 
@@ -3056,5 +3082,46 @@ ul.social_icon li a {
 
   .multi-item-carousel .carousel-inner .carousel-item.opacity-reduced {
     opacity: 1; /* Adjust opacity as needed */
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1024px) {
+  .apurva-explains-card {
+    width: 15rem !important;
+    height: 250px !important;
+  }
+
+  .apurva-explains-card-title {
+    font-size: 31px !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 91px !important;
+    width: 66px !important;
+    height: 65px !important;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 768px) {
+  .apurva-explains-card {
+    width: 12rem !important;
+    height: 200px !important;
+  }
+
+  .apurva-explains-card-title {
+    font-size: 25px !important;
+    line-height: 21px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 70px !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .carousel-inner {
+    height: 44.75rem;
   }
 }

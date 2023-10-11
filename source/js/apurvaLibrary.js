@@ -221,18 +221,23 @@ function renderButtons(data, isActive = false) {
   const modelPopupBtn = document.getElementById("carousel-inner-cards");
   // const carouselCardContent = document.getElementById("carousel-card-content");
   modelPopupBtn.innerHTML = "";
+  const smallScreen = window.innerWidth < 500;
 
   data.forEach((apurvaExplains, index) => {
     const buttonHTML = `
-      <div class="carousel-item ${isActive && "opacity-reduced"}  col-md-4">
-        <div class="card apurva-explains-card" style="width: 20rem">
+      <div class="carousel-item ${
+        smallScreen ? "" : isActive && "opacity-reduced"
+      }  col-md-4">
+        <div class="card apurva-explains-card">
           <div class="card-body apurva-explains-card-body">
             <h5 class="card-title apurva-explains-card-title">
               ${apurvaExplains.btnTitle}
             </h5>
           </div>
         </div>
-        <div class="mt-5 card-description  ${!isActive && " d-none"}">
+        <div class="mt-5 card-description  ${
+          smallScreen ? "d-block" : !isActive && " d-none"
+        }">
            <p>${apurvaExplains.apurvaExplainsContent}</p>
         </div>
       </div>
