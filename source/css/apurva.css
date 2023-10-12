@@ -2508,7 +2508,7 @@ ul.social_icon li a {
 @media (min-width: 320px) and (max-width: 770px) {
   section#libraryabout {
     margin-top: 70px;
-    height: -webkit-fill-available;
+  
   }
 }
 
@@ -2884,7 +2884,7 @@ ul.social_icon li a {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
-    height: 33rem;
+    height: 20rem;
     margin-top: 70px;
   }
 

@@ -124,7 +124,7 @@ const section_footer =
       <div class="licensed">
       <br>
       <p>All content here is licensed under a 
-      <a class="white underline" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 <br>International License</a> 
+      <a class="white underline" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a> 
       unless otherwise noted.</p>
       </div>
       <div>
