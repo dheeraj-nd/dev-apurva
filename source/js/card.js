@@ -11,23 +11,20 @@ function setCardWidth() {
     cardWidth = cardWidth + 100
 
   } else if (window.innerWidth <= 900) {
-    console.log("900");
+    
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 100
   } else if (window.innerWidth <= 1024) {
-    console.log("1024");
+    
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 42
   } else if (window.innerWidth <= 1500) {
-    console.log("1500");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 180
   } else if (window.innerWidth <= 1779) {
-    console.log("1779");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 250
   }else if (window.innerWidth <= 2200) {
-    console.log("2200");
     cardWidth = window.innerWidth / 3;
     cardWidth = cardWidth 
   } else {
@@ -53,7 +50,7 @@ function setActiveIndicator() {
 // Slide to the next featurecards
 function slideToNextCard() {
   currentCardIndex++;
-  if (currentCardIndex === cards.length - 1) {
+  if (currentCardIndex >= cards.length) {
     currentCardIndex = 0;
   }
 
@@ -62,13 +59,16 @@ function slideToNextCard() {
 
 // Slide to the previous featurecards
 function slideToPrevCard() {
-  currentCardIndex = (currentCardIndex - 1 + cards.length) % cards.length;
+  currentCardIndex--;
+  if (currentCardIndex < 0) {
+    currentCardIndex = cards.length - 1;
+  }
   featurecarousel.scrollLeft = cards[currentCardIndex].offsetLeft;
 }
 
 // Start auto slide
 function startAutoSlide() {
-  // autoSlideInterval = setInterval(slideToNextCard, 3000);
+  //autoSlideInterval = setInterval(slideToNextCard, 3000);
 }
 
 // Stop auto slide
