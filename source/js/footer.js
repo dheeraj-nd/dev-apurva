@@ -1,5 +1,5 @@
 const section_footer =
-` <footer class="footer with-background desktop-footer">
+  ` <footer class="footer with-background desktop-footer">
   <div class="container-footer">
     <div class="row">
       <!-- Address (Left-aligned) -->
@@ -16,8 +16,8 @@ const section_footer =
       </div>
       <!-- Address -->
       <!-- Follow Us On (Centered) -->
-      <div class="col-sm-4 mb-20 center">
-        <p class="green">Follow us on</p>
+      <div class="col-sm-4 mb-20 center" style="margin-top: -0.1rem;">
+        <strong><p class="greenfollows">Follow us on</p></strong>
         <ul class="footer-icons">
           <li>
             <a href="https://www.linkedin.com/company/apurva-ai/" target="_blank"
@@ -37,7 +37,7 @@ const section_footer =
       <div class="col-sm-4 mb-19 app-promotion">
         <ul>
           <span>
-           <li> Write to us at</li>
+           <li class="alt-back"> Write to us at</li>
             <li><p class="alt-color">
             <strong class="white">Email:<a class="white underline" href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a>
         
@@ -55,13 +55,17 @@ const section_footer =
         <br>
         <br>
         <div class="white underline">
-          <a href="">Terms of Use</a>
+          <a href="" class="alt-back">Terms of Use</a>
         </div>
         <p class="greencopy">&copy; 2023 EkStep Foundation</p>
 
         <!-- Copyrights -->
+        <div class="licensed">
+      <p>All content here is licensed under a 
+      <a class="white underline" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 <br>International License</a> 
+      unless otherwise noted.</p>
       </div>
-      <!-- Copyright -->
+      </div>
     </div>
   </div>
 </footer>
@@ -85,7 +89,7 @@ const section_footer =
           Write to us at<br>
         </p>
         <p class="alt-color">
-          <strong class="white">Email: <a class="white underline href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a></strong>
+          <strong class="white">Email: <a class="white underline" href="mailto:contact@apurva.ai" target="_blank">contact@apurva.ai</a></strong>
         </p>
       </div>
       <!-- Address -->
@@ -102,19 +106,30 @@ const section_footer =
                 <i class="fab fa-twitter"></i>
             </a>
         </ul>
+        <br>
+        <br>
       </div>
       <!-- Copyright -->
       <div class="col-lg-12 col-md-12 text-center copy">
         <!-- Copyrights -->
         <span class="white underline">
-        <br>
       <a href="">Terms of Use</a>
+      <br>
+      <br>
+      <br>
       </span>
       <p class="green" style="line-height: 29px;">&copy; 2023 EkStep Foundation</p>
-<br>
-
       </div>
       <!-- Copyright -->
+      <div class="licensed">
+      <br>
+      <p>All content here is licensed under a 
+      <a class="white underline" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 <br>International License</a> 
+      unless otherwise noted.</p>
+      </div>
+      <div>
+      <br>
+      </div>
    
   </div>
 </footer>

@@ -11,19 +11,23 @@ function setCardWidth() {
     cardWidth = cardWidth + 100
 
   } else if (window.innerWidth <= 900) {
+    console.log("900");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 100
   } else if (window.innerWidth <= 1024) {
+    console.log("1024");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth + 42
   } else if (window.innerWidth <= 1500) {
+    console.log("1500");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 180
   } else if (window.innerWidth <= 1779) {
+    console.log("1779");
     cardWidth = window.innerWidth / 2;
     cardWidth = cardWidth - 250
   }else if (window.innerWidth <= 2200) {
-    console.log("hii")
+    console.log("2200");
     cardWidth = window.innerWidth / 3;
     cardWidth = cardWidth 
   } else {
@@ -48,27 +52,23 @@ function setActiveIndicator() {
 
 // Slide to the next featurecards
 function slideToNextCard() {
-  currentCardIndex = (currentCardIndex + 1) % cards.length;
-  featurecarousel.scrollTo({
-    left: cards[currentCardIndex].offsetLeft,
-    behavior: 'smooth'
-  });
+  currentCardIndex++;
+  if (currentCardIndex === cards.length - 1) {
+    currentCardIndex = 0;
+  }
 
+  featurecarousel.scrollLeft = cards[currentCardIndex].offsetLeft;
 }
 
 // Slide to the previous featurecards
 function slideToPrevCard() {
   currentCardIndex = (currentCardIndex - 1 + cards.length) % cards.length;
-  featurecarousel.scrollTo({
-    left: cards[currentCardIndex].offsetLeft,
-    behavior: 'smooth'
-  });
-
+  featurecarousel.scrollLeft = cards[currentCardIndex].offsetLeft;
 }
 
 // Start auto slide
 function startAutoSlide() {
-  autoSlideInterval = setInterval(slideToNextCard, 4000);
+  // autoSlideInterval = setInterval(slideToNextCard, 3000);
 }
 
 // Stop auto slide
