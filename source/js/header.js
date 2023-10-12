@@ -9,10 +9,10 @@ const section_header = `  <header class="cursor-light">
     <div class="collapse navbar-collapse d-none d-lg-block">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a href="about-us.html" class="scroll nav-link">About</a>
+          <a href="/about-us.html" class="scroll nav-link apurva-about">About</a>
         </li>
         <li class="nav-item">
-          <a href="Apurva-Library.html" class="scroll nav-link">
+          <a href="/Apurva-Library.html" class="scroll nav-link apurva-library">
           Apurva Library</a>
         </li>
 
@@ -21,7 +21,7 @@ const section_header = `  <header class="cursor-light">
             link
             type="button"
             class="btn btn-medium btn-rounded btn-yellow hide contact-btn small"
-            href="Apurva-Experience.html">
+            href="/Apurva-Experience.html">
             Apurva Experience
           </a>
         </li>
@@ -54,10 +54,10 @@ const section_header = `  <header class="cursor-light">
     <nav class="side-nav m-0">
       <ul class="navbar-nav flex-lg-row">
         <li class="nav-item">
-          <a href="about-us.html" class="scroll nav-link">About</a>
+          <a href="about-us.html" class="scroll nav-link apurva-about-mobile">About</a>
         </li>
         <li class="nav-item">
-          <a href="Apurva-Library.html" class="scroll nav-link"
+          <a href="Apurva-Library.html" class="scroll nav-link apurva-library-mobile"
             >Apurva Library</a>
         </li>
         <li class="nav-item">

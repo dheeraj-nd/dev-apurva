@@ -540,7 +540,6 @@ img.logo-img {
   max-width: 15.625rem !important;
   width: 9rem;
   height: auto;
-  margin-left: 5px;
 }
 
 .logo {
@@ -2511,7 +2510,7 @@ ul.social_icon li a {
 @media (min-width: 320px) and (max-width: 770px) {
   section#libraryabout {
     margin-top: 70px;
-    height: auto;
+    height: -webkit-fill-available;
   }
 }
 
@@ -2521,8 +2520,10 @@ ul.social_icon li a {
   }
 
   .library-content p {
-    font-size: 20px;
-    line-height: 45px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
   }
 }
 
@@ -2536,24 +2537,42 @@ ul.social_icon li a {
 
   .stories-btn button {
     font-size: 12px;
-    margin-right: 5px;
+    margin-right: 9px;
   }
 
   .btn-primary {
-    width: 3.75rem;
-    height: 2.1rem;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .btn-secondary {
-    width: 5rem;
-    height: 2.1rem;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .btn-success {
-    width: 9.375rem;
-    height: 2.1rem;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  #all-btn.active {
+    border: 2px solid black;
+  }
+  #blogs-btn.active {
+    border: 2px solid black;
+  }
+  #impact-stories-btn.active {
+    border: 2px solid black;
+  }
   .card-deck {
     margin-top: 20px;
     margin-bottom: 6.25rem;
@@ -2615,6 +2634,8 @@ ul.social_icon li a {
   .library-content p {
     font-size: 20px;
     line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
   }
 
   .impact-coming-soon {
@@ -2637,7 +2658,7 @@ ul.social_icon li a {
   }
 
   .stories-btn {
-    margin-left: 0px;
+    margin-left: 3px;
   }
 
   .category h5 {
@@ -2838,7 +2859,7 @@ ul.social_icon li a {
     background: url(../img/bgImg.jpg);
     padding: 0 5%;
     position: relative;
-    height: 21rem;
+    height: 33rem;
     margin-top: 70px;
   }
 
@@ -2878,7 +2899,7 @@ ul.social_icon li a {
 }
 
 .crad-blogtext {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   width: 195px;
   text-align: left;
@@ -2930,12 +2951,12 @@ ul.social_icon li a {
 
 @media (min-width: 375px) and (max-width: 425px) {
   .nav-item #pills-home-tab {
-    font-size: 18px;
-    padding: 0px 18px;
+    font-size: 20px;
+    padding: 0px 8px;
   }
 
   .nav-item #pills-profile-tab {
-    font-size: 18px;
+    font-size: 20px;
     padding: 0px;
   }
 }
@@ -2947,7 +2968,7 @@ ul.social_icon li a {
     #9fffac 0%,
     rgba(159, 255, 172, 0.25) 100%
   );
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
   height: 331px;
   width: 20rem;
   text-align: center;
