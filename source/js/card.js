@@ -68,7 +68,7 @@ function slideToPrevCard() {
 
 // Start auto slide
 function startAutoSlide() {
-  autoSlideInterval = setInterval(slideToNextCard, 3000);
+  // autoSlideInterval = setInterval(slideToNextCard, 3000);
 }
 
 // Stop auto slide

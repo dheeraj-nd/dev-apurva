@@ -7,6 +7,12 @@
   margin: 0;
 }
 
+.licensed p,.licensed a{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 4rem;
+}
+
 .container-footer {
   width: 100%;
     padding-right: 15px;
@@ -119,7 +125,7 @@
 
 .footer .footer-icons {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 19px;
 }
 
 .footer .app-promotion {
@@ -129,10 +135,22 @@
   display: flex;
   justify-content: right;
 }
-
-
+.greenfollows {
+  color: #9fffac;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 26px;
+}
+.greencopy {
+  color: #9fffac;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 75px;
+}
 .with-background {
-  padding: 6rem 8% 0rem;
+  padding: 6rem 8% 6rem;
   margin-top: auto;
   background-image: url(../img/footerBackground.png);
   background-size: cover;
@@ -144,6 +162,7 @@
 }
 .with-background .alt-color {
   color: white; 
+  font-size: 20px;
 }
 
 .with-background .white strong {
@@ -155,7 +174,8 @@
 }
 
 .alt-back {
-  color: #d4cece;
+  color:#FFFFFF;
+  font-size: 20px;
 }
 .copy{
 margin-top: -2rem;
@@ -192,6 +212,11 @@ margin-top: -2rem;
   }
 }
 @media (max-width: 575px) {
+  .licensed p, .licensed a {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 1rem;
+}
 
   .address-container {
     text-align: center;

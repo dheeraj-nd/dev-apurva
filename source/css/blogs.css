@@ -199,14 +199,20 @@ a.underline.blue {
   }
 
   .blog-content p {
-    margin-bottom: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 19px;
+   
+
+
+    font-family: "Poppins";
+    font-weight: 300;
+    
+    font-size: 1rem;
+    line-height: 2rem !important;
+    margin-top: 1rem;
+
   }
 
   p.Centered {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     line-height: 10px;
 
@@ -246,3 +252,10 @@ a.underline.blue {
   }
 
 }
+@media (max-width: 375px){
+  .blog-content {
+    margin-top: 290px;
+    padding: 14px;
+}
+}
+
