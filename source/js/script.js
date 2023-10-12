@@ -44,7 +44,7 @@ $(document).ready(function () {
     if ($("nav.navbar").hasClass("bottom-nav")) {
       let navHeight = $(".bottom-nav").offset().top;
       $(window).on("scroll", function () {
-        if ($window.scrollTop() > navHeight) {
+        if ($(window).scrollTop() > navHeight) {
           $("header").addClass("header-appear");
         } else {
           $("header").removeClass("header-appear");
