@@ -160,7 +160,7 @@ function renderButtons(data, isActive = false) {
           </div>
         </div>
         <div class="mt-5 card-description  ${
-          smallScreen ? "d-block" : isActive && " d-none"
+          smallScreen ? "d-block" : !isActive && " d-none"
         }">
            <p>${apurvaExplains.apurvaExplainsContent}</p>
         </div>
