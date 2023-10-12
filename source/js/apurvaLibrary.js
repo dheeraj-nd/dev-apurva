@@ -1,79 +1,3 @@
-jQuery(window).on("load", function () {
-  "use strict";
-
-  /*  ===================================
-       Loading Timeout
-       ====================================== */
-  $("#loader-fade").fadeOut(800);
-});
-
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag("js", new Date());
-
-gtag("config", "G-MPJ848CKT6");
-
-jQuery(function ($) {
-  "use strict";
-
-  let $window = $(window);
-  let windowsize = $(window).width();
-
-  /* ====================================
-           Nav Fixed On Scroll
-           ======================================= */
-
-  $(window).on("scroll", function () {
-    if ($(this).scrollTop() >= 80) {
-      // Set position from top to add class
-
-      $("header").addClass("header-appear");
-    } else {
-      $("header").removeClass("header-appear");
-    }
-  });
-
-  if ($("nav.navbar").hasClass("bottom-nav")) {
-    let navHeight = $(".bottom-nav").offset().top;
-    $(window).on("scroll", function () {
-      if ($window.scrollTop() > navHeight) {
-        $("header").addClass("header-appear");
-      } else {
-        $("header").removeClass("header-appear");
-      }
-    });
-  }
-
-  /* ===================================
-         Side Menu
-         ====================================== */
-
-  if ($(".sidemenu_toggle").length) {
-    $(".sidemenu_toggle").on("click", function () {
-      $(".pushwrap").toggleClass("active");
-      $(".side-menu").addClass("side-menu-active"),
-        $("#close_side_menu").fadeIn(700);
-    }),
-      $("#close_side_menu").on("click", function () {
-        $(".side-menu").removeClass("side-menu-active"),
-          $(this).fadeOut(200),
-          $(".pushwrap").removeClass("active");
-      }),
-      $(".side-nav .navbar-nav .nav-link").on("click", function () {
-        $(".side-menu").removeClass("side-menu-active"),
-          $("#close_side_menu").fadeOut(200),
-          $(".pushwrap").removeClass("active");
-      }),
-      $("#btn_sideNavClose").on("click", function () {
-        $(".side-menu").removeClass("side-menu-active"),
-          $("#close_side_menu").fadeOut(200),
-          $(".pushwrap").removeClass("active");
-      });
-  }
-});
-
 function limitText(text, limit) {
   if (text.length > limit) {
     return text.slice(0, limit) + "...";
@@ -236,7 +160,7 @@ function renderButtons(data, isActive = false) {
           </div>
         </div>
         <div class="mt-5 card-description  ${
-          smallScreen ? "d-block" : !isActive && " d-none"
+          smallScreen ? "d-block" : isActive && " d-none"
         }">
            <p>${apurvaExplains.apurvaExplainsContent}</p>
         </div>

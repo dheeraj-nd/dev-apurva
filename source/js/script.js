@@ -8,20 +8,49 @@ jQuery(window).on("load", function () {
 });
 
 $(document).ready(function () {
-  // Retrieve the active menu item from session storage if available
-  let activeMenuItem = sessionStorage.getItem("activeMenuItem");
-  if (activeMenuItem) {
-    $(".nav-link").removeClass("active");
-    $('a[href="' + activeMenuItem + '"]').addClass("active");
-  } else {
-    $(".nav-item:first-child .nav-link").addClass("active");
+  // Function to manage the "active" class of header menu items
+  function updateHeaderMenuActiveClass() {
+    const path = window.location.pathname;
+    const apurvAbout = document.querySelectorAll(
+      ".apurva-about, .apurva-about-mobile"
+    );
+    const apurvaLibrary = document.querySelectorAll(
+      ".apurva-library, .apurva-library-mobile"
+    );
+
+    // Remove "active" class from all elements
+    apurvAbout.forEach((item) => item.classList.remove("active"));
+    apurvaLibrary.forEach((item) => item.classList.remove("active"));
+
+    // Add "active" class to the appropriate elements
+    if (path === "/about-us.html") {
+      apurvAbout.forEach((item) => item.classList.add("active"));
+    } else if (path === "/Apurva-Library.html") {
+      apurvaLibrary.forEach((item) => item.classList.add("active"));
+    }
   }
 
-  // Add active class on click and save the active menu item in session storage
-  $(".nav-link").click(function () {
-    $(".nav-link").removeClass("active");
-    $(this).addClass("active");
-    sessionStorage.setItem("activeMenuItem", $(this).attr("href"));
+  // Call the function to update the "active" class initially
+  updateHeaderMenuActiveClass();
+
+  // Handle scroll behavior separately
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() >= 80) {
+      $("header").addClass("header-appear");
+    } else {
+      $("header").removeClass("header-appear");
+    }
+
+    if ($("nav.navbar").hasClass("bottom-nav")) {
+      let navHeight = $(".bottom-nav").offset().top;
+      $(window).on("scroll", function () {
+        if ($window.scrollTop() > navHeight) {
+          $("header").addClass("header-appear");
+        } else {
+          $("header").removeClass("header-appear");
+        }
+      });
+    }
   });
 
   // text animation on scroll starts
@@ -52,34 +81,6 @@ $(document).ready(function () {
 
 jQuery(function ($) {
   "use strict";
-
-  let $window = $(window);
-  let windowsize = $(window).width();
-
-  /* ====================================
-         Nav Fixed On Scroll
-         ======================================= */
-
-  $(window).on("scroll", function () {
-    if ($(this).scrollTop() >= 80) {
-      // Set position from top to add class
-
-      $("header").addClass("header-appear");
-    } else {
-      $("header").removeClass("header-appear");
-    }
-  });
-
-  if ($("nav.navbar").hasClass("bottom-nav")) {
-    let navHeight = $(".bottom-nav").offset().top;
-    $(window).on("scroll", function () {
-      if ($window.scrollTop() > navHeight) {
-        $("header").addClass("header-appear");
-      } else {
-        $("header").removeClass("header-appear");
-      }
-    });
-  }
 
   /* ===================================
          Side Menu
