@@ -56,5 +56,13 @@
       "btnTitle": "Social Innovation",
       "apurvaExplainsContent": "Refers to the introduction of new practices in society that help meet people's needs in a better way when compared to existing social practices."
     }
+  ],
+  "featurecards":[
+    {
+      "imageSrc": "source/img/75433510 2.png",
+      "header": "Times of India Blogs",
+      "link": "https://timesofindia.indiatimes.com/blogs/voices/harnessing-collective-wisdom-role-of-generative-ai-in-societal-transformation/",
+      "title": "Harnessing collective wisdom: Role of Generative AI in societal transformation"
+    }
   ]
 }
