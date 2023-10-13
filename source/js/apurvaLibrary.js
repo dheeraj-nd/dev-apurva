@@ -15,7 +15,7 @@ function renderCards(data) {
   data.forEach((apurvaStories) => {
     const { category, imagePath, author, readTime, title, URL } = apurvaStories;
 
-    if (category == "BLOGS" || "IMPACT STORIES") {
+    if (category == "Blogs" || "Impact stories") {
       const limitedTitle = limitText(title, 55);
       cardHTMLArray.push(`
           <div class="col-lg-4 col-sm-6 mt-5 d-none d-sm-block">
