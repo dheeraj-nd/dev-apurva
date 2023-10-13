@@ -1242,7 +1242,7 @@ margin: 0;
   .stay-tuned .register-button {
     width: 15rem;
     height: 35px;
-    margin-top: 15px;
+    margin-top: 5px;
 
     display: flex;
     justify-content: flex-start;
