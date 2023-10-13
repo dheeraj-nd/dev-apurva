@@ -3163,6 +3163,14 @@ section#libraryabout {
 }
 
 @media (min-width: 760px) and (max-width: 768px) {
+
+  section.stay-tuned {
+    background-image: url(../img/updated-star.svg), url(../img/Starry-Bg.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 200%,auto, cover; /* Adjust this line */
+   
+  }
   .apurva-explains-card {
     width: 12rem !important;
     height: 200px !important;

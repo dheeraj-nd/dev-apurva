@@ -5,11 +5,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .sub-group {
   display: flex;
   margin-bottom: 20px;
   flex-direction: column;
 }
+
 .featurebody {
   height: 226px;
   background-color: #EFEFEF;
@@ -18,13 +20,15 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
-    padding: 1rem 25px  0 25px;
+
+  padding: 1rem 25px 0 25px;
 
 }
-#testimonial-carousel{
+
+#testimonial-carousel {
   height: 350px;
 }
+
 .featuredheader {
   margin-top: -3rem;
   color: #000;
@@ -137,7 +141,7 @@
 }
 
 
-.close{
+.close {
   margin-left: 25rem;
 }
 
@@ -539,7 +543,7 @@ section#contact {
   height: 60px;
   background-color: #EFEFEF;
   border-radius: 20px;
-margin:0;
+  margin: 0;
 }
 
 .des-textbox {
@@ -548,7 +552,7 @@ margin:0;
   background-color: #EFEFEF;
 
   border-radius: 20px;
-margin: 0;
+  margin: 0;
 }
 
 
@@ -561,6 +565,7 @@ margin: 0;
   font-size: 20px;
   font-weight: 500;
 }
+
 .subscribe-button-texthome {
   font-size: 30px;
   font-weight: 500;
@@ -646,26 +651,28 @@ margin: 0;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-@media screen and (max-width: 1779px)
-{
+
+@media screen and (max-width: 1779px) {
   .featurebody {
-    padding: 1rem 25px  0 25px;
-}
+    padding: 1rem 25px 0 25px;
+  }
 
 
   section#Network {
     height: 65rem !important;
-  } 
+  }
 }
+
 @media screen and (max-width: 1510px) {
   .featuretext a {
     font-size: 15px;
 
 
   }
+
   .featurebody {
-    padding: 1rem 25px  0 25px;
-}
+    padding: 1rem 25px 0 25px;
+  }
 
   .card {
     margin: 1rem;
@@ -820,7 +827,8 @@ margin: 0;
 
   #testimonial-carousel {
     height: 510px;
-}
+  }
+
   .featuretext a {
     font-size: 17px;
 
@@ -828,11 +836,13 @@ margin: 0;
   }
 
   .featurebody {
-    padding: 1rem 25px  0 25px;
-}
-.close{
-  margin-left: 23rem;
-}
+    padding: 1rem 25px 0 25px;
+  }
+
+  .close {
+    margin-left: 23rem;
+  }
+
   .modal-content {
     width: 461px;
     min-height: 674px;
@@ -903,10 +913,10 @@ margin: 0;
 }
 
 @media screen and (max-width: 414px) {
-  .close{
+  .close {
     margin-left: 13rem;
   }
-  
+
   .sub {
     text-align: center;
     width: 160px;
@@ -923,7 +933,7 @@ margin: 0;
     padding: 0%;
   }
 
- 
+
 
   .modal-content {
     width: 291px;
@@ -1142,11 +1152,13 @@ margin: 0;
     flex-direction: column;
     height: auto;
   }
+
   .subscribe-button-texthome {
-    margin-top: -6px;
+    margin-left: 10px;
     font-size: 15px;
     font-weight: 500;
   }
+
   .subscribe input {
     padding-top: 10px;
     border-radius: 1rem;
@@ -1198,8 +1210,10 @@ margin: 0;
     height: 35px;
     margin-top: 5px;
     border-radius: 10px;
+
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
   }
 
   .email-textbox::placeholder {
@@ -1224,13 +1238,15 @@ margin: 0;
 
     padding: 1rem;
   }
+
   .carousel-controls {
 
     margin-top: 15px;
   }
+
   #testimonial-carousel {
     height: 662px;
-}
+  }
 }
 
 
@@ -1238,7 +1254,7 @@ margin: 0;
 @media screen and (max-width: 386px) {
   .homePage .textColumn {
     padding-top: 10rem;
-}
+  }
 
 
   .stay-tuned .register-button {
@@ -1249,7 +1265,8 @@ margin: 0;
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
-}
+  }
+
   .intro-Title h2,
   .greenintro {
     font-size: 20px;
@@ -1257,36 +1274,41 @@ margin: 0;
     line-height: 30px;
     letter-spacing: 0em;
   }
+
   .card-what {
     width: 140px;
     height: 125px;
   }
+
   section#responsibleAI {
     height: 22rem !important;
-}
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-indent: initial;
-  opacity: 1;
-}
-.carousel-indicators li.active {
-  width: 10px;
-  height: 10px;
-  border: 1px;
-  margin-top: 0.6rem;
-  background-color: #9fffac;
-}
+  }
 
-section#testimonialSection, section#Featured {
-  background: url(../img/Starry-Bg.png);
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-}
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: initial;
+    opacity: 1;
+  }
+
+  .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border: 1px;
+    margin-top: 0.6rem;
+    background-color: #9fffac;
+  }
+
+  section#testimonialSection,
+  section#Featured {
+    background: url(../img/Starry-Bg.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
 }
 
 /* @media (max-width: 415px) {
