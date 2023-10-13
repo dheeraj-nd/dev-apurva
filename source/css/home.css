@@ -1231,7 +1231,13 @@ margin: 0;
     height: 662px;
 }
 }
+
+
+
 @media screen and (max-width: 386px) {
+  .homePage .textColumn {
+    padding-top: 10rem;
+}
 
 
   .stay-tuned .register-button {
