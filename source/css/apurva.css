@@ -2646,7 +2646,7 @@ ul.social_icon li a {
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 370px) {
   .apurva-library-title {
     font-size: 30px;
   }
@@ -2972,7 +2972,7 @@ ul.social_icon li a {
 @media (min-width: 375px) and (max-width: 500px) {
   .homePage .textColumn {
     padding-top: 10rem;
-}
+  }
   .nav-item #pills-home-tab {
     font-size: 20px;
     padding: 0px 8px;
