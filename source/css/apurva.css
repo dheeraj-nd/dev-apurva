@@ -3165,11 +3165,11 @@ ul.social_icon li a {
   .carousel-inner {
     height: 44.75rem;
   }
-}
-@media screen and (min-width: 350px){
+}@media screen and (min-width: 350px){
+
   section#about {
   
-    height: 29rem;
+    height: 20rem;
    
   }
 
