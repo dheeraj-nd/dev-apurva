@@ -3166,3 +3166,18 @@ ul.social_icon li a {
     height: 44.75rem;
   }
 }
+@media screen and (min-width: 350px){
+  section#about {
+  
+    height: 29rem;
+   
+  }
+
+  .apurva-library-title {
+    color: #9fffac;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+}
+}
