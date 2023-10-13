@@ -1196,8 +1196,10 @@ margin: 0;
   .stay-tuned .register-button {
     width: 15rem;
     height: 35px;
-    margin-top: -2rem;
+    margin-top: 5px;
     border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .email-textbox::placeholder {
