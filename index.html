@@ -821,7 +821,7 @@
       <div class="bottomline"></div>
     </div>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row align-items-end">
         <div class="col-lg-7 mb-7 mb-lg-0 textColumn">
           <div class="introTitle">
             <h2>
@@ -914,32 +914,7 @@
   <script src="source/js/card.js">
   </script>
   <script src="source/js/contact.js"></script>
-  <script>
-    // Function to check if the screen width is less than a specified value (e.g., 768px)
-    function isMobileScreen() {
-        return window.innerWidth <= 768;
-    }
-
-    // Function to control the carousel behavior based on screen size
-    function toggleCarouselInterval() {
-        const carousel = document.getElementById('testimonial-carousel');
-
-        if (isMobileScreen()) {
-          console.log(window.innerWidth);
-            // Disable auto-scroll for mobile screens
-            carousel.setAttribute('data-interval', 'false');
-            carousel.setAttribute('data-touch','true');
-        } else {
-            // Enable auto-scroll for larger screens
-            carousel.setAttribute('data-interval', '3000'); // Adjust the interval as needed
-        }
-    }
-
-    // Initial check and whenever the window is resized
-    window.addEventListener('resize', toggleCarouselInterval);
-    toggleCarouselInterval();
-</script>
-
+ 
 </body>
 
 </html>
