@@ -2970,6 +2970,9 @@ ul.social_icon li a {
 }
 
 @media (min-width: 375px) and (max-width: 500px) {
+  .homePage .textColumn {
+    padding-top: 10rem;
+}
   .nav-item #pills-home-tab {
     font-size: 20px;
     padding: 0px 8px;
