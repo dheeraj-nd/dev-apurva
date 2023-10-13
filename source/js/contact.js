@@ -16,9 +16,7 @@ function sendSubscription(name, email, organization, description) {
             console.log(result);
             // Handle the result here, such as showing a success message to the user
 
-            if (result.result === 'success') {
-                showThankYouMessage();
-            }
+
         })
         .catch(error => console.log('error', error));
 }
@@ -38,6 +36,10 @@ subscribeButton.addEventListener('click', function () {
     const email = document.getElementById('email').value;
     const organization = document.getElementById('Organization').value;
     const description = document.getElementById('des').value;
+    const emailValidationMessage = document.getElementById('email-validation');
+
+
+    const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
     if (!name) {
         document.getElementById('name-validation').style.display = 'block';
@@ -47,7 +49,11 @@ subscribeButton.addEventListener('click', function () {
 
     if (!email) {
         document.getElementById('email-validation').style.display = 'inline';
-    } else {
+    } else if (!emailRegex.test(email)) {
+        emailValidationMessage.textContent = 'Invalid email format';
+        emailValidationMessage.style.display = 'block';
+    }
+    else {
         document.getElementById('email-validation').style.display = 'none';
     }
 
@@ -69,6 +75,7 @@ subscribeButton.addEventListener('click', function () {
 
     sendSubscription(name, email, organization, description);
     subscriptionForm.reset();
+    showThankYouMessage();
 });
 
 closebtn.addEventListener('click', function () {
