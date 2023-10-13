@@ -18,6 +18,10 @@ $(document).ready(function () {
       ".apurva-library, .apurva-library-mobile"
     );
 
+    const apurvaExperience = document.querySelectorAll(
+      ".apurva-experience-mobile"
+    );
+
     // Remove "active" class from all elements
     apurvAbout.forEach((item) => item.classList.remove("active"));
     apurvaLibrary.forEach((item) => item.classList.remove("active"));
@@ -27,6 +31,8 @@ $(document).ready(function () {
       apurvAbout.forEach((item) => item.classList.add("active"));
     } else if (path === "/Apurva-Library.html") {
       apurvaLibrary.forEach((item) => item.classList.add("active"));
+    } else if (path === "/Apurva-Experience.html") {
+      apurvaExperience.forEach((item) => item.classList.add("active"));
     }
   }
 
