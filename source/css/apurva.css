@@ -311,6 +311,7 @@ section.stay-tuned {
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto, cover; /* Adjust this line */
+ 
 }
 
 /* .forcefullwidth_wrapper_tp_banner {
@@ -2505,10 +2506,12 @@ ul.social_icon li a {
 @media (min-width: 320px) and (max-width: 770px) {
   section#libraryabout {
     margin-top: 70px;
+    height: 10rem;
   }
 }
 
 @media (min-width: 370px) and (max-width: 500px) {
+
   .responsible {
     margin-left: -32px;
     margin-right: -27px;
@@ -2648,6 +2651,18 @@ ul.social_icon li a {
 }
 
 @media (min-width: 320px) and (max-width: 370px) {
+
+  section#about {
+    background: url(../img/bgImg.jpg);
+    padding: 5% 8% 5%;
+    position: relative;
+    height: 30rem;
+    margin-top: 70px;
+}
+
+section#libraryabout {
+  height: 33rem;
+}
   .apurva-library-title {
     font-size: 30px;
   }
@@ -3152,6 +3167,14 @@ ul.social_icon li a {
 }
 
 @media (min-width: 760px) and (max-width: 768px) {
+
+  section.stay-tuned {
+    background-image: url(../img/updated-star.svg), url(../img/Starry-Bg.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 200%,auto, cover; /* Adjust this line */
+   
+  }
   .apurva-explains-card {
     width: 12rem !important;
     height: 200px !important;
@@ -3172,4 +3195,25 @@ ul.social_icon li a {
   .carousel-inner {
     height: 44.75rem;
   }
+}
+
+@media screen and (max-width: 450px) {
+
+  section#libraryabout {
+    height: 29rem;
+}
+}
+
+@media screen and (max-width: 360px) {
+
+  section#libraryabout {
+    height: 33rem;
+}
+section#about {
+  background: url(../img/bgImg.jpg);
+  padding: 5% 8% 5%;
+  position: relative;
+  height: 22rem;
+  margin-top: 70px;
+}
 }

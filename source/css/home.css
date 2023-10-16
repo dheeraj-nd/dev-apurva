@@ -5,26 +5,29 @@
   align-items: center;
   justify-content: center;
 }
+
 .sub-group {
   display: flex;
   margin-bottom: 20px;
   flex-direction: column;
 }
+
 .featurebody {
   height: 226px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   border-radius: 0 0 1rem 1rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
-    padding: 1rem 25px  0 25px;
 
+  padding: 1rem 25px 0 25px;
 }
-#testimonial-carousel{
+
+#testimonial-carousel {
   height: 350px;
 }
+
 .featuredheader {
   margin-top: -3rem;
   color: #000;
@@ -39,7 +42,6 @@
 .featuretext a {
   font-size: 17px;
   color: #000;
-
 }
 
 .featurecarousel {
@@ -136,8 +138,7 @@
   border-color: #ccc;
 }
 
-
-.close{
+.close {
   margin-left: 25rem;
 }
 
@@ -233,8 +234,6 @@
 .found {
   margin-bottom: 20px;
 }
-
-
 
 .intro-Title h2 {
   font-size: 60px;
@@ -378,9 +377,11 @@ section#Featured {
 
 section#responsibleAI,
 section#responsibleAImedium {
-  background: linear-gradient(0deg,
-      rgba(159, 255, 172, 0.25),
-      rgba(159, 255, 172, 0.25));
+  background: linear-gradient(
+    0deg,
+    rgba(159, 255, 172, 0.25),
+    rgba(159, 255, 172, 0.25)
+  );
   height: 25rem !important;
 }
 
@@ -453,13 +454,10 @@ section#contact {
 
 .card-body {
   height: 226px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   border-radius: 0 0 1.25rem 1.25rem;
   text-align: center;
-
 }
-
-
 
 .ourcolor {
   width: 290px;
@@ -531,27 +529,25 @@ section#contact {
 .modal-content {
   width: 661px;
   min-height: 670px;
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .email-textbox {
   width: 535px;
   height: 60px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   border-radius: 20px;
-margin:0;
+  margin: 0;
 }
 
 .des-textbox {
   width: 635px;
   height: 217px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 
   border-radius: 20px;
-margin: 0;
+  margin: 0;
 }
-
-
 
 .email-textbox::placeholder {
   font-size: 15px;
@@ -561,6 +557,7 @@ margin: 0;
   font-size: 20px;
   font-weight: 500;
 }
+
 .subscribe-button-texthome {
   font-size: 30px;
   font-weight: 500;
@@ -620,13 +617,12 @@ margin: 0;
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   border-radius: 50%;
   line-height: 40px;
   color: white;
   font-size: 24px;
   margin: 0 10px;
-
 }
 
 .carousel-control-prev img,
@@ -646,26 +642,35 @@ margin: 0;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
-@media screen and (max-width: 1779px)
-{
+
+@media screen and (max-width: 1779px) {
   .featurebody {
-    padding: 1rem 25px  0 25px;
-}
+    padding: 1rem 25px 0 25px;
+  }
 
-
+  .card-what {
+    width: 350px;
+    height: 200px;
+  }
   section#Network {
     height: 65rem !important;
-  } 
+  }
+  section#why-Apurva {
+    height: 120rem !important;
+  }
 }
+
 @media screen and (max-width: 1510px) {
+  section#why-Apurva {
+    height: 120rem !important;
+  }
   .featuretext a {
     font-size: 15px;
-
-
   }
+
   .featurebody {
-    padding: 1rem 25px  0 25px;
-}
+    padding: 1rem 25px 0 25px;
+  }
 
   .card {
     margin: 1rem;
@@ -681,12 +686,25 @@ margin: 0;
   }
 
   .card-what {
-    width: 368px;
-    height: 210px;
+    width: 280px;
+    height: 200px;
   }
 
+  .cardtitle {
+    color: white;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .blackAi {
-    font-size: 53px;
+    font-size: 45px;
   }
 
   section#responsibleAI {
@@ -694,9 +712,11 @@ margin: 0;
   }
 
   .greencontact {
-    font-size: 55px;
+    font-size: 45px;
   }
-
+  .stay-tuned .register-button {
+    width: 29rem;
+  }
   .subscribe {
     width: 47.5rem;
   }
@@ -729,7 +749,6 @@ margin: 0;
   .testimonial-item {
     width: 8rem;
     height: 8rem;
-
   }
 
   .greencontact {
@@ -813,30 +832,29 @@ margin: 0;
   .ai {
     margin-top: 6rem;
   }
-
 }
 
 @media screen and (max-width: 768px) {
-
   #testimonial-carousel {
     height: 510px;
-}
+  }
+
   .featuretext a {
     font-size: 17px;
-
-
   }
 
   .featurebody {
-    padding: 1rem 25px  0 25px;
-}
-.close{
-  margin-left: 23rem;
-}
+    padding: 1rem 25px 0 25px;
+  }
+
+  .close {
+    margin-left: 23rem;
+  }
+
   .modal-content {
     width: 461px;
     min-height: 674px;
-    border-radius: 20px
+    border-radius: 20px;
   }
 
   .circle_comingsoon {
@@ -903,10 +921,10 @@ margin: 0;
 }
 
 @media screen and (max-width: 414px) {
-  .close{
+  .close {
     margin-left: 13rem;
   }
-  
+
   .sub {
     text-align: center;
     width: 160px;
@@ -923,18 +941,16 @@ margin: 0;
     padding: 0%;
   }
 
- 
-
   .modal-content {
     width: 291px;
     min-height: 474px;
-    border-radius: 20px
+    border-radius: 20px;
   }
 
   .email-textbox {
     width: 335px;
     height: 50px;
-    background-color: #EFEFEF;
+    background-color: #efefef;
     border-radius: 20px;
   }
 
@@ -1142,11 +1158,13 @@ margin: 0;
     flex-direction: column;
     height: auto;
   }
+
   .subscribe-button-texthome {
-    margin-top: -6px;
+    margin-left: 10px;
     font-size: 15px;
     font-weight: 500;
   }
+
   .subscribe input {
     padding-top: 10px;
     border-radius: 1rem;
@@ -1190,14 +1208,17 @@ margin: 0;
     background-color: #d9d9d9;
     border-radius: 0 0 1.25rem 1.25rem;
     text-align: center;
-
   }
 
   .stay-tuned .register-button {
     width: 15rem;
     height: 35px;
-    margin-top: -2rem;
+    margin-top: 5px;
     border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .email-textbox::placeholder {
@@ -1215,39 +1236,36 @@ margin: 0;
   .featuretext a {
     font-size: 17px;
     color: #000;
-
   }
 
   .featurebody {
-
     padding: 1rem;
   }
-  .carousel-controls {
 
+  .carousel-controls {
     margin-top: 15px;
   }
+
   #testimonial-carousel {
     height: 662px;
+  }
 }
-}
-
-
 
 @media screen and (max-width: 386px) {
   .homePage .textColumn {
     padding-top: 10rem;
-}
-
+  }
 
   .stay-tuned .register-button {
     width: 15rem;
     height: 35px;
-    margin-top: 15px;
+    margin-top: 5px;
 
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
-}
+  }
+
   .intro-Title h2,
   .greenintro {
     font-size: 20px;
@@ -1255,36 +1273,41 @@ margin: 0;
     line-height: 30px;
     letter-spacing: 0em;
   }
+
   .card-what {
     width: 140px;
     height: 125px;
   }
+
   section#responsibleAI {
     height: 22rem !important;
-}
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-indent: initial;
-  opacity: 1;
-}
-.carousel-indicators li.active {
-  width: 10px;
-  height: 10px;
-  border: 1px;
-  margin-top: 0.6rem;
-  background-color: #9fffac;
-}
+  }
 
-section#testimonialSection, section#Featured {
-  background: url(../img/Starry-Bg.png);
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-}
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: initial;
+    opacity: 1;
+  }
+
+  .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border: 1px;
+    margin-top: 0.6rem;
+    background-color: #9fffac;
+  }
+
+  section#testimonialSection,
+  section#Featured {
+    background: url(../img/Starry-Bg.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  }
 }
 
 /* @media (max-width: 415px) {
