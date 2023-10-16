@@ -307,7 +307,7 @@ section.communities {
 }
 
 section.stay-tuned {
-  background-image: url(../img/updated-star.svg), url(../img/Starry-Bg.png);
+  background-image: url(../img/stay-tuned-bg.svg), url(../img/Starry-Bg.png);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
   background-size: auto, cover; /* Adjust this line */

@@ -27,11 +27,11 @@ $(document).ready(function () {
     apurvaLibrary.forEach((item) => item.classList.remove("active"));
 
     // Add "active" class to the appropriate elements
-    if (path === "/dev-apurva/about-us.html") {
+    if (path === "/about-us.html") {
       apurvAbout.forEach((item) => item.classList.add("active"));
-    } else if (path === "/dev-apurva/Apurva-Library.html") {
+    } else if (path === "/Apurva-Library.html") {
       apurvaLibrary.forEach((item) => item.classList.add("active"));
-    } else if (path === "/dev-apurva/Apurva-Experience.html") {
+    } else if (path === "/Apurva-Experience.html") {
       apurvaExperience.forEach((item) => item.classList.add("active"));
     }
   }
