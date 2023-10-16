@@ -15,7 +15,7 @@ function renderCards(data) {
   data.forEach((apurvaStories) => {
     const { category, imagePath, author, readTime, title, URL } = apurvaStories;
 
-    if (category == "Blogs" || "Impact stories") {
+    if (category == "Blogs" || "From the network") {
       const limitedTitle = limitText(title, 55);
       cardHTMLArray.push(`
           <div class="col-lg-4 col-sm-6 mt-5 d-none d-sm-block">
@@ -128,7 +128,7 @@ showImpactStoriesButton.addEventListener("click", () => {
     .then((response) => response.json())
     .then((jsonData) => {
       const blogCategoryData = jsonData.apurvaStories.filter(
-        (apurvaStories) => apurvaStories.category === "IMPACT STORIES"
+        (apurvaStories) => apurvaStories.category === "From the network"
       );
       renderCards(blogCategoryData);
       removeActiveClass();
