@@ -23,9 +23,22 @@
       "readTime": "4 MIN READ",
       "title": "Beyond Interactions: Sustaining and Sharing Collective Wisdom",
       "URL": "Beyond-Interactions.html"
+    },
+    {
+      "category": "From the network",
+      "imagePath": "./source/img/Blog 1 Cover.png",
+      "author": "ANAGA SIVARAMAKRISHNAN",
+      "readTime": "4 MIN READ",
+      "title": "How SELCO Foundation is being ‘transformational’ with Apurva.ai",
+      "URL": "Beyond-Interactions.html"
     }
   ],
   "apurvaExplains": [
+    {
+      "btnclass": "col-lg-8 col-6",
+      "btnTitle": "Centralized Networks",
+      "apurvaExplainsContent": "Centralized Networks typically follow a hierarchical structure where there is a central authority that controls and coordinates the overall interactions within a group. These types of networks can be found in Government, Non-Profits, and the Private Sector. Such networks are also prevalent in knowledge institutions."
+    },
     {
       "btnclass": "col-lg-3 col-6",
       "btnTitle": "Collective Wisdom",
@@ -38,8 +51,8 @@
     },
     {
       "btnclass": "col-lg-8 col-6",
-      "btnTitle": "Centralized Networks",
-      "apurvaExplainsContent": "Centralized Networks typically follow a hierarchical structure where there is a central authority that controls and coordinates the overall interactions within a group. These types of networks can be found in Government, Non-Profits, and the Private Sector. Such networks are also prevalent in knowledge institutions."
+      "btnTitle": "Distributed Networks",
+      "apurvaExplainsContent": "Distributed Networks usually prioritize sharing and learning with each other, rather than relying on a central authority. They are often more balanced and have a peer-to-peer relationship among participants."
     },
     {
       "btnclass": "col-lg-3 col-6",
@@ -47,17 +60,12 @@
       "apurvaExplainsContent": "These networks, often seen in community settings, thrive on a more informal and contextual basis. They don't always lean on a central authority or organization or coordination, but rather, they harness the collective strength of their members. It's a testament to the power of community and shared resources."
     },
     {
-      "btnclass": "col-lg-8 col-6",
-      "btnTitle": "Distributed Networks",
-      "apurvaExplainsContent": "Distributed Networks usually prioritize sharing and learning with each other, rather than relying on a central authority. They are often more balanced and have a peer-to-peer relationship among participants."
-    },
-    {
       "btnclass": "col-lg-3 col-6",
       "btnTitle": "Social Innovation",
       "apurvaExplainsContent": "Refers to the introduction of new practices in society that help meet people's needs in a better way when compared to existing social practices."
     }
   ],
-  "featurecards":[
+  "featurecards": [
     {
       "imageSrc": "source/img/75433510 2.png",
       "header": "Times of India Blogs",
