@@ -85,11 +85,19 @@ section#blog {
   margin-bottom: 20px;
   color: #000000;
   font-family: Poppins;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 70px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem !important;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.networkcard {
+  
+  border-radius: 40px;
+  background: #9FFFAC40;
+  padding: 2rem 7%;
+  text-align: center;
 }
 
 p.Centered {
@@ -122,7 +130,30 @@ a.underline.blue {
     margin-top: 7rem;
   }
 }
+@media (max-width: 1555px) {
+  .text-overlay p {
+    font-size: 25px;
+  }
+    
+}
 
+@media (max-width: 1339px) {
+  .text-overlay p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1070px) {
+  .text-overlay p {
+    font-size: 19px;
+  }
+  .blog-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 728px;
+    color: #000000;
+}
+}
 @media (max-width: 768px) {
   #blog.section {
     padding: 6rem 8%;
@@ -142,11 +173,10 @@ a.underline.blue {
     margin-bottom: 10px;
     text-align: left;
   }
-
   .blog-content {
     max-width: 708px;
-    margin-top: 450px;
-  }
+    margin-top: 535px;
+}
 
   .image_rectangle {
     width: 50%;
@@ -231,10 +261,11 @@ a.underline.blue {
 
     margin-top: -3rem;
   }
-
+.share{
+  font-size: 16px;
+}
   .footer-icons strong {
-    font-size: 9px;
-    /* Increase the font size of "Share on" */
+   
     margin-right: 5px;
     /* Add space between "Share on" and icons */
   }
