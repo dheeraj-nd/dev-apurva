@@ -2404,6 +2404,7 @@ ul.social_icon li a {
 
 .card-header {
   position: relative;
+  border: none;
 }
 
 .badge {
@@ -2681,19 +2682,19 @@ ul.social_icon li a {
     margin-left: 3px;
   }
 
-  .category h5 {
+  /* .category h5 {
     margin-right: 4rem !important;
-  }
+  } */
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
   .search-not-found {
     margin-left: 15px;
   }
-
+  /* 
   .category h5 {
     margin-right: 6rem !important;
-  }
+  } */
 }
 
 @media (min-width: 320px) and (max-width: 770px) {
@@ -2931,28 +2932,31 @@ ul.social_icon li a {
 }
 
 .category {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin-bottom: 1rem;
 }
 
 .category h6 {
-  font-size: 8px;
+  font-size: 9px;
   text-align: center;
   width: 57px;
   border: 1px solid #000;
   border-radius: 1rem;
   background: #9fffac;
   color: #000;
-  padding: 5px 12px;
+  padding: 5px 10px;
   flex-direction: column;
   justify-content: center;
   display: flex;
+  min-width: max-content;
 }
 
 .category h5 {
   font-size: 13px;
-  margin-top: -1.8rem;
+  margin-left: 13px;
   color: #767676;
-  margin-right: 9rem;
 }
 
 @media (min-width: 425px) {
